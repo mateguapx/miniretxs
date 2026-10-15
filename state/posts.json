@@ -17,5 +17,24 @@
   "ig_id": "17975546643145893",
   "fb_id": null,
   "threads_id": "17928310179186092"
+ },
+ {
+  "id": "20261015-0747-t3",
+  "ts": "2026-10-15T07:48:27+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "edades",
+  "fondo": "geometria",
+  "numero": 2,
+  "modo": "inicial",
+  "tema": "Edades de Luis y su abuelo: suma 80 y diferencia 70",
+  "titulo": "Parece fácil… ¿cuántos años tiene **Luis**?",
+  "puntaje_idea": 8.2,
+  "ig_id": "18146148379501258",
+  "fb_id": null,
+  "threads_id": "18041644583648936"
  }
 ]
