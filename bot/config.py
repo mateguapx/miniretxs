@@ -35,6 +35,11 @@ SLOTS = {
     6: {"nivel": "dificil", "formatos": {"logica": 3, "error_oculto": 2, "conteo": 1, "probabilidad": 1}},  # 22:00
 }
 
+# TIPO DE RETO: peso base de cada uno (el aprendizaje los ajusta según el rendimiento).
+#   exacto: una sola respuesta correcta · debate: varias respuestas defendibles (genera discusión en comentarios)
+ESTILOS = {"exacto": 1, "debate": 1}
+SOLO_EXACTO = ["error_oculto"]  # formatos que siempre son exactos (en "¿dónde está el error?" hay un único paso inválido)
+
 # Bancos de temas por formato (se rotan para no repetir)
 TEMAS = {
     "operacion": ["orden de operaciones con trampa", "fracciones que engañan", "potencias y signos negativos",

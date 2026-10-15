@@ -54,7 +54,7 @@ def contexto_rendimiento(insights: dict | None) -> str:
 
     def linea(p: dict) -> str:
         m = p.get("metricas", {})
-        return (f"- \"{p.get('titulo', '')}\" (formato {p.get('formato')}, nivel {p.get('nivel')}, gancho {p.get('hook')}, "
+        return (f"- \"{p.get('titulo', '')}\" (formato {p.get('formato')}, tipo {p.get('estilo')}, nivel {p.get('nivel')}, gancho {p.get('hook')}, "
                 f"reto {p.get('tema')}; alcance {m.get('reach', '?')}, comentarios {m.get('comments', '?')}, "
                 f"compartidos {m.get('shares', '?')}, guardados {m.get('saved', '?')})")
 
@@ -64,8 +64,12 @@ def contexto_rendimiento(insights: dict | None) -> str:
 
 
 def _comun(plan: dict) -> dict:
-    return dict(manual=P.MANUAL, formato=P.FORMATOS[plan["formato"]], nivel=P.NIVELES[plan["nivel"]],
-                audiencia=P.AUDIENCIA, area=plan["area"])
+    return dict(manual=P.MANUAL, formato=P.FORMATOS[plan["formato"]], estilo=P.ESTILOS[_estilo(plan)],
+                nivel=P.NIVELES[plan["nivel"]], audiencia=P.AUDIENCIA, area=plan["area"])
+
+
+def _estilo(plan: dict) -> str:
+    return plan.get("estilo") if plan.get("estilo") in P.ESTILOS else "exacto"
 
 
 def ideas(plan: dict, evitar: list[str], contexto: str = "") -> list[dict]:
@@ -119,7 +123,9 @@ def _normalizar(plan: dict, content: dict) -> list[str]:
 
 def _verify(plan: dict, content: dict) -> dict:
     limpio = {k: v for k, v in content.items() if not k.startswith("_")}
-    prompt = P.render(P.VERIFICACION, formato=plan["formato"], contenido=json.dumps(limpio, ensure_ascii=False))
+    prompt = P.render(P.VERIFICACION, formato=plan["formato"], estilo_nombre=_estilo(plan),
+                      estilo_verificacion=P.ESTILOS_VERIFICACION[_estilo(plan)],
+                      contenido=json.dumps(limpio, ensure_ascii=False))
     return _json(_ask(prompt, max_tokens=8000))
 
 

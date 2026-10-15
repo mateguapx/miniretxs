@@ -15,7 +15,7 @@ from .config import (MAX_EDAD_DIAS, MIN_EDAD_H, PESO_ALCANCE, PESOS_METRICAS, RO
 
 STATE = ROOT / "state"
 METRICAS = ["reach", "shares", "saved", "follows", "profile_visits", "views", "likes", "comments"]
-DIMENSIONES = ["formato", "hook", "tema_clave", "fondo"]
+DIMENSIONES = ["formato", "estilo", "hook", "tema_clave", "fondo"]
 
 
 def _load(name: str, default):
@@ -126,7 +126,7 @@ def calcular_insights(medidos: list[dict]) -> dict:
     if len(medidos) < 6:
         return {}
     orden = sorted(medidos, key=lambda p: p["score"], reverse=True)
-    campos = ("titulo", "formato", "nivel", "hook", "tema", "fondo", "score", "metricas")
+    campos = ("titulo", "formato", "estilo", "nivel", "hook", "tema", "fondo", "score", "metricas")
     resumen = lambda p: {k: p.get(k) for k in campos}
     return {"top": [resumen(p) for p in orden[:3]], "bottom": [resumen(p) for p in orden[-3:]]}
 
@@ -144,7 +144,7 @@ def informe(medidos: list[dict], pesos: dict, avisos: list[str]) -> str:
             l.append(f"| {p['score']:.2f} | {p.get('tipo')} | {p.get('formato')} | {p.get('hook')} | "
                      f"{(p.get('titulo') or '')[:40]} | {m.get('reach', '')} | {m.get('shares', '')} | "
                      f"{m.get('saved', '')} | {m.get('follows', '')} | {m.get('comments', '')} |")
-    for dim, nombre in (("formato", "Formatos"), ("hook", "Ganchos"), ("tema", "Temas"), ("fondo", "Fondos")):
+    for dim, nombre in (("formato", "Formatos"), ("estilo", "Exacto vs. debate"), ("hook", "Ganchos"), ("tema", "Temas"), ("fondo", "Fondos")):
         if pesos.get(dim):
             l += ["", f"## {nombre} (>1 = funciona mejor que el promedio)", ""]
             l += [f"- {v}: {w:.2f}" for v, w in sorted(pesos[dim].items(), key=lambda x: -x[1])]
