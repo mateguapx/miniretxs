@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "id": "20261015-0520-t6",
+  "ts": "2026-10-15T05:20:47+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "calcetines en un cajón (peor caso)",
+  "fondo": "red",
+  "numero": 1,
+  "modo": "inicial",
+  "tema": "Probabilidad de sacar al menos un par al tomar 3 calcetines de 3 pares de colores",
+  "titulo": "¿Qué tan probable es que te salga un **par**? 🧦",
+  "puntaje_idea": 8.7,
+  "ig_id": "17975546643145893",
+  "fb_id": null,
+  "threads_id": "17928310179186092"
+ }
+]
