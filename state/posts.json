@@ -55,5 +55,24 @@
   "ig_id": "18119152882998575",
   "fb_id": null,
   "threads_id": "18001884251801016"
+ },
+ {
+  "id": "20261015-1950-t6",
+  "ts": "2026-10-15T19:50:59+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
+  "fondo": "formulas",
+  "numero": 4,
+  "modo": "inicial",
+  "tema": "Dado secreto y habitante que dice «sí»: caballeros y bribones",
+  "titulo": "3 de cada 4 habitantes son caballeros (siempre dicen verdad); el resto, bribones (siempre mienten). Uno lanza un dado ju",
+  "puntaje_idea": 8.5,
+  "ig_id": "18107296205118586",
+  "fb_id": null,
+  "threads_id": "18113104220033001"
  }
 ]
