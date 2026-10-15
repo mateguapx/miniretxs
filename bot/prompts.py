@@ -7,8 +7,8 @@ Flujo de cada post (todos son UNA imagen con un mini reto, sin la respuesta):
   1) IDEAS: Claude propone varios retos concretos y los puntúa (compartible, curiosidad, comentable).
   2) El código elige el mejor.
   3) ESCRIBIR: Claude escribe la imagen, el caption (IG/FB) y el texto para Threads.
-  4) VERIFICACION: otra llamada resuelve el reto de forma independiente. Si no hay una única respuesta
-     correcta, o se revela la respuesta, se corrige y se reintenta.
+  4) VERIFICACION: otra llamada resuelve el reto de forma independiente. Se permiten (y buscan) retos con
+     varias respuestas defendibles; solo se rechazan cálculos mal hechos o retos que revelan la respuesta.
 """
 
 # ---------------------------------------------------------------------------
@@ -21,8 +21,9 @@ SYSTEM = (
     "La meta es construir comunidad alrededor de resolver retos juntos: nada de vender, nada de promocionar productos. "
     "Escribes en español latinoamericano natural (de México), con tono alegre de amigo retador: directo, ingenioso, "
     "con humor moderno, nunca condescendiente ni escolar. "
-    "Rigor absoluto: cada reto tiene UNA sola respuesta correcta e indiscutible, el enunciado es completo y sin "
-    "ambigüedades de notación, y nunca se revela la respuesta. "
+    "La meta es ALCANCE: los mejores retos son los que dividen opiniones porque admiten más de una respuesta "
+    "defendible (notación ambigua, enunciados con dos lecturas, trampas de interpretación), así la gente comenta, "
+    "se corrige entre sí y debate. Las matemáticas de cada lectura deben estar bien hechas, y nunca se revela la respuesta. "
     "Responde SOLO con JSON válido, sin texto adicional ni bloques de código."
 )
 
@@ -36,8 +37,8 @@ La imagen ya muestra el número de reto y la dificultad; tú solo escribes el re
 2. El reto en sí va en 'display' (si es una expresión o sistema) o en 'text' (si es un enunciado con palabras). Breve: mientras menos texto, mejor, sin perder ningún dato necesario.
 3. Resalta en amarillo 1 a 2 palabras clave escribiéndolas entre **dobles asteriscos**.
 4. Un emoji como máximo en el título, solo si suma. Nunca dentro de una fórmula.
-5. Lo mejor: retos que parecen fáciles pero tienen trampa, que dividen opiniones en los comentarios y que tienen una respuesta clara cuando se razonan bien.
-6. Nunca dependas de una notación ambigua (6÷2(1+2) está PROHIBIDO): usa paréntesis y \\times / \\div de forma que solo haya una lectura.
+5. Lo mejor: retos que parecen fáciles pero tienen trampa y que dividen opiniones en los comentarios.
+6. Se vale (y se busca) que un reto tenga más de una respuesta defendible: notación ambigua tipo 6÷2(1+2), enunciados con dos lecturas, acertijos con interpretaciones distintas. Eso genera debate y correcciones en los comentarios.
 7. La respuesta NUNCA aparece en la imagen, el caption ni el texto de Threads. Tampoco pistas que la regalen.
 8. No inventes estadísticas ("el 90% falla", "solo genios"): son falsas.
 
@@ -67,7 +68,7 @@ FORMATOS = {
     ),
     "patron": (
         "¿QUÉ SIGUE?: una sucesión con una regla clara y elegante que se descubre con un poco de ingenio. "
-        "Muestra al menos 5 términos en 'display' terminando en ?. La regla debe ser la única razonable."
+        "Muestra al menos 5 términos en 'display' terminando en ?. Si hay varias reglas que encajan, mejor: más debate."
     ),
     "palabras": (
         "PROBLEMA CORTO: un problema de la vida diaria donde la intuición rápida falla (máquinas, precios, edades, "
@@ -82,7 +83,7 @@ FORMATOS = {
     "logica": (
         "ACERTIJO DE LÓGICA: corto, famoso o variación propia (caballeros y bribones, balanzas, etiquetas "
         "equivocadas, cruzar el río, deducción por pistas). Enunciado completo y claro en 'text' (máx 260 caracteres). "
-        "Solución única."
+        "Puede admitir más de una interpretación."
     ),
     "conteo": (
         "CONTEO: un problema de contar con respuesta numérica exacta (apretones de manos, caminos en cuadrícula, "
@@ -133,13 +134,13 @@ Tipo de gancho del título: {hook}.
 {contexto}
 No repitas estos retos ya publicados: {evitar}.
 
-Cada reto debe ser concreto (con sus números) y tener una única respuesta correcta.
+Cada reto debe ser concreto (con sus números). Prefiere los que admiten más de una respuesta defendible o generan debate.
 Puntúa cada idea de 1 a 10 con honestidad, comparándolas entre sí (no pongas 9 o 10 a todas):
 - compartible: ¿alguien etiquetaría a un amigo?
 - curiosidad: ¿obliga a detenerse e intentarlo?
 - comentable: ¿la gente querrá comentar su respuesta o debatirla?
 Responde SOLO con JSON:
-{"ideas": [{"tema": "el reto en pocas palabras", "reto": "enunciado o expresión concreta", "respuesta": "respuesta correcta", "compartible": 0, "curiosidad": 0, "comentable": 0}]}"""
+{"ideas": [{"tema": "el reto en pocas palabras", "reto": "enunciado o expresión concreta", "respuesta": "respuesta(s) defendible(s)", "compartible": 0, "curiosidad": 0, "comentable": 0}]}"""
 
 # Bloque que se agrega a IDEAS cuando hay datos de rendimiento. Variables: {top} {bottom}
 CONTEXTO_RENDIMIENTO = """DATOS DE RENDIMIENTO DE LA CUENTA (aprende el PATRÓN: tipo de reto, gancho, dificultad percibida; NO copies el reto):
@@ -154,7 +155,7 @@ Los que peor funcionaron:
 # ---------------------------------------------------------------------------
 SCHEMA = (
     '{"tema": "el reto en pocas palabras", '
-    '"respuesta": "respuesta correcta y breve justificación en una línea. NO se publica, solo sirve para verificar", '
+    '"respuesta": "respuesta(s) defendible(s), cada una con la lectura que la justifica, en una línea. NO se publica, solo sirve para verificar", '
     '"caption": "pie para Instagram/Facebook, máx 350 caracteres, termina con 3-5 hashtags", '
     '"threads": "el reto completo en texto plano para Threads, máx 450 caracteres, sin LaTeX ni hashtags", '
     '"slides": [{"title": "frase reto (máx 70 caracteres), puede llevar **énfasis** y 1 emoji", '
@@ -189,10 +190,11 @@ CORRECCION = "\n\nEl intento anterior tenía estos problemas; corrígelos: {erro
 # ---------------------------------------------------------------------------
 VERIFICACION = """Revisa este mini reto de matemáticas (formato: {formato}) como un corrector estricto.
 Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (title, text, display), y compáralo con el campo "respuesta".
+Que el reto admita más de una respuesta o tenga notación ambigua es INTENCIONAL (busca debate): NO es un problema.
 Revisa también que el texto de "threads" plantee exactamente el mismo reto.
 Marca ok=false ÚNICAMENTE si hay:
-- tu solución no coincide con "respuesta",
-- el reto tiene más de una respuesta razonable, le falta información o depende de notación ambigua,
+- alguna respuesta de "respuesta" está mal calculada según su propia lectura del reto,
+- al reto le falta información para poder resolverlo de alguna forma,
 - el reto revela la respuesta (en la imagen, el caption o threads) o da una pista que la regala,
 - el texto de threads no plantea el mismo reto o usa LaTeX/$,
 - LaTeX inválido que se vería roto,

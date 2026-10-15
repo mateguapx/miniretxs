@@ -14,7 +14,7 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 | 5 | 20:00 | Fácil | operación, problema corto, lógica, emojis |
 | 6 | 22:00 | Difícil | lógica, ¿dónde está el error?, conteo, probabilidad |
 
-**Cómo se genera cada reto**: `planner.py` elige formato, gancho, tema y fondo (70% lo que mejor funciona, 30% exploración, sin repetir temas recientes) → Claude propone 6 retos y los puntúa (sobre todo por qué tan comentables son) → se escribe el mejor → una segunda llamada **resuelve el reto por su cuenta** y lo rechaza si no hay una única respuesta, si revela la solución o si la notación es ambigua. Todos los textos de los prompts están en `bot/prompts.py`.
+**Cómo se genera cada reto**: `planner.py` elige formato, gancho, tema y fondo (70% lo que mejor funciona, 30% exploración, sin repetir temas recientes) → Claude propone 6 retos y los puntúa (sobre todo por qué tan comentables son) → se escribe el mejor → una segunda llamada **resuelve el reto por su cuenta** y solo lo rechaza si un cálculo está mal o si revela la solución. Los retos con varias respuestas defendibles o notación ambigua se buscan a propósito (generan debate en comentarios). Todos los textos de los prompts están en `bot/prompts.py`.
 
 **Imágenes**: HTML + KaTeX + Playwright (sin generador de imágenes: la notación nunca sale deformada). Paleta negro/blanco/amarillo, etiqueta de dificultad verde/amarilla/roja y fondo de arte matemático generado por código (`bot/fondos.js`).
 
