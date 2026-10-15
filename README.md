@@ -22,8 +22,6 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 
 **Aprendizaje** (`learn.yml`, diario 07:40 México): mide los posts de Instagram con más de 48 h (alcance, comentarios, compartidos, guardados, seguidores) y ajusta qué formatos, ganchos, temas y fondos se publican. Informe en `state/informe.md`. Requiere el permiso `instagram_business_manage_insights`.
 
-Las respuestas quedan registradas (sin publicarse) en `state/posts.json`, campo `respuesta`.
-
 ## Puesta en marcha
 1. Repo **público** (Meta necesita URLs públicas para las imágenes; viven en la rama `media`). No subas secretos.
 2. Prueba local sin publicar: `pip install -r requirements.txt && playwright install chromium && ANTHROPIC_API_KEY=... python -m bot.main --type 1 --dry` (revisa `out/`).

@@ -159,7 +159,7 @@ def generate(plan: dict, evitar: list[str], insights: dict | None = None) -> dic
     for idea, intentos in zip(candidatas[:3], (3, 2, 2)):  # mejor idea con 3 intentos; luego las siguientes con 2
         content, ultimo = write(plan, idea, retries=intentos)
         if content:
-            content["_idea"] = {k: v for k, v in idea.items() if k != "respuesta"}
+            content["_idea"] = dict(idea)
             content["_ideas_descartadas"] = [i.get("tema") for i in candidatas if i is not idea]
             return content
         print(f"Idea descartada tras verificación: {idea.get('tema')} -> {ultimo}")

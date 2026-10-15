@@ -112,8 +112,7 @@ ESTILOS = {
     "debate": (
         "DE DEBATE: admite más de una respuesta defendible para que la gente discuta y se corrija en los comentarios "
         "(notación ambigua tipo 6÷2(1+2), enunciados con dos lecturas razonables, acertijos con interpretaciones "
-        "distintas). Cada lectura debe llevar a una respuesta bien calculada. En 'respuesta' pon todas las respuestas "
-        "defendibles con la lectura que justifica cada una."
+        "distintas). Cada lectura debe llevar a una respuesta bien calculada."
     ),
 }
 # …y lo que se le dice al verificador
@@ -163,7 +162,7 @@ Puntúa cada idea de 1 a 10 con honestidad, comparándolas entre sí (no pongas 
 - curiosidad: ¿obliga a detenerse e intentarlo?
 - comentable: ¿la gente querrá comentar su respuesta o debatirla?
 Responde SOLO con JSON:
-{"ideas": [{"tema": "el reto en pocas palabras", "reto": "enunciado o expresión concreta", "respuesta": "respuesta(s) defendible(s)", "compartible": 0, "curiosidad": 0, "comentable": 0}]}"""
+{"ideas": [{"tema": "el reto en pocas palabras", "reto": "enunciado o expresión concreta", "compartible": 0, "curiosidad": 0, "comentable": 0}]}"""
 
 # Bloque que se agrega a IDEAS cuando hay datos de rendimiento. Variables: {top} {bottom}
 CONTEXTO_RENDIMIENTO = """DATOS DE RENDIMIENTO DE LA CUENTA (aprende el PATRÓN: tipo de reto, gancho, dificultad percibida; NO copies el reto):
@@ -178,7 +177,6 @@ Los que peor funcionaron:
 # ---------------------------------------------------------------------------
 SCHEMA = (
     '{"tema": "el reto en pocas palabras", '
-    '"respuesta": "respuesta(s) defendible(s), cada una con la lectura que la justifica, en una línea. NO se publica, solo sirve para verificar", '
     '"caption": "pie para Instagram/Facebook, máx 350 caracteres, termina con 3-5 hashtags", '
     '"threads": "el reto completo en texto plano para Threads, máx 450 caracteres, sin LaTeX ni hashtags", '
     '"slides": [{"title": "frase reto (máx 70 caracteres), puede llevar **énfasis** y 1 emoji", '
@@ -213,12 +211,11 @@ CORRECCION = "\n\nEl intento anterior tenía estos problemas; corrígelos: {erro
 #    Debe seguir pidiendo un JSON con "ok" (true/false) y "issues" (lista).
 # ---------------------------------------------------------------------------
 VERIFICACION = """Revisa este mini reto de matemáticas (formato: {formato}; tipo: {estilo_nombre}) como un corrector estricto.
-Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (title, text, display), y compáralo con el campo "respuesta".
+Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (title, text, display).
 {estilo_verificacion}
 Revisa también que el texto de "threads" plantee exactamente el mismo reto.
 Marca ok=false ÚNICAMENTE si hay:
-- alguna respuesta de "respuesta" está mal calculada según su propia lectura del reto,
-- al reto le falta información para poder resolverlo de alguna forma,
+- el reto no se puede resolver: le falta información, los datos se contradicen o una afirmación del reto es falsa,
 - no cumple su tipo de reto (ver arriba),
 - el reto revela la respuesta (en la imagen, el caption o threads) o da una pista que la regala,
 - el texto de threads no plantea el mismo reto o usa LaTeX/$,
