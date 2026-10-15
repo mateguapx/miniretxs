@@ -17,16 +17,20 @@ def _cli():
     return _client
 
 
-def _ask(user: str, max_tokens: int = 8000) -> str:
-    r = _cli().messages.create(
-        model=MODEL, max_tokens=max_tokens, system=P.SYSTEM,
-        messages=[{"role": "user", "content": user}],
-    )
-    # La respuesta puede traer bloques de razonamiento antes del texto: se concatenan solo los de tipo "text".
-    text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
-    if not text.strip():
-        raise RuntimeError(f"Respuesta sin texto (stop_reason={r.stop_reason}); sube max_tokens.")
-    return text
+def _ask(user: str, max_tokens: int = 16000) -> str:
+    """Llama a Claude. El modelo puede razonar antes de responder y ese razonamiento cuenta dentro de max_tokens:
+    si se acaba el límite sin texto, se reintenta una vez con el doble."""
+    for limite in (max_tokens, max_tokens * 2):
+        r = _cli().messages.create(
+            model=MODEL, max_tokens=limite, system=P.SYSTEM,
+            messages=[{"role": "user", "content": user}],
+        )
+        # La respuesta puede traer bloques de razonamiento antes del texto: se concatenan solo los de tipo "text".
+        text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
+        if text.strip() and r.stop_reason != "max_tokens":
+            return text
+        print(f"Respuesta incompleta (stop_reason={r.stop_reason}, límite {limite}); reintentando con más tokens")
+    raise RuntimeError(f"Respuesta sin texto completo (stop_reason={r.stop_reason}) incluso con {limite} tokens.")
 
 
 def _json(text: str) -> dict:
@@ -76,7 +80,7 @@ def ideas(plan: dict, evitar: list[str], contexto: str = "") -> list[dict]:
     """Pide N ideas y las devuelve ordenadas de mejor a peor según config.PESOS_IDEA."""
     prompt = P.render(P.IDEAS, n_ideas=N_IDEAS, hook=P.HOOKS.get(plan["hook"], plan["hook"]),
                       contexto=contexto, evitar="; ".join(evitar[-80:]) or "ninguno", **_comun(plan))
-    data = _json(_ask(prompt, max_tokens=6000))
+    data = _json(_ask(prompt))
     lista = [i for i in data.get("ideas", []) if isinstance(i, dict) and i.get("reto")]
     if not lista:
         raise RuntimeError("Claude no devolvió ideas válidas")
@@ -125,7 +129,7 @@ def _verify(plan: dict, content: dict) -> dict:
     prompt = P.render(P.VERIFICACION, formato=plan["formato"], estilo_nombre=_estilo(plan),
                       estilo_verificacion=P.ESTILOS_VERIFICACION[_estilo(plan)],
                       contenido=json.dumps(limpio, ensure_ascii=False))
-    return _json(_ask(prompt, max_tokens=8000))
+    return _json(_ask(prompt))
 
 
 def write(plan: dict, idea: dict, retries: int = 3) -> tuple[dict | None, list[str]]:
