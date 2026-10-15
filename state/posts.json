@@ -93,5 +93,24 @@
   "ig_id": "17980287762067130",
   "fb_id": null,
   "threads_id": "18143436847513441"
+ },
+ {
+  "id": "20261015-2251-t3",
+  "ts": "2026-10-15T22:52:04+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "leyes de exponentes con trampa",
+  "fondo": "lissajous",
+  "numero": 6,
+  "modo": "inicial",
+  "tema": "Seguidores que crecen de 2^2024 a 2^2025: la resta que engaña",
+  "titulo": "Tu canal tenía 2²⁰²⁴ seguidores y hoy tiene 2²⁰²⁵. ¿Cuántos seguidores **nuevos** ganaste? Respóndelo como **una sola po",
+  "puntaje_idea": 8.0,
+  "ig_id": "18145027660594565",
+  "fb_id": null,
+  "threads_id": "18037847450890528"
  }
 ]
