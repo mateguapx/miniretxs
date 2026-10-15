@@ -1,0 +1,28 @@
+name: learn
+# Mide los posts de Instagram y ajusta qué publicar (bot/learn.py). Corre 1 vez al día antes del primer post.
+on:
+  schedule: [{ cron: "40 13 * * *" }]   # 07:40 México
+  workflow_dispatch:
+concurrency: bot
+permissions: { contents: write }
+jobs:
+  learn:
+    runs-on: ubuntu-24.04
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install requests
+      - name: Medir y aprender
+        run: |
+          set -o pipefail
+          python -u -m bot.learn 2>&1 | tee out.txt
+          cat state/informe.md >> $GITHUB_STEP_SUMMARY
+      - name: Guardar estado
+        run: |
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add state && git commit -qm "learn" || true
+          git pull --rebase -q && git push -q || true

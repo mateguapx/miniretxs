@@ -1,0 +1,71 @@
+name: post
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 08:00 México -> tipo 1 (fácil)
+    - cron: "0 17 * * *"   # 11:00 México -> tipo 2 (medio)
+    - cron: "0 20 * * *"   # 14:00 México -> tipo 3 (fácil)
+    - cron: "0 23 * * *"   # 17:00 México -> tipo 4 (medio)
+    - cron: "0 2 * * *"    # 20:00 México -> tipo 5 (fácil)
+    - cron: "0 4 * * *"    # 22:00 México -> tipo 6 (difícil)
+  workflow_dispatch:
+    inputs:
+      type: { description: "Tipo de post 1-6", required: true, default: "1" }
+      dry: { description: "true = no publicar", required: false, default: "true" }
+concurrency: bot
+permissions: { contents: write }
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+      THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+      PAGE_HANDLE: ${{ vars.PAGE_HANDLE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: |
+          pip install -r requirements.txt && playwright install --with-deps chromium
+          sudo apt-get install -y -q fonts-noto-color-emoji
+      - name: Elegir tipo
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 14 * * *") T=1;; "0 17 * * *") T=2;; "0 20 * * *") T=3;;
+            "0 23 * * *") T=4;; "0 2 * * *") T=5;; "0 4 * * *") T=6;;
+            *) T="${{ github.event.inputs.type }}";;
+          esac
+          echo "T=$T" >> $GITHUB_ENV
+      - name: Generar y renderizar
+        run: |
+          set -o pipefail
+          python -u -m bot.main --type $T ${{ github.event.inputs.dry == 'true' && '--dry' || '' }} 2>&1 | tee gen.txt
+          { echo '```'; cat gen.txt; echo '```'; } >> $GITHUB_STEP_SUMMARY
+      - name: Guardar imagen de prueba
+        if: ${{ github.event.inputs.dry == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: imagen-prueba
+          path: out/
+      - name: Subir imagen a rama media (URL pública para Meta)
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: |
+          cd out && git init -q && git checkout -q -b media
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add -A . ':!urls.json' ':!post.json' && git commit -qm "media"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media
+          sleep 10
+      - name: Publicar en IG, FB y Threads
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: python -m bot.main --publish-step
+        env: { GITHUB_REPOSITORY: "${{ github.repository }}" }
+      - name: Guardar estado
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: |
+          git config user.name bot && git config user.email bot@users.noreply.github.com
+          git add state && git commit -qm "state" || true
+          git pull --rebase -q && git push -q || true

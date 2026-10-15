@@ -1,0 +1,33 @@
+name: refresh-tokens
+# Renueva los tokens de Instagram y Threads (duran 60 días) y los guarda como secrets.
+# Requiere el secret GH_PAT: token de GitHub (fine-grained) con permiso "Secrets: Read and write" sobre este repo.
+on:
+  schedule: [{ cron: "0 12 1,15 * *" }]   # días 1 y 15 de cada mes
+  workflow_dispatch:
+permissions: { contents: read }
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+      GH_TOKEN: ${{ secrets.GH_PAT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Instagram
+        if: ${{ env.IG_TOKEN != '' }}
+        run: |
+          NEW=$(python -m bot.refresh_token ig)
+          echo "::add-mask::$NEW"
+          gh secret set IG_TOKEN --body "$NEW" --repo "${{ github.repository }}"
+          echo "IG_TOKEN renovado"
+      - name: Threads
+        if: ${{ env.THREADS_TOKEN != '' }}
+        run: |
+          NEW=$(python -m bot.refresh_token threads)
+          echo "::add-mask::$NEW"
+          gh secret set THREADS_TOKEN --body "$NEW" --repo "${{ github.repository }}"
+          echo "THREADS_TOKEN renovado"
