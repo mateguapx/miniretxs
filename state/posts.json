@@ -74,5 +74,24 @@
   "ig_id": "18107296205118586",
   "fb_id": null,
   "threads_id": "18113104220033001"
+ },
+ {
+  "id": "20261015-2009-t2",
+  "ts": "2026-10-15T20:09:43+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+  "fondo": "fractal",
+  "numero": 5,
+  "modo": "inicial",
+  "tema": "Sistema con frutas: dos manzanas, dos plátanos y un producto con uvas",
+  "titulo": "Cada emoji vale un número, el mismo en todas las líneas.\n🍎 + 🍎 + 🍌 = 22\n🍎 + 🍌 + 🍌 = 20\n🍎 × 🍇 = 🍌 × 4\n(🍎 × 🍌) − (🍇 × 🍇) =",
+  "puntaje_idea": 7.2,
+  "ig_id": "17980287762067130",
+  "fb_id": null,
+  "threads_id": "18143436847513441"
  }
 ]
