@@ -1,11 +1,11 @@
 """HTML + KaTeX -> PNG con Playwright. Determinista: sin generadores de imagen, sin errores de notación.
-Cada post de @miniretxs es UNA imagen: número de reto, etiqueta de dificultad, título, enunciado y/o expresión.
+Cada post de @miniretxs es UNA imagen: el enunciado del reto como texto principal (el más grande) y, si aplica, la expresión.
 Fondos: arte matemático generado por código (bot/fondos.js), oscurecido para que el texto se lea."""
 import html
 import re
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-from .config import BRAND, COLOR_NIVEL, FOOTER, HANDLE, NOMBRE_NIVEL, SIZE
+from .config import BRAND, FOOTER, HANDLE, SIZE
 
 VENDOR = Path(__file__).parent / "vendor"
 W, H = SIZE
@@ -45,8 +45,9 @@ body{{width:{W}px;height:{H}px;background:{b['bg']};color:{b['fg']};font-family:
 .reto .kicker{{align-self:center;font-size:40px;padding:8px 34px}}
 .reto .title{{font-size:100px}}
 .reto .display{{font-size:124px;width:100%;padding:56px 24px;border-width:6px}}
-.reto .text{{font-size:44px}}
-.reto .text.lineas{{font-size:66px;line-height:1.45;font-weight:700}}
+.reto .text{{font-family:Anton;font-size:92px;line-height:1.18;letter-spacing:.5px}}
+.reto .text.lineas{{font-family:Oswald,sans-serif;font-weight:700;font-size:84px;line-height:1.4}}
+.reto .display{{font-size:78px}}
 .top .num{{font-family:Anton;font-size:40px;letter-spacing:3px}}
 .nivel{{color:#000;text-shadow:none}}
 </style></head><body>{inner}
@@ -75,29 +76,27 @@ window.__ready=true}});
 def _fmt(t: str) -> str:
     """Escapa HTML, convierte **palabra** en énfasis amarillo y los saltos de línea en <br>.
     Las fórmulas $...$ las dibuja KaTeX después."""
-    t = html.escape(t)
+    t = html.escape(t.replace("«", "“").replace("»", "”"))  # la fuente Anton dibuja mal « »
     t = re.sub(r"\*\*(.+?)\*\*", r'<span class="em">\1</span>', t)
     return t.replace("\\n", "\n").replace("\n", "<br>")
 
 
 def slide_html(s: dict, fondo: str | None = None, semilla: int = 1, numero: int | None = None,
                nivel: str = "facil") -> str:
-    """Una imagen: arriba el handle y el número de reto; etiqueta de dificultad; título; expresión; enunciado.
+    """Una imagen: arriba el handle y el número de reto; en el centro el enunciado del reto (texto principal,
+    el más grande) y debajo, si aplica, la expresión. Sin título ni etiqueta de dificultad.
     fondo: nombre de motivo de bot/fondos.js (None = negro liso)."""
     e = html.escape
     disp = f'<div class="display" data-tex="{e(s["display"], quote=True)}"></div>' if s.get("display") else ""
-    title = f'<div class="title big">{_fmt(s["title"])}</div>' if s.get("title") else ""
     texto = s.get("text") or ""
     clase = "text lineas" if ("\n" in texto.replace("\\n", "\n")) else "text"
     text = f'<div class="{clase}">{_fmt(texto)}</div>' if texto else ""
-    kicker = (f'<div class="kicker nivel" style="background:{COLOR_NIVEL.get(nivel, BRAND["accent"])}">'
-              f'{e(NOMBRE_NIVEL.get(nivel, nivel.upper()))}</div>')
     num = f"RETO #{numero}" if numero else "RETO"
     bg = (f'<canvas id="bg" width="{W}" height="{H}" data-motivo="{e(fondo)}" data-semilla="{int(semilla)}"></canvas>'
           f'<div id="bgf"></div>') if fondo else ""
     return f"""{bg}<div class="wrap reto">
 <div class="top"><span>{e(HANDLE)}</span><span class="num">{e(num)}</span></div>
-<div class="main">{kicker}{title}{disp}{text}</div>
+<div class="main">{text}{disp}</div>
 <div class="foot"><span>{e(FOOTER)}</span><span></span></div>
 </div>"""
 

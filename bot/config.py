@@ -12,9 +12,6 @@ FOOTER = "UN MINI RETO NUEVO CADA DÍA"   # texto al pie de cada imagen
 
 # Paleta (misma que Mateguapo: negro / blanco / amarillo / rojo)
 BRAND = {"bg": "#000000", "fg": "#FFFFFF", "accent": "#ffde59", "alert": "#ff3131"}
-# Color de la etiqueta de dificultad en la imagen
-COLOR_NIVEL = {"facil": "#7ed957", "medio": "#ffde59", "dificil": "#ff3131"}
-NOMBRE_NIVEL = {"facil": "FÁCIL", "medio": "MEDIO", "dificil": "DIFÍCIL"}
 
 # Hashtags que SIEMPRE van en el caption de Instagram/Facebook (Claude agrega 2-4 más)
 HASHTAGS_FIJOS = ["#miniretxs", "#retomatematico"]
@@ -64,7 +61,7 @@ TEMAS = {
                      "cancelar mal en una fracción", "una desigualdad multiplicada por un negativo"],
 }
 
-# Tipos de gancho del título (el aprendizaje ajusta cuál funciona mejor)
+# Tipos de gancho (cómo arranca el enunciado) (el aprendizaje ajusta cuál funciona mejor)
 HOOKS = ["pregunta_directa", "parece_facil", "contrarreloj", "sin_calculadora", "debate", "historia"]
 
 # Cómo se elige la mejor de las ideas que propone Claude (pesos de sus autoevaluaciones 1-10)

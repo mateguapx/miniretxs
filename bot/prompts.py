@@ -34,22 +34,22 @@ SYSTEM = (
 # ---------------------------------------------------------------------------
 MANUAL = """MANUAL DE ESTILO DE @miniretxs
 Cada post es UNA sola imagen con UN mini reto que se entiende en 3 segundos y se puede intentar en menos de un minuto.
-La imagen ya muestra el número de reto y la dificultad; tú solo escribes el reto.
-1. El TÍTULO es una frase corta que reta al lector (máx 70 caracteres). No escribas "RETO" ni "Reto #" en el título: eso ya aparece en la imagen.
-2. El reto en sí va en 'display' (si es una expresión o sistema) o en 'text' (si es un enunciado con palabras). Breve: mientras menos texto, mejor, sin perder ningún dato necesario.
+La imagen NO lleva título ni etiqueta de dificultad: lo primero (y lo más grande) que lee el usuario es el enunciado del reto.
+1. 'text' es el enunciado completo del reto e incluye la pregunta ("¿Cuánto da esto sin calculadora?", "¿Qué número sigue?", "¿Quién dice la verdad?"). Es el texto principal: breve y directo, mientras menos palabras mejor, sin perder ningún dato necesario. No escribas "RETO" ni "Reto #": el número ya aparece en la imagen.
+2. 'display' es opcional: la expresión, sucesión o demostración que acompaña al enunciado, en LaTeX.
 3. Resalta en amarillo 1 a 2 palabras clave escribiéndolas entre **dobles asteriscos**.
-4. Un emoji como máximo en el título, solo si suma. Nunca dentro de una fórmula.
+4. Un emoji como máximo en el enunciado, solo si suma. Nunca dentro de una fórmula.
 5. Lo mejor: retos que parecen fáciles pero tienen trampa y que hacen que la gente comente.
 6. Respeta el TIPO DE RETO que se te indica (exacto o de debate): define si la ambigüedad está prohibida o se busca.
 7. La respuesta NUNCA aparece en la imagen, el caption ni el texto de Threads. Tampoco pistas que la regalen.
 8. No inventes estadísticas ("el 90% falla", "solo genios"): son falsas.
 
 Ejemplos del estilo:
-- título "¿Cuánto da esto **sin calculadora**?" + display: 8 \\div 2 \\times 4 - 3^2
-- título "Parece fácil… 🍎" + text con un sistema de frutas en 3 líneas + la pregunta final
-- título "¿Qué número **sigue**?" + display: 2,\\ 6,\\ 12,\\ 20,\\ 30,\\ ?
-- título "Uno de ellos **miente**" + text con el acertijo completo
-- título "¿Dónde está el **error**?" + display con una demostración falsa paso a paso
+- text "¿Cuánto da esto **sin calculadora**?" + display: 8 \\div 2 \\times 4 - 3^2
+- text con un sistema de frutas en 3 líneas + la pregunta final (display vacío)
+- text "¿Qué número **sigue**?" + display: 2,\\ 6,\\ 12,\\ 20,\\ 30,\\ ?
+- text "Ana dice: «Beto miente». Beto dice: «Carla miente». Carla dice: «Ana y Beto mienten». ¿Quién dice la **verdad**?"
+- text "¿En qué paso está el **error**?" + display con una demostración falsa paso a paso
 
 CAPTION (Instagram y Facebook): primera línea = otro gancho que se entiende sin ver la imagen; luego UNA invitación a comentar ("Deja tu respuesta 👇", "Explica cómo lo resolviste en los comentarios", "Etiqueta a quien seguro lo falla"); al final de 3 a 5 hashtags en español. No pidas que sigan la cuenta. Sin la respuesta.
 
@@ -130,7 +130,7 @@ NIVELES = {
 
 AUDIENCIA = "cualquier persona curiosa de 15 a 35 años: estudiantes, exalumnos y fans de los acertijos (nada que requiera cálculo)"
 
-# Descripción de cada tipo de gancho del título (bot/config.py → HOOKS)
+# Descripción de cada tipo de gancho (cómo arranca el enunciado) (bot/config.py → HOOKS)
 HOOKS = {
     "pregunta_directa": "una pregunta directa al lector ('¿Cuánto da?', '¿Qué número sigue?')",
     "parece_facil": "advertir que parece fácil pero tiene trampa ('Parece fácil…', 'No es lo que crees')",
@@ -152,7 +152,7 @@ Tipo de reto: {estilo}
 Dificultad: {nivel}
 Audiencia: {audiencia}.
 Tema de partida (puedes acercarte a él con libertad): {area}.
-Tipo de gancho del título: {hook}.
+Tipo de gancho (cómo arranca el enunciado): {hook}.
 {contexto}
 No repitas estos retos ya publicados: {evitar}.
 
@@ -179,8 +179,7 @@ SCHEMA = (
     '{"tema": "el reto en pocas palabras", '
     '"caption": "pie para Instagram/Facebook, máx 350 caracteres, termina con 3-5 hashtags", '
     '"threads": "el reto completo en texto plano para Threads, máx 450 caracteres, sin LaTeX ni hashtags", '
-    '"slides": [{"title": "frase reto (máx 70 caracteres), puede llevar **énfasis** y 1 emoji", '
-    '"text": "enunciado del reto o cadena vacía (\\n para separar líneas)", '
+    '"slides": [{"text": "enunciado completo del reto con su pregunta (máx 220 caracteres; \\n para separar líneas), puede llevar **énfasis** y 1 emoji", '
     '"display": "LaTeX de la expresión del reto, sin delimitadores, o cadena vacía"}]}'
 )
 
@@ -196,10 +195,10 @@ Audiencia: {audiencia}. Tema: {area}.
 
 Reglas de los campos:
 - slides: exactamente 1 elemento.
-- title: la frase reto, en el estilo del manual. Sin "RETO".
-- text / display: según el formato. Al menos uno de los dos debe contener el reto completo.
+- text: el enunciado completo con la pregunta; es lo primero y lo más grande de la imagen. Sin "RETO".
+- display: según el formato, o vacío.
 - display: LaTeX sin $. Para palabras dentro usa \\text{...}. Sin emojis.
-- Entre title, text y display debe estar TODO lo necesario para resolver el reto.
+- Entre text y display debe estar TODO lo necesario para resolver el reto.
 
 Formato JSON exacto: {schema}"""
 
@@ -211,7 +210,7 @@ CORRECCION = "\n\nEl intento anterior tenía estos problemas; corrígelos: {erro
 #    Debe seguir pidiendo un JSON con "ok" (true/false) y "issues" (lista).
 # ---------------------------------------------------------------------------
 VERIFICACION = """Revisa este mini reto de matemáticas (formato: {formato}; tipo: {estilo_nombre}) como un corrector estricto.
-Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (title, text, display).
+Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (text, display).
 {estilo_verificacion}
 Revisa también que el texto de "threads" plantee exactamente el mismo reto.
 Marca ok=false ÚNICAMENTE si hay:

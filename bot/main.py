@@ -51,7 +51,7 @@ def main() -> None:
     img = OUT / f"{stamp}-reto{plan['numero']}.png"
     render_many([slide_html(slide, plan["fondo"], plan["semilla"], plan["numero"], plan["nivel"])], [img])
     print("Renderizado:", img.name)
-    print("Título:", slide.get("title"))
+    print("Enunciado:", slide.get("text"))
     print("Caption IG/FB:", content["caption"])
     print("Threads:", content["threads"])
 
@@ -59,7 +59,7 @@ def main() -> None:
         "id": f"{stamp}-t{a.type}", "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         **{k: plan[k] for k in ("tipo", "nivel", "formato", "estilo", "hook", "tema_clave", "fondo", "numero", "modo")},
         "tema": content.get("tema") or (content.get("_idea") or {}).get("tema", ""),
-        "titulo": slide.get("title", ""),
+        "titulo": slide.get("text", "")[:120],
         "puntaje_idea": (content.get("_idea") or {}).get("_puntaje"),
     }
     (OUT / "post.json").write_text(json.dumps({"record": record, "content": content}, ensure_ascii=False, indent=1))

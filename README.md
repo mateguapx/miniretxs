@@ -2,7 +2,7 @@
 
 Bot en GitHub Actions para **@miniretxs**: 6 mini retos de matemáticas al día en Instagram, Facebook y Threads, con aprendizaje automático de qué retos funcionan mejor. Sin ventas ni palabras clave: solo comunidad.
 
-Cada post es **una sola imagen** con el reto (número de reto, dificultad, título y el reto). La respuesta **nunca** se publica.
+Cada post es **una sola imagen** con el reto: el enunciado es el texto principal y más grande, sin título ni etiqueta de dificultad. La respuesta **nunca** se publica.
 Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 
 | Tipo | Hora (México) | Dificultad | Formatos (mezcla en `bot/config.py` → `SLOTS`) |
@@ -18,7 +18,7 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 
 **Dos tipos de reto** (mezcla en `bot/config.py` → `ESTILOS`, 50/50 al inicio y luego según rendimiento): **exactos** (una sola respuesta correcta; el verificador rechaza cualquier ambigüedad) y **de debate** (varias respuestas defendibles a propósito, para que la gente se corrija en los comentarios). Todos los textos de los prompts están en `bot/prompts.py`.
 
-**Imágenes**: HTML + KaTeX + Playwright (sin generador de imágenes: la notación nunca sale deformada). Paleta negro/blanco/amarillo, etiqueta de dificultad verde/amarilla/roja y fondo de arte matemático generado por código (`bot/fondos.js`).
+**Imágenes**: HTML + KaTeX + Playwright (sin generador de imágenes: la notación nunca sale deformada). Paleta negro/blanco/amarillo y fondo de arte matemático generado por código (`bot/fondos.js`).
 
 **Aprendizaje** (`learn.yml`, diario 07:40 México): mide los posts de Instagram con más de 48 h (alcance, comentarios, compartidos, guardados, seguidores) y ajusta qué formatos, ganchos, temas y fondos se publican. Informe en `state/informe.md`. Requiere el permiso `instagram_business_manage_insights`.
 

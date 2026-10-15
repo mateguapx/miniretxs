@@ -97,14 +97,13 @@ def _normalizar(plan: dict, content: dict) -> list[str]:
     if not isinstance(slides, list) or len(slides) != 1 or not isinstance(slides[0], dict):
         return ["El campo slides debe ser una lista con exactamente 1 objeto"]
     s = slides[0]
-    for k in ("title", "text", "display"):
+    s.pop("title", None)
+    for k in ("text", "display"):
         s[k] = str(s.get(k) or "").strip()
-    s["title"] = re.sub(r"^\s*reto\s*(#\s*\d+)?\s*[:\-–—]?\s*", "", s["title"], flags=re.I)
+    s["text"] = re.sub(r"^\s*reto\s*(#\s*\d+)?\s*[:\-–—]\s*", "", s["text"], flags=re.I)
     s["layout"] = "reto"
-    if not s["title"]:
-        return ["Falta el título (title) de la imagen"]
-    if not (s["text"] or s["display"]):
-        return ["El reto debe ir en 'text' o en 'display'"]
+    if not s["text"]:
+        return ["Falta el enunciado del reto (text)"]
     if plan["formato"] == "error_oculto" and not s["display"]:
         return ["En el formato error_oculto, 'display' debe tener la demostración falsa"]
     if not str(content.get("caption") or "").strip():
