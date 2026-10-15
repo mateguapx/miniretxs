@@ -36,5 +36,24 @@
   "ig_id": "18146148379501258",
   "fb_id": null,
   "threads_id": "18041644583648936"
+ },
+ {
+  "id": "20261015-0910-t4",
+  "ts": "2026-10-15T09:11:02+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "Monty Hall y variantes",
+  "fondo": "red",
+  "numero": 3,
+  "modo": "inicial",
+  "tema": "Monty Hall con presentador que no sabe dónde está el auto",
+  "titulo": "3 puertas, 1 auto 🚗 y 2 cabras. Eliges una. El presentador **no sabe** dónde está el auto: abre al azar otra puerta y sa",
+  "puntaje_idea": 8.5,
+  "ig_id": "18119152882998575",
+  "fb_id": null,
+  "threads_id": "18001884251801016"
  }
 ]
