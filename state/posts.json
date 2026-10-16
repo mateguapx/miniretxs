@@ -169,5 +169,24 @@
   "ig_id": "18108988339920065",
   "fb_id": null,
   "threads_id": "18101416613563010"
+ },
+ {
+  "id": "20261016-1744-t1",
+  "ts": "2026-10-16T17:45:24+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "potencias de números negativos",
+  "fondo": "rejilla",
+  "numero": 10,
+  "modo": "inicial",
+  "tema": "Evaluar −x² − (−x)³ cuando x = −3",
+  "titulo": "Si x = −3, ¿cuánto da **esto**?",
+  "puntaje_idea": 8.0,
+  "ig_id": "17950317705314588",
+  "fb_id": null,
+  "threads_id": "18099824894346843"
  }
 ]
