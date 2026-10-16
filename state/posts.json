@@ -207,5 +207,24 @@
   "ig_id": "18152669710527390",
   "fb_id": null,
   "threads_id": "18077082719424547"
+ },
+ {
+  "id": "20261016-2224-t3",
+  "ts": "2026-10-16T22:25:28+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "pregunta_directa",
+  "tema_clave": "fracciones algebraicas",
+  "fondo": "formulas",
+  "numero": 12,
+  "modo": "inicial",
+  "tema": "12 ÷ 2x con x = 3: ¿qué se divide entre qué?",
+  "titulo": "Si x = 3, ¿cuánto da **esto**?",
+  "puntaje_idea": 8.5,
+  "ig_id": "18095863178148194",
+  "fb_id": null,
+  "threads_id": "18091016180674807"
  }
 ]
