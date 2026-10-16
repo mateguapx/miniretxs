@@ -150,5 +150,24 @@
   "ig_id": "18027969152914830",
   "fb_id": null,
   "threads_id": "18082422236717349"
+ },
+ {
+  "id": "20261016-0857-t6",
+  "ts": "2026-10-16T08:57:54+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "monedas",
+  "fondo": "red",
+  "numero": 9,
+  "modo": "inicial",
+  "tema": "Carrera de patrones CC contra CX con una moneda justa",
+  "titulo": "Lanzas una moneda justa sin parar y gana el patrón que aparezca **primero** en dos tiros seguidos (C = cara, X = cruz). ",
+  "puntaje_idea": 9.0,
+  "ig_id": "18108988339920065",
+  "fb_id": null,
+  "threads_id": "18101416613563010"
  }
 ]
