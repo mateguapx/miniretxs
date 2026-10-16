@@ -35,7 +35,8 @@ SYSTEM = (
 MANUAL = """MANUAL DE ESTILO DE @miniretxs
 Cada post es UNA sola imagen con UN mini reto que se entiende en 3 segundos y se puede intentar en menos de un minuto.
 La imagen NO lleva título ni etiqueta de dificultad: lo primero (y lo más grande) que lee el usuario es el enunciado del reto.
-1. 'text' es el enunciado completo del reto e incluye la pregunta ("¿Cuánto da esto sin calculadora?", "¿Qué número sigue?", "¿Quién dice la verdad?"). Es el texto principal: breve y directo, mientras menos palabras mejor, sin perder ningún dato necesario. No escribas "RETO" ni "Reto #": el número ya aparece en la imagen.
+1. 'text' es el enunciado completo del reto e incluye la pregunta. Es el texto principal: breve, mientras menos palabras mejor, sin perder ningún dato necesario. No escribas "RETO" ni "Reto #": el número ya aparece en la imagen.
+TONO DEL ENUNCIADO: redáctalo como si se lo estuvieras platicando a un amigo, en segunda persona y en español de México natural ("Oye, a ver si te sale esta…", "Mi primo jura que da 10, ¿tú qué dices?", "Te paso uno que me tuvo pensando un rato:"). Cercano y relajado, nunca de libro de texto ni de examen ("Calcule", "Determine", "Sea x…" están prohibidos). La plática no puede volver ambiguo un reto exacto ni esconder datos.
 2. 'display' es opcional: la expresión, sucesión o demostración que acompaña al enunciado, en LaTeX.
 3. Resalta en amarillo 1 a 2 palabras clave escribiéndolas entre **dobles asteriscos**.
 4. Un emoji como máximo en el enunciado, solo si suma. Nunca dentro de una fórmula.
@@ -46,15 +47,15 @@ NIVEL MÍNIMO: finales de secundaria (3.º) y bachillerato. Nada que se resuelva
 8. No inventes estadísticas ("el 90% falla", "solo genios"): son falsas.
 
 Ejemplos del estilo:
-- text "¿Cuánto da esto **sin calculadora**?" + display: 8 \\div 2 \\times 4 - 3^2
-- text con un sistema de frutas en 3 líneas + la pregunta final (display vacío)
-- text "¿Qué número **sigue**?" + display: 2,\\ 6,\\ 12,\\ 20,\\ 30,\\ ?
-- text "Ana dice: «Beto miente». Beto dice: «Carla miente». Carla dice: «Ana y Beto mienten». ¿Quién dice la **verdad**?"
-- text "¿En qué paso está el **error**?" + display con una demostración falsa paso a paso
+- text "A ver, sin calculadora: ¿cuánto te da **esto**?" + display: \\dfrac{2^{10}+2^{10}}{2^{9}}
+- text "Vas a casa de tu amigo a 30 km/h y regresas a 60 km/h. ¿Cuál fue tu velocidad **media**? (No, no es 45 👀)"
+- text "Me pasaron esta sucesión y no la suelto. ¿Qué número **sigue**?" + display: 2,\\ 6,\\ 12,\\ 20,\\ 30,\\ ?
+- text "Ana dice: “Beto miente”. Beto dice: “Carla miente”. Carla dice: “Ana y Beto mienten”. ¿Quién te está diciendo la **verdad**?"
+- text "Un amigo me “demostró” que 1 = −1. ¿En qué paso me hizo **trampa**?" + display con la demostración falsa paso a paso
 
 CAPTION (Instagram y Facebook): primera línea = otro gancho que se entiende sin ver la imagen; luego UNA invitación a comentar ("Deja tu respuesta 👇", "Explica cómo lo resolviste en los comentarios", "Etiqueta a quien seguro lo falla"); al final de 3 a 5 hashtags en español. No pidas que sigan la cuenta. Sin la respuesta.
 
-THREADS (solo texto, sin imagen): el mismo reto completo en texto plano, sin LaTeX ni $ (usa ×, ÷, ², ³, √, fracciones como 3/4), máx 450 caracteres, cerrando con una pregunta que invite a responder. Sin hashtags."""
+THREADS (solo texto, sin imagen): el mismo reto completo en texto plano y con el mismo tono de plática con un amigo, sin LaTeX ni $ (usa ×, ÷, ², ³, √, fracciones como 3/4), máx 450 caracteres, cerrando con una pregunta que invite a responder. Sin hashtags."""
 
 # ---------------------------------------------------------------------------
 # 3) FORMATOS DE RETO (los nombres de las claves deben coincidir con bot/config.py → SLOTS y TEMAS)
