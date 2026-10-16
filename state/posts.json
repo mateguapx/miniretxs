@@ -112,5 +112,24 @@
   "ig_id": "18145027660594565",
   "fb_id": null,
   "threads_id": "18037847450890528"
+ },
+ {
+  "id": "20261016-0052-t4",
+  "ts": "2026-10-16T00:53:11+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "probabilidad",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "cartas",
+  "fondo": "red",
+  "numero": 7,
+  "modo": "inicial",
+  "tema": "Tres cartas de dos caras y un amigo que dice «tiene rojo»",
+  "titulo": "3 cartas en una bolsa (R = roja, N = negra). Sacas una al azar, tu amigo la mira y dice: «**Tiene rojo**». ¿Qué probabil",
+  "puntaje_idea": 8.7,
+  "ig_id": "18083591168708274",
+  "fb_id": null,
+  "threads_id": "18074555207495713"
  }
 ]
