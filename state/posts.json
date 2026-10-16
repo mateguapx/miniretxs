@@ -131,5 +131,24 @@
   "ig_id": "18083591168708274",
   "fb_id": null,
   "threads_id": "18074555207495713"
+ },
+ {
+  "id": "20261016-0654-t5",
+  "ts": "2026-10-16T06:55:11+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "sin_calculadora",
+  "tema_clave": "operaciones con ceros y unos",
+  "fondo": "rejilla",
+  "numero": 8,
+  "modo": "inicial",
+  "tema": "¿Cuánto vale 0 elevado a la 0?",
+  "titulo": "Solo de cabeza: ¿cuánto vale **esto**?",
+  "puntaje_idea": 8.7,
+  "ig_id": "18027969152914830",
+  "fb_id": null,
+  "threads_id": "18082422236717349"
  }
 ]
