@@ -188,5 +188,24 @@
   "ig_id": "17950317705314588",
   "fb_id": null,
   "threads_id": "18099824894346843"
+ },
+ {
+  "id": "20261016-1947-t2",
+  "ts": "2026-10-16T19:48:28+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "no_es_x",
+  "tema_clave": "sistema con comida y divisiones",
+  "fondo": "geometria",
+  "numero": 11,
+  "modo": "inicial",
+  "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
+  "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
+  "puntaje_idea": 9.0,
+  "ig_id": "18152669710527390",
+  "fb_id": null,
+  "threads_id": "18077082719424547"
  }
 ]
