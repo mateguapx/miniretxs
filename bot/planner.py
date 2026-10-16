@@ -4,7 +4,7 @@
 - Enfriamiento: no repite un tema usado en los últimos posts, para que el contenido no sea monótono."""
 import random
 import unicodedata
-from .config import (COOLDOWN_TEMA, ESTILOS, EXPLORE_P, SOLO_EXACTO, FONDOS_DEFAULT, FONDOS_POR_TEMA, GAMMA, HOOKS, MIN_DATOS, SLOTS, TEMAS)
+from .config import (TEMAS_POPULAR, COOLDOWN_TEMA, ESTILOS, EXPLORE_P, SOLO_EXACTO, FONDOS_DEFAULT, FONDOS_POR_TEMA, GAMMA, HOOKS, MIN_DATOS, SLOTS, TEMAS)
 
 
 def _sin_acentos(t: str) -> str:
@@ -54,7 +54,8 @@ def elegir(tipo: int, posts: list[dict], weights: dict, rng: random.Random | Non
     # 2) Tipo de reto: exacto o de debate
     estilo = "exacto" if formato in SOLO_EXACTO else _elegir(dict(ESTILOS), weights, "estilo", explorar, usar_pesos, rng)
     # 3) Tema
-    tema_clave = _elegir({t: 1.0 for t in _sin_recientes(TEMAS[formato], recientes)}, weights, "tema",
+    banco = TEMAS_POPULAR.get(formato) if slot["nivel"] == "popular" else None
+    tema_clave = _elegir({t: 1.0 for t in _sin_recientes(banco or TEMAS[formato], recientes)}, weights, "tema",
                          explorar, usar_pesos, rng)
     # 4) Gancho
     hook = _elegir({h: 1.0 for h in HOOKS}, weights, "hook", explorar, usar_pesos, rng)

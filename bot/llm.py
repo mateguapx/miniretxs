@@ -69,7 +69,8 @@ def contexto_rendimiento(insights: dict | None) -> str:
 
 def _comun(plan: dict) -> dict:
     return dict(manual=P.MANUAL, formato=P.FORMATOS[plan["formato"]], estilo=P.ESTILOS[_estilo(plan)],
-                nivel=P.NIVELES[plan["nivel"]], audiencia=P.AUDIENCIA, area=plan["area"])
+                nivel=P.NIVELES[plan["nivel"]], audiencia=P.AUDIENCIAS.get(plan["nivel"], P.AUDIENCIAS["default"]),
+                area=plan["area"])
 
 
 def _estilo(plan: dict) -> str:
@@ -128,6 +129,7 @@ def _verify(plan: dict, content: dict) -> dict:
     limpio = {k: v for k, v in content.items() if not k.startswith("_")}
     prompt = P.render(P.VERIFICACION, formato=plan["formato"], estilo_nombre=_estilo(plan),
                       estilo_verificacion=P.ESTILOS_VERIFICACION[_estilo(plan)],
+                      nivel_verificacion=P.NIVEL_VERIFICACION.get(plan["nivel"], P.NIVEL_VERIFICACION["default"]),
                       contenido=json.dumps(limpio, ensure_ascii=False))
     return _json(_ask(prompt))
 

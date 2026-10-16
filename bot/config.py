@@ -28,7 +28,7 @@ SLOTS = {
     2: {"nivel": "medio",   "formatos": {"logica": 3, "palabras": 2, "emoji": 2}},                       # 11:00
     3: {"nivel": "facil",   "formatos": {"emoji": 3, "operacion": 2, "palabras": 1, "cual_mayor": 1}},   # 14:00
     4: {"nivel": "medio",   "formatos": {"patron": 2, "conteo": 2, "probabilidad": 2, "cual_mayor": 1}}, # 17:00
-    5: {"nivel": "facil",   "formatos": {"operacion": 2, "palabras": 2, "logica": 2, "emoji": 1}},       # 20:00
+    5: {"nivel": "popular", "formatos": {"operacion": 4, "palabras": 2, "emoji": 1, "patron": 1}},       # 20:00 — para cualquiera
     6: {"nivel": "dificil", "formatos": {"logica": 3, "error_oculto": 2, "conteo": 1, "probabilidad": 1}},  # 22:00
 }
 
@@ -62,8 +62,19 @@ TEMAS = {
                      "cancelar mal en una fracción", "una desigualdad multiplicada por un negativo"],
 }
 
+# Temas del nivel "popular" (horario para cualquiera). Sustituyen a TEMAS en ese horario.
+TEMAS_POPULAR = {
+    "operacion": ["jerarquía de operaciones con trampa (multiplicar/dividir antes que sumar)", "negativos que engañan",
+                  "fracciones sencillas", "porcentajes que engañan", "potencias pequeñas y signos", "operaciones con ceros y unos"],
+    "palabras": ["el bat y la pelota", "5 máquinas, 5 piezas, 5 minutos", "edades sencillas", "precios y vueltos",
+                 "caracol que sube un pozo", "repartos que engañan"],
+    "emoji": ["sistema de frutas con sumas", "sistema con trampa de cantidades (racimos, mitades)", "sistema con animales"],
+    "patron": ["sucesión sencilla con giro", "el número que sigue en un patrón de dobles", "sucesión que suma los dos anteriores"],
+    "cual_mayor": ["comparar fracciones simples", "comparar porcentajes", "comparar decimales que engañan"],
+}
+
 # Tipos de gancho (cómo arranca el enunciado) (el aprendizaje ajusta cuál funciona mejor)
-HOOKS = ["pregunta_directa", "parece_facil", "contrarreloj", "sin_calculadora", "debate", "historia"]
+HOOKS = ["pregunta_directa", "parece_facil", "contrarreloj", "sin_calculadora", "debate", "historia", "no_es_x"]
 
 # Cómo se elige la mejor de las ideas que propone Claude (pesos de sus autoevaluaciones 1-10)
 PESOS_IDEA = {"compartible": 0.30, "curiosidad": 0.20, "comentable": 0.50}

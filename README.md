@@ -2,7 +2,7 @@
 
 Bot en GitHub Actions para **@miniretxs**: 6 mini retos de matemáticas al día en Instagram, Facebook y Threads, con aprendizaje automático de qué retos funcionan mejor. Sin ventas ni palabras clave: solo comunidad.
 
-Nivel mínimo de todos los retos: **finales de secundaria y bachillerato** (nada de aritmética de primaria).
+Nivel: **1 reto al día (20:00) para cualquiera** (aritmética con trampa, estilo "¡La respuesta NO es 49!"); los otros 5 con nivel mínimo de **finales de secundaria y bachillerato**. Respuestas siempre cortas (un número o una palabra).
 
 Cada post es **una sola imagen** con el reto: el enunciado es el texto principal y más grande, sin título ni etiqueta de dificultad. La respuesta **nunca** se publica.
 Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
@@ -13,7 +13,7 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 | 2 | 11:00 | Medio | lógica, problema corto, sistema con emojis |
 | 3 | 14:00 | Accesible | sistema con emojis, operación, problema corto, ¿cuál es mayor? |
 | 4 | 17:00 | Medio | patrón, conteo, probabilidad, ¿cuál es mayor? |
-| 5 | 20:00 | Accesible | operación, problema corto, lógica, emojis |
+| 5 | 20:00 | **Popular** (para cualquiera) | operación, problema corto, emojis, patrón |
 | 6 | 22:00 | Difícil | lógica, ¿dónde está el error?, conteo, probabilidad |
 
 **Cómo se genera cada reto**: `planner.py` elige formato, gancho, tema y fondo (70% lo que mejor funciona, 30% exploración, sin repetir temas recientes) → Claude propone 6 retos y los puntúa (sobre todo por qué tan comentables son) → se escribe el mejor → una segunda llamada **resuelve el reto por su cuenta** y lo rechaza si un cálculo está mal o si revela la solución.

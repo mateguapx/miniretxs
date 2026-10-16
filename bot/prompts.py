@@ -40,14 +40,16 @@ TONO DEL ENUNCIADO: redáctalo como si se lo estuvieras platicando a un amigo, e
 2. 'display' es opcional: la expresión, sucesión o demostración que acompaña al enunciado, en LaTeX.
 3. Resalta en amarillo 1 a 2 palabras clave escribiéndolas entre **dobles asteriscos**.
 4. Un emoji como máximo en el enunciado, solo si suma. Nunca dentro de una fórmula.
-NIVEL MÍNIMO: finales de secundaria (3.º) y bachillerato. Nada que se resuelva solo con aritmética de primaria (sumar, restar, tablas, orden de operaciones con enteros pequeños). Cada reto debe pedir al menos una herramienta de ese nivel: álgebra (ecuaciones, sistemas, factorización, productos notables), leyes de exponentes y radicales, logaritmos, funciones, sucesiones, geometría y trigonometría, combinatoria o probabilidad.
-5. Lo mejor: retos que parecen fáciles pero tienen trampa y que hacen que la gente comente.
+5. Lo mejor: retos que parecen fáciles pero tienen trampa y que hacen que la gente comente. Barrera cero para opinar: cualquiera debe sentir que puede contestar en segundos.
+5b. RESPUESTA CORTA: la respuesta es UN número (o una sola palabra o nombre en lógica, o un número de paso en "¿dónde está el error?"), algo que se comenta sin explicar nada.
+5c. ULTRA CORTO: en operaciones y "¿cuál es mayor?", 'text' es UNA línea de máx 60 caracteres y la expresión va sola y gigante en 'display'. En los demás formatos, lo mínimo indispensable.
 6. Respeta el TIPO DE RETO que se te indica (exacto o de debate): define si la ambigüedad está prohibida o se busca.
 7. La respuesta NUNCA aparece en la imagen, el caption ni el texto de Threads. Tampoco pistas que la regalen.
 8. No inventes estadísticas ("el 90% falla", "solo genios"): son falsas.
 
 Ejemplos del estilo:
 - text "A ver, sin calculadora: ¿cuánto te da **esto**?" + display: \\dfrac{2^{10}+2^{10}}{2^{9}}
+- text "¡La respuesta **NO** es 2²⁰! ¿Cuánto da?" + display: \\dfrac{2^{10}+2^{10}}{2^{9}}
 - text "Vas a casa de tu amigo a 30 km/h y regresas a 60 km/h. ¿Cuál fue tu velocidad **media**? (No, no es 45 👀)"
 - text "Me pasaron esta sucesión y no la suelto. ¿Qué número **sigue**?" + display: 2,\\ 6,\\ 12,\\ 20,\\ 30,\\ ?
 - text "Ana dice: “Beto miente”. Beto dice: “Carla miente”. Carla dice: “Ana y Beto mienten”. ¿Quién te está diciendo la **verdad**?"
@@ -62,13 +64,12 @@ THREADS (solo texto, sin imagen): el mismo reto completo en texto plano y con el
 # ---------------------------------------------------------------------------
 FORMATOS = {
     "operacion": (
-        "OPERACIÓN: una expresión que se simplifica con ingenio y que mucha gente falla por prisa (leyes de "
-        "exponentes, radicales, logaritmos, productos notables, fracciones algebraicas, potencias de signos). "
-        "Va grande en 'display' (usa \\times y \\div); 'text' lleva la pregunta corta."
+        "OPERACIÓN: una expresión que mucha gente falla por prisa. Va sola y gigante en 'display' (usa \\times y "
+        "\\div); 'text' es la pregunta corta (máx 60 caracteres). Qué tipo de expresión depende de la dificultad."
     ),
     "cual_mayor": (
         "¿CUÁL ES MAYOR?: dos expresiones que parecen iguales o cuya comparación engaña a la intuición "
-        "(ej. 2^{30} vs 3^{20}, \\sqrt{5}+\\sqrt{7} vs 2\\sqrt{6}, \\log_2 3 vs \\log_3 5). En 'display' las dos opciones separadas por \\quad\\text{o}\\quad. "
+        "(ej. 0.5 vs 1/3 + 1/6 en nivel popular; 2^{30} vs 3^{20}, \\sqrt{5}+\\sqrt{7} vs 2\\sqrt{6} en los demás). 'text' máx 60 caracteres. En 'display' las dos opciones separadas por \\quad\\text{o}\\quad. "
         "Debe haber una comparación estricta (no iguales)."
     ),
     "patron": (
@@ -76,13 +77,13 @@ FORMATOS = {
         "Muestra al menos 5 términos en 'display' terminando en ?. La regla debe ser elegante y descubrible."
     ),
     "palabras": (
-        "PROBLEMA CORTO: un problema de la vida diaria donde la intuición rápida falla y que se resuelve planteando "
-        "una ecuación o un sistema (máquinas, precios, edades, velocidades medias, mezclas, trabajo conjunto). El enunciado completo va en 'text' (máx 220 caracteres)."
+        "PROBLEMA CORTO: un problema de la vida diaria donde la intuición rápida falla (máquinas, precios, edades, "
+        "velocidades medias, mezclas, trabajo conjunto); fuera del nivel popular se resuelve planteando una ecuación o un sistema. El enunciado completo va en 'text' (máx 220 caracteres)."
     ),
     "emoji": (
-        "SISTEMA CON EMOJIS: 3 ecuaciones con emojis (frutas, animales, objetos) y una pregunta final. Nivel "
-        "secundaria-bachillerato: combina productos, potencias o divisiones entre emojis (ej. 🍎 × 🍌 = 12, 🍎² − 🍌 = …), "
-        "no solo sumas. Va en 'text', "
+        "SISTEMA CON EMOJIS: 3 ecuaciones con emojis (frutas, animales, objetos) y una pregunta final. Fuera del "
+        "nivel popular combina productos, potencias o divisiones entre emojis (ej. 🍎 × 🍌 = 12, 🍎² − 🍌 = …), no solo "
+        "sumas. Va en 'text', "
         "UNA ecuación por línea separadas con \\n (ej. '🍎 + 🍎 + 🍎 = 30\\n🍎 + 🍌 + 🍌 = 18\\n🍌 − 🍇 = 2\\n🍇 + 🍎 + 🍌 = ?'). "
         "Puede tener una trampa visual honesta (cantidades distintas de un mismo emoji), pero que se describa en las "
         "ecuaciones y no dependa de detalles de dibujo. 'display' vacío."
@@ -126,14 +127,33 @@ ESTILOS_VERIFICACION = {
     "debate": "Este reto es DE DEBATE: que admita más de una respuesta o tenga notación ambigua es INTENCIONAL y NO es un problema.",
 }
 
-# Dificultad (bot/config.py → SLOTS[n]["nivel"])
+# Dificultad (bot/config.py → SLOTS[n]["nivel"]). Todos los niveles menos "popular" llevan el nivel mínimo.
+_MINIMO = (
+    "NIVEL MÍNIMO: finales de secundaria (3.º) y bachillerato. Nada que se resuelva solo con aritmética de primaria. "
+    "Debe pedir al menos una herramienta de ese nivel: álgebra (ecuaciones, sistemas, factorización, productos notables), "
+    "leyes de exponentes y radicales, logaritmos, funciones, sucesiones, geometría y trigonometría, combinatoria o probabilidad."
+)
 NIVELES = {
-    "facil": "ACCESIBLE: menos de 1 minuto con matemáticas de 3.º de secundaria o inicio de bachillerato; el reto está en no caer en la trampa.",
-    "medio": "MEDIO: requiere pensar 1 o 2 minutos; matemáticas de bachillerato.",
-    "dificil": "DIFÍCIL: razonamiento ingenioso de varios pasos con herramientas de bachillerato, sin cálculo diferencial ni matemáticas universitarias.",
+    "popular": (
+        "POPULAR (para cualquiera): aritmética que cualquier persona puede intentar en 5 segundos, con una trampa "
+        "clásica que hace que muchos fallen y se corrijan en los comentarios: jerarquía de operaciones "
+        "(ej. 7 \\times 7 + 7 \\div 7), negativos, fracciones simples, problemas de palabras con intuición engañosa, "
+        "sucesiones sencillas, sistemas de emojis con sumas. Aquí SÍ se vale nivel primaria. Lo más corto posible."
+    ),
+    "facil": "ACCESIBLE: menos de 1 minuto con matemáticas de 3.º de secundaria o inicio de bachillerato; el reto está en no caer en la trampa. " + _MINIMO,
+    "medio": "MEDIO: requiere pensar 1 o 2 minutos; matemáticas de bachillerato. " + _MINIMO,
+    "dificil": "DIFÍCIL: razonamiento ingenioso de varios pasos con herramientas de bachillerato, sin cálculo diferencial ni matemáticas universitarias. " + _MINIMO,
 }
 
-AUDIENCIA = "estudiantes de finales de secundaria y bachillerato, universitarios y exalumnos curiosos de 15 a 35 años (nivel mínimo: 3.º de secundaria; nada que requiera cálculo)"
+AUDIENCIAS = {
+    "popular": "cualquier persona en redes, de cualquier edad y escolaridad",
+    "default": "estudiantes de finales de secundaria y bachillerato, universitarios y exalumnos curiosos de 15 a 35 años (nada que requiera cálculo)",
+}
+# Lo que el verificador revisa del nivel
+NIVEL_VERIFICACION = {
+    "popular": "Este reto es de nivel POPULAR: que sea de aritmética de primaria es INTENCIONAL y NO es un problema.",
+    "default": "Este reto NO es popular: si se resuelve solo con aritmética de primaria, sin álgebra ni ninguna herramienta de secundaria o bachillerato, es un problema.",
+}
 
 # Descripción de cada tipo de gancho (cómo arranca el enunciado) (bot/config.py → HOOKS)
 HOOKS = {
@@ -143,6 +163,8 @@ HOOKS = {
     "sin_calculadora": "el reto de hacerlo de cabeza ('Sin calculadora', 'Solo mentalmente')",
     "debate": "invitar a defender una respuesta ('¿Cuál es? Defiende tu respuesta', 'Esto divide a tus amigos')",
     "historia": "una mini situación cotidiana como contexto del reto",
+    "no_es_x": ("arrancar con '¡La respuesta NO es X!', donde X es la respuesta intuitiva EQUIVOCADA que casi todos darían "
+                "(ej. '¡La respuesta NO es 49!' en 7×7+7÷7). X debe ser incorrecta en cualquier lectura y no puede regalar la respuesta real"),
 }
 
 # ---------------------------------------------------------------------------
@@ -217,11 +239,14 @@ CORRECCION = "\n\nEl intento anterior tenía estos problemas; corrígelos: {erro
 VERIFICACION = """Revisa este mini reto de matemáticas (formato: {formato}; tipo: {estilo_nombre}) como un corrector estricto.
 Resuelve el reto de forma INDEPENDIENTE usando solo lo que aparece en slides (text, display).
 {estilo_verificacion}
+{nivel_verificacion}
 Revisa también que el texto de "threads" plantee exactamente el mismo reto.
 Marca ok=false ÚNICAMENTE si hay:
 - el reto no se puede resolver: le falta información, los datos se contradicen o una afirmación del reto es falsa,
 - no cumple su tipo de reto (ver arriba),
-- es de nivel primaria: se resuelve solo con aritmética básica, sin álgebra ni ninguna herramienta de secundaria o bachillerato,
+- no cumple su nivel (ver arriba),
+- dice "la respuesta NO es X" y X sí es una respuesta correcta o defendible,
+- la respuesta no es corta (un número, una palabra o un número de paso),
 - el reto revela la respuesta (en la imagen, el caption o threads) o da una pista que la regala,
 - el texto de threads no plantea el mismo reto o usa LaTeX/$,
 - LaTeX inválido que se vería roto,
