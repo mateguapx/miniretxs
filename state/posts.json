@@ -245,5 +245,24 @@
   "ig_id": "18132003610785412",
   "fb_id": null,
   "threads_id": "17918060469453843"
+ },
+ {
+  "id": "20261017-0830-t6",
+  "ts": "2026-10-17T08:31:29+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "pregunta_directa",
+  "tema_clave": "cajas con etiquetas equivocadas",
+  "fondo": "red",
+  "numero": 14,
+  "modo": "inicial",
+  "tema": "Caja con 2 canicas y la etiqueta «Hay una roja»",
+  "titulo": "Oye, esta me tiene peleado con mi roomie 😅\nUna caja tiene 2 canicas, cada una roja o azul al azar (50-50). La etiqueta d",
+  "puntaje_idea": 9.0,
+  "ig_id": "18466552045141769",
+  "fb_id": null,
+  "threads_id": "18570416830078187"
  }
 ]
