@@ -16,7 +16,19 @@
   "puntaje_idea": 8.7,
   "ig_id": "17975546643145893",
   "fb_id": null,
-  "threads_id": "17928310179186092"
+  "threads_id": "17928310179186092",
+  "metricas": {
+   "reach": 4,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 2,
+   "views": 8,
+   "likes": 1,
+   "comments": 0
+  },
+  "medido": "2026-10-17T16:39:10+00:00",
+  "score": 1.4
  },
  {
   "id": "20261015-0747-t3",
@@ -35,7 +47,19 @@
   "puntaje_idea": 8.2,
   "ig_id": "18146148379501258",
   "fb_id": null,
-  "threads_id": "18041644583648936"
+  "threads_id": "18041644583648936",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-17T16:39:10+00:00",
+  "score": 0.26
  },
  {
   "id": "20261015-0910-t4",
@@ -54,7 +78,19 @@
   "puntaje_idea": 8.5,
   "ig_id": "18119152882998575",
   "fb_id": null,
-  "threads_id": "18001884251801016"
+  "threads_id": "18001884251801016",
+  "metricas": {
+   "reach": 2,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 1,
+   "comments": 0
+  },
+  "medido": "2026-10-17T16:39:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261015-1950-t6",

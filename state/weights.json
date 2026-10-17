@@ -1,9 +1,25 @@
 {
- "n": 0,
- "actualizado": "2026-10-16T17:41:28+00:00",
- "formato": {},
- "estilo": {},
- "hook": {},
- "tema": {},
- "fondo": {}
+ "n": 3,
+ "actualizado": "2026-10-17T16:39:18+00:00",
+ "formato": {
+  "probabilidad": 1.1,
+  "palabras": 0.753
+ },
+ "estilo": {
+  "exacto": 0.932
+ },
+ "hook": {
+  "debate": 1.133,
+  "parece_facil": 0.753,
+  "sin_calculadora": 1.0
+ },
+ "tema": {
+  "calcetines en un cajón (peor caso)": 1.133,
+  "edades": 0.753,
+  "Monty Hall y variantes": 1.0
+ },
+ "fondo": {
+  "red": 1.1,
+  "geometria": 0.753
+ }
 }
