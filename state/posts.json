@@ -300,5 +300,24 @@
   "ig_id": "18466552045141769",
   "fb_id": null,
   "threads_id": "18570416830078187"
+ },
+ {
+  "id": "20261017-1858-t2",
+  "ts": "2026-10-17T18:59:03+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "sistema con animales y potencias",
+  "fondo": "rejilla",
+  "numero": 15,
+  "modo": "inicial",
+  "tema": "Sistema con pingüino, oso y panda: suma 7, producto 12 y un cuadrado",
+  "titulo": "A ver si te sale: cada animal vale un número **positivo**, siempre el mismo en todas las líneas.\n🐧 + 🐻 = 7\n🐧 × 🐻 = 12\n🐧²",
+  "puntaje_idea": 8.0,
+  "ig_id": "18089483198695909",
+  "fb_id": null,
+  "threads_id": "18358317193219086"
  }
 ]
