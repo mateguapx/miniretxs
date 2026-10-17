@@ -338,5 +338,24 @@
   "ig_id": "18130703602828734",
   "fb_id": "1395069237021603_122096010111519581",
   "threads_id": "18132085040506292"
+ },
+ {
+  "id": "20261017-2158-t3",
+  "ts": "2026-10-17T21:58:44+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "pregunta_directa",
+  "tema_clave": "sistema con frutas y productos",
+  "fondo": "lissajous",
+  "numero": 17,
+  "modo": "inicial",
+  "tema": "Emojis pegados: ¿producto o número de dos cifras?",
+  "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
+  "puntaje_idea": 8.5,
+  "ig_id": "18115139309015937",
+  "fb_id": "1395069237021603_122096036091519581",
+  "threads_id": "18128682874830065"
  }
 ]
