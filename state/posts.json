@@ -226,5 +226,24 @@
   "ig_id": "18095863178148194",
   "fb_id": null,
   "threads_id": "18091016180674807"
+ },
+ {
+  "id": "20261017-0646-t5",
+  "ts": "2026-10-17T06:47:11+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "repartos que engañan",
+  "fondo": "fractal",
+  "numero": 13,
+  "modo": "inicial",
+  "tema": "Dos papás y dos hijos con tres tacos: ¿cuántas personas son?",
+  "titulo": "Dos papás y dos hijos se reparten 3 tacos 🌮 Cada quien se come uno y no sobra ni falta ninguno. ¿Cuántas **personas** so",
+  "puntaje_idea": 8.8,
+  "ig_id": "18132003610785412",
+  "fb_id": null,
+  "threads_id": "17918060469453843"
  }
 ]
