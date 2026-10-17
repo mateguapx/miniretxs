@@ -319,5 +319,24 @@
   "ig_id": "18089483198695909",
   "fb_id": null,
   "threads_id": "18358317193219086"
+ },
+ {
+  "id": "20261017-2049-t5",
+  "ts": "2026-10-17T20:50:15+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "debate",
+  "tema_clave": "potencias pequeñas y signos",
+  "fondo": "funciones",
+  "numero": 16,
+  "modo": "inicial",
+  "tema": "8 ÷ 2(−2)²: ¿multiplicación implícita o de izquierda a derecha?",
+  "titulo": "Mi primo y yo no coincidimos: ¿cuánto da **esto**?",
+  "puntaje_idea": 9.3,
+  "ig_id": "18130703602828734",
+  "fb_id": "1395069237021603_122096010111519581",
+  "threads_id": "18132085040506292"
  }
 ]
