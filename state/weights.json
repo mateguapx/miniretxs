@@ -1,25 +1,39 @@
 {
- "n": 3,
- "actualizado": "2026-10-17T16:39:18+00:00",
+ "n": 8,
+ "actualizado": "2026-10-18T16:52:39+00:00",
  "formato": {
-  "probabilidad": 1.1,
-  "palabras": 0.753
+  "probabilidad": 1.267,
+  "palabras": 1.0,
+  "logica": 1.0,
+  "emoji": 1.0,
+  "operacion": 1.0
  },
  "estilo": {
-  "exacto": 0.932
+  "exacto": 1.2,
+  "debate": 1.0
  },
  "hook": {
-  "debate": 1.133,
-  "parece_facil": 0.753,
-  "sin_calculadora": 1.0
+  "debate": 1.4,
+  "parece_facil": 1.0,
+  "sin_calculadora": 1.067,
+  "pregunta_directa": 1.0,
+  "historia": 1.0
  },
  "tema": {
-  "calcetines en un cajón (peor caso)": 1.133,
-  "edades": 0.753,
-  "Monty Hall y variantes": 1.0
+  "calcetines en un cajón (peor caso)": 1.4,
+  "edades": 1.0,
+  "Monty Hall y variantes": 1.133,
+  "caballeros que dicen la verdad y bribones que mienten": 1.0,
+  "sistema con trampa de cantidades (racimos, mitades)": 1.0,
+  "cartas": 1.0,
+  "operaciones con ceros y unos": 1.0,
+  "monedas": 1.0
  },
  "fondo": {
-  "red": 1.1,
-  "geometria": 0.753
+  "red": 1.267,
+  "geometria": 1.0,
+  "formulas": 1.0,
+  "fractal": 1.0,
+  "rejilla": 1.0
  }
 }
