@@ -27,12 +27,12 @@ jobs:
           gh secret set IG_TOKEN --body "$NEW" --repo "${{ github.repository }}"
           echo "IG_TOKEN renovado"
       - name: Threads
-        if: ${{ env.THREADS_TOKEN != '' }}
+        if: ${{ always() && env.THREADS_TOKEN != '' }}
         run: |
           NEW=$(python -m bot.refresh_token threads)
           echo "::add-mask::$NEW"
           gh secret set THREADS_TOKEN --body "$NEW" --repo "${{ github.repository }}"
           echo "THREADS_TOKEN renovado"
       - name: Facebook (revisar el token de Página)
-        if: ${{ env.META_PAGE_TOKEN != '' }}
+        if: ${{ always() && env.META_PAGE_TOKEN != '' }}
         run: python -m bot.refresh_token fb
