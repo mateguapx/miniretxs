@@ -394,5 +394,23 @@
   "ig_id": "17896302378414634",
   "fb_id": null,
   "threads_id": "18151588327468567"
+ },
+ {
+  "id": "20261018-0847-t6",
+  "ts": "2026-10-18T08:47:35+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "conteo",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "formar números con dígitos",
+  "fondo": "fractal",
+  "numero": 20,
+  "modo": "cola",
+  "tema": "Pares de 3 cifras distintas con 0,1,2,3,4",
+  "titulo": "Sin calculadora: ¿cuántos números **pares** de 3 cifras distintas puedes formar con los dígitos 0, 1, 2, 3 y 4?",
+  "ig_id": "18009839634004056",
+  "fb_id": null,
+  "threads_id": "17908692351577191"
  }
 ]
