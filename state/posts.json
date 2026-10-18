@@ -376,5 +376,23 @@
   "ig_id": "18128356222895541",
   "fb_id": null,
   "threads_id": "17902530792670508"
+ },
+ {
+  "id": "20261018-0706-t5",
+  "ts": "2026-10-18T07:07:05+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "caracol que sube un pozo",
+  "fondo": "lissajous",
+  "numero": 19,
+  "modo": "cola",
+  "tema": "Caracol en pozo de 10 m: sube 3 y resbala 2 cada día",
+  "titulo": "Parece fácil: un caracol está en el fondo de un pozo de 10 metros. Cada día sube 3 metros y resbala 2. ¿En cuántos días ",
+  "ig_id": "17896302378414634",
+  "fb_id": null,
+  "threads_id": "18151588327468567"
  }
 ]
