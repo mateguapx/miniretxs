@@ -483,5 +483,23 @@
   "ig_id": "18009839634004056",
   "fb_id": null,
   "threads_id": "17908692351577191"
+ },
+ {
+  "id": "20261018-1700-t1",
+  "ts": "2026-10-18T17:00:48+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "debate",
+  "hook": "contrarreloj",
+  "tema_clave": "sucesiones recursivas",
+  "fondo": "espiral",
+  "numero": 21,
+  "modo": "cola",
+  "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+  "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+  "ig_id": "18107258345624973",
+  "fb_id": null,
+  "threads_id": "18138594832730511"
  }
 ]
