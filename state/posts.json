@@ -519,5 +519,23 @@
   "ig_id": "18055975709648743",
   "fb_id": null,
   "threads_id": "18097487666408194"
+ },
+ {
+  "id": "20261018-2123-t3",
+  "ts": "2026-10-18T21:24:11+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "sistema no lineal con objetos de la escuela",
+  "fondo": "formulas",
+  "numero": 23,
+  "modo": "cola",
+  "tema": "Lápiz al cuadrado = 16: ¿4 o −4? Sistema escolar",
+  "titulo": "Mi sobrino trajo esto de tarea y en casa nadie se pone de acuerdo:\n✏️ × ✏️ = 16\n📏 + ✏️ = 10\n📕 = 📏 − ✏️\n📕 × ✏️ = ?",
+  "ig_id": "17987850152877900",
+  "fb_id": "1395069237021603_122096784885519581",
+  "threads_id": "18113339828142784"
  }
 ]
