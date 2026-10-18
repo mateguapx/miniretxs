@@ -1,13 +1,15 @@
 """Uso: python -m bot.main --type 1..6 [--dry]
 Cada post es UNA imagen con un mini reto (sin respuesta, sin imagen final).
 Instagram y Facebook: la imagen + caption. Threads: solo el reto en texto.
-La mezcla de formatos y la dificultad por horario están en bot/config.py → SLOTS."""
+La mezcla de formatos y la dificultad por horario están en bot/config.py → SLOTS.
+Los textos NO se generan aquí (no se usa la API de Claude): se toman ya escritos de la cola state/cola/<tipo>/
+(ver bot/cola.py). Si la cola de ese horario está vacía, no se publica nada en ese horario."""
 import argparse
 import json
 import os
 from datetime import datetime, timezone
 from .config import ROOT, SLOTS
-from . import llm, meta, planner
+from . import cola, meta, planner
 from .render import render_many, slide_html
 
 OUT = ROOT / "out"
@@ -27,13 +29,6 @@ def _save(name: str, data) -> None:
     (STATE / name).write_text(json.dumps(data, ensure_ascii=False, indent=1))
 
 
-def _evitar(posts: list[dict]) -> list[str]:
-    """Retos ya publicados, para no repetirlos."""
-    viejos = _load("history.json", [])
-    nuevos = [x for p in posts[-120:] for x in (p.get("tema"), p.get("titulo")) if x]
-    return (viejos + nuevos)[-160:]
-
-
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--type", type=int, required=True, choices=SLOTS)
@@ -41,10 +36,21 @@ def main() -> None:
     a = ap.parse_args()
 
     posts = _load("posts.json", [])
-    plan = planner.elegir(a.type, posts, _load("weights.json", {}))
+    content, archivo = cola.tomar(a.type)
+    if content is None:
+        print(f"::warning title=Cola vacía::No hay retos en la cola del horario {a.type}; no se publica.")
+        if os.getenv("GITHUB_ENV"):
+            with open(os.environ["GITHUB_ENV"], "a") as f:
+                f.write("SKIP=1\n")
+        return
+    print("Cola:", json.dumps(cola.estado()), "· tomado:", archivo.name)
+    weights = _load("weights.json", {})
+    plan = planner.elegir(a.type, posts, weights)  # número de reto y semilla del fondo
+    plan.update({k: content[k] for k in cola.CAMPOS_PLAN})
+    plan["area"] = plan["tema_clave"]
+    plan["fondo"] = planner.elegir_fondo(plan["tema_clave"], posts, weights)
+    plan["modo"] = "cola"
     print("Plan:", json.dumps(plan, ensure_ascii=False))
-    content = llm.generate(plan, _evitar(posts), _load("insights.json", {}))
-    print("Idea elegida:", json.dumps(content.get("_idea"), ensure_ascii=False))
 
     slide = content["slides"][0]
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M")
@@ -60,11 +66,11 @@ def main() -> None:
         **{k: plan[k] for k in ("tipo", "nivel", "formato", "estilo", "hook", "tema_clave", "fondo", "numero", "modo")},
         "tema": content.get("tema") or (content.get("_idea") or {}).get("tema", ""),
         "titulo": slide.get("text", "")[:120],
-        "puntaje_idea": (content.get("_idea") or {}).get("_puntaje"),
     }
     (OUT / "post.json").write_text(json.dumps({"record": record, "content": content}, ensure_ascii=False, indent=1))
     if a.dry:
         return
+    archivo.unlink()  # se confirma en el repo solo si la publicación sale bien (paso "Guardar estado")
 
     repo, branch = os.environ["GITHUB_REPOSITORY"], os.getenv("MEDIA_BRANCH", "media")
     # El workflow sube out/ a la rama 'media' antes de llamar a --publish-step (ver post.yml)

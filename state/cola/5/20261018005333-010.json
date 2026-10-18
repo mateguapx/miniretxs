@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "parece_facil",
+ "tema_clave": "sistema con animales",
+ "tema": "Perro ÷ gato(ratón + gato): 6 ÷ 2(3) disfrazado",
+ "caption": "La última línea divide familias 😂 ¿Cuánto te da? 👇 #acertijo #miniretxs #retomatematico",
+ "threads": "Parece fácil… hasta la última línea:\n\n🐶 + 🐶 + 🐶 = 18\n🐱 + 🐱 = 4\n🐭 + 🐭 = 2\n🐶 ÷ 🐱(🐭 + 🐱) = ?\n\n¿Cuánto te da?",
+ "slides": [
+  {
+   "text": "Parece fácil… hasta la última línea:\n🐶 + 🐶 + 🐶 = 18\n🐱 + 🐱 = 4\n🐭 + 🐭 = 2\n🐶 ÷ 🐱(🐭 + 🐱) = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

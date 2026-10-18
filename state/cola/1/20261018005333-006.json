@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "cual_mayor",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "comparar expresiones que parecen iguales",
+ "tema": "√3 + √5 contra √15",
+ "caption": "Me apostó un taco 🌮 ¿Quién gana? Comenta cuál es mayor 👇 #radicales #miniretxs #retomatematico",
+ "threads": "Mi amigo jura que son iguales. ¿Cuál es mayor?\n\n√3 + √5   o   √15\n\nComenta tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Mi amigo jura que son iguales. ¿Cuál es **mayor**?",
+   "display": "\\sqrt{3}+\\sqrt{5}\\quad\\text{o}\\quad\\sqrt{15}",
+   "layout": "reto"
+  }
+ ]
+}

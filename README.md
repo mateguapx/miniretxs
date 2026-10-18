@@ -16,7 +16,7 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 | 5 | 20:00 | **Popular** (para cualquiera) | operación, problema corto, emojis, patrón |
 | 6 | 22:00 | Difícil | lógica, ¿dónde está el error?, conteo, probabilidad |
 
-**Cómo se genera cada reto**: `planner.py` elige formato, gancho, tema y fondo (70% lo que mejor funciona, 30% exploración, sin repetir temas recientes) → Claude propone 6 retos y los puntúa (sobre todo por qué tan comentables son) → se escribe el mejor → una segunda llamada **resuelve el reto por su cuenta** y lo rechaza si un cálculo está mal o si revela la solución.
+**Cómo se genera cada reto (sin API de Claude)**: los textos ya vienen escritos en una cola dentro del repo (`state/cola/<horario>/`). Una **tarea programada de Claude** corre cada semana: lee el aprendizaje (`state/weights.json`, `state/insights.json`), planea los retos que faltan con `python -m bot.cola plan`, los escribe con las mismas reglas de `bot/prompts.py`, los revisa y los sube con `python -m bot.cola agregar`. En cada horario, GitHub toma el primer reto de su carpeta, genera la imagen, publica y lo borra de la cola. Si la cola de un horario se vacía, ese horario **no publica** (aviso amarillo "Cola vacía" en Actions). Ver cuántos quedan: `python -m bot.cola estado`.
 
 **Dos tipos de reto** (mezcla en `bot/config.py` → `ESTILOS`, 50/50 al inicio y luego según rendimiento): **exactos** (una sola respuesta correcta; el verificador rechaza cualquier ambigüedad) y **de debate** (varias respuestas defendibles a propósito, para que la gente se corrija en los comentarios). Todos los textos de los prompts están en `bot/prompts.py`.
 
@@ -26,13 +26,12 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 
 ## Puesta en marcha
 1. Repo **público** (Meta necesita URLs públicas para las imágenes; viven en la rama `media`). No subas secretos.
-2. Prueba local sin publicar: `pip install -r requirements.txt && playwright install chromium && ANTHROPIC_API_KEY=... python -m bot.main --type 1 --dry` (revisa `out/`).
+2. Prueba local sin publicar: `pip install -r requirements.txt && playwright install chromium && python -m bot.main --type 1 --dry` (revisa `out/`).
 3. Meta: cuenta de Instagram profesional (@miniretxs), Página de Facebook vinculada y perfil de Threads. App de Meta con:
    - Instagram Login: `instagram_business_basic`, `instagram_business_content_publish`, `instagram_business_manage_insights`.
    - Página: `pages_manage_posts`, `pages_read_engagement`.
    - Threads API: `threads_basic`, `threads_content_publish`.
 4. Secrets del repo (Settings → Secrets and variables → Actions):
-   - `ANTHROPIC_API_KEY`
    - `IG_TOKEN`, `IG_USER_ID` (Instagram)
    - `META_PAGE_TOKEN`, `FB_PAGE_ID` (Facebook)
    - `THREADS_TOKEN`, `THREADS_USER_ID` (Threads)

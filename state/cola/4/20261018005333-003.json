@@ -1,0 +1,18 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "patron",
+ "estilo": "debate",
+ "hook": "historia",
+ "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
+ "tema": "2, 3, 5, 8: ¿12 (diferencias +1,+2,+3) o 13 (Fibonacci)?",
+ "caption": "Mi grupo quedó dividido en dos bandos 😅 ¿De cuál eres? Comenta tu número y tu regla 👇 #sucesiones #miniretxs #retomatematico",
+ "threads": "Le pasé esta a mi grupo de la prepa y se armó la discusión: ¿qué número sigue?\n\n2, 3, 5, 8, ?\n\nComenta tu número y tu regla 👇",
+ "slides": [
+  {
+   "text": "Le pasé esta a mi grupo de la prepa y se armó la discusión: ¿qué número **sigue**?",
+   "display": "2,\\ 3,\\ 5,\\ 8,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

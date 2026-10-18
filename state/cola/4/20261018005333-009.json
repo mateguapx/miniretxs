@@ -1,0 +1,18 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "contar cuadrados o triángulos descritos con palabras",
+ "tema": "Cuadrados de todos los tamaños en una cuadrícula de 4×4",
+ "caption": "16 no es 😅 Cuenta bien y deja tu respuesta 👇 #conteo #geometria #miniretxs #retomatematico",
+ "threads": "Mi hermanito dibujó una cuadrícula de 4 × 4 cuadritos y dice que hay 16 cuadrados. ¿Cuántos cuadrados hay en total, de cualquier tamaño?",
+ "slides": [
+  {
+   "text": "Mi hermanito dibujó una cuadrícula de 4 × 4 cuadritos y dice que hay 16 cuadrados. ¿Cuántos cuadrados hay **en total**, de cualquier tamaño?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

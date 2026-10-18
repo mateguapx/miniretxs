@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "debate",
+ "hook": "contrarreloj",
+ "tema_clave": "sucesiones recursivas",
+ "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+ "caption": "¿Seguro que solo hay una respuesta? 👀 Deja tu número y explica tu regla 👇 #sucesiones #miniretxs #retomatematico",
+ "threads": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número sigue?\n\n1, 2, 4, 8, 16, ?\n\nDeja tu respuesta y explica tu regla 👇",
+ "slides": [
+  {
+   "text": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "display": "1,\\ 2,\\ 4,\\ 8,\\ 16,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

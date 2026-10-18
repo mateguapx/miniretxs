@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "operacion",
+ "estilo": "debate",
+ "hook": "historia",
+ "tema_clave": "porcentajes que engañan",
+ "tema": "50 + 50%: ¿75 (calculadora) o 50.5?",
+ "caption": "La calculadora dice una cosa y tu profe otra 🧮 ¿Tú qué dices? 👇 #porcentajes #miniretxs #retomatematico",
+ "threads": "En mi casa se pelearon por esto. ¿Cuánto da?\n\n50 + 50%\n\nDeja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "En mi casa se pelearon por esto. ¿Cuánto **da**?",
+   "display": "50 + 50\\%",
+   "layout": "reto"
+  }
+ ]
+}

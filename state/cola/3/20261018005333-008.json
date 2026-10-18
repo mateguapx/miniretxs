@@ -1,0 +1,18 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "parece_facil",
+ "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+ "tema": "Menos manzana al cuadrado: ¿−9 o 9?",
+ "caption": "¿El signo menos va antes o después del cuadrado? 👀 Deja tu respuesta 👇 #exponentes #miniretxs #retomatematico",
+ "threads": "Parece fácil… pero en mi casa salieron dos respuestas:\n\n🍎 + 🍎 = 6\n🍌 × 🍌 × 🍌 = 8\n−🍎² + 🍌 = ?\n\n¿Cuánto te da?",
+ "slides": [
+  {
+   "text": "Parece fácil… pero en mi casa salieron dos respuestas:\n🍎 + 🍎 = 6\n🍌 × 🍌 × 🍌 = 8\n−🍎² + 🍌 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

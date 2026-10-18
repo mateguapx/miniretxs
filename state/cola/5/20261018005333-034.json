@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "sucesión que suma los dos anteriores",
+ "tema": "2, 5, 7, 12, 19 (suma de los dos anteriores)",
+ "caption": "¿Le ganas a mi sobrina? 😎 Deja tu respuesta 👇 #acertijo #miniretxs #retomatematico",
+ "threads": "Mi sobrina de 10 años lo sacó en 5 segundos. ¿Qué número sigue?\n\n2, 5, 7, 12, 19, ?",
+ "slides": [
+  {
+   "text": "Mi sobrina de 10 años lo sacó en 5 segundos. ¿Qué número **sigue**?",
+   "display": "2,\\ 5,\\ 7,\\ 12,\\ 19,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

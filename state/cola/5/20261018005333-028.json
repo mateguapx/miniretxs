@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "jerarquía de operaciones con trampa (multiplicar/dividir antes que sumar)",
+ "tema": "8 + 8 ÷ 8 × 8 − 8",
+ "caption": "Solo 8s y aun así casi nadie le atina 😅 Defiende tu respuesta 👇 #matematicas #miniretxs #retomatematico",
+ "threads": "Defiende tu respuesta: ¿cuánto da esto?\n\n8 + 8 ÷ 8 × 8 − 8",
+ "slides": [
+  {
+   "text": "Defiende tu respuesta: ¿cuánto da **esto**?",
+   "display": "8 + 8 \\div 8 \\times 8 - 8",
+   "layout": "reto"
+  }
+ ]
+}

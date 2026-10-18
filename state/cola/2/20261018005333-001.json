@@ -1,0 +1,18 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "parece_facil",
+ "tema_clave": "áreas y perímetros con ecuación",
+ "tema": "Rectángulo 3 cm más largo que ancho con área 40: perímetro",
+ "caption": "Parece de primaria… hasta que lo intentas 😏 Deja tu respuesta en los comentarios 👇 #algebra #geometria #miniretxs #retomatematico",
+ "threads": "Parece fácil, pero a mi primo le tomó 5 minutos: un rectángulo mide 3 cm más de largo que de ancho y su área es 40 cm². ¿Cuánto mide su perímetro?",
+ "slides": [
+  {
+   "text": "Parece fácil, pero a mi primo le tomó 5 minutos: un rectángulo mide 3 cm más de largo que de ancho y su área es 40 cm². ¿Cuánto mide su **perímetro**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

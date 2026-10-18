@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "sucesiones geométricas con giro",
+ "tema": "3, 5, 9, 17, 33 (2ⁿ + 1)",
+ "caption": "Fíjate en las diferencias 👀 ¿Cuál sigue? 👇 #sucesiones #miniretxs #retomatematico",
+ "threads": "¿Qué número sigue?\n\n3, 5, 9, 17, 33, ?\n\nDeja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "¿Qué número **sigue**?",
+   "display": "3,\\ 5,\\ 9,\\ 17,\\ 33,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

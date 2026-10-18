@@ -1,0 +1,18 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "focos e interruptores",
+ "tema": "100 focos y 100 personas: cuántos quedan encendidos",
+ "caption": "Tiene un truco precioso 💡 Defiende tu respuesta en los comentarios 👇 #logica #acertijo #miniretxs #retomatematico",
+ "threads": "Hay 100 focos apagados en fila. Pasan 100 personas: la 1.ª cambia todos, la 2.ª cambia los múltiplos de 2, la 3.ª los de 3… y así hasta la 100. Al final, ¿cuántos focos quedan encendidos? Defiende tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Hay 100 focos apagados en fila. Pasan 100 personas: la 1.ª cambia todos, la 2.ª los múltiplos de 2, la 3.ª los de 3… y así. Al final, ¿cuántos quedan **encendidos**? Defiende tu respuesta 👇",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

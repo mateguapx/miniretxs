@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "debate",
+ "hook": "historia",
+ "tema_clave": "leyes de exponentes con trampa",
+ "tema": "2^3^2 escrito en WhatsApp: ¿512 o 64?",
+ "caption": "Mis amigos no se ponen de acuerdo 🤯 ¿Tú cuánto sacas? 👇 #exponentes #miniretxs #retomatematico",
+ "threads": "Me lo mandaron así por WhatsApp:\n\n2^3^2\n\n¿Cuánto te da? (^ significa “elevado a”)",
+ "slides": [
+  {
+   "text": "Me lo mandaron así por WhatsApp: 2^3^2 ¿Cuánto te **da**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

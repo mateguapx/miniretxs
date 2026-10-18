@@ -1,0 +1,18 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "fracciones algebraicas",
+ "tema": "(2026² − 2025²)/4051 con diferencia de cuadrados",
+ "caption": "Con calculadora es trampa 😏 Hay un atajo de secundaria. ¿Cuánto da? 👇 #algebra #miniretxs #retomatematico",
+ "threads": "Sin calculadora: ¿cuánto da esto?\n\n(2026² − 2025²) / 4051\n\nDeja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Sin calculadora: ¿cuánto da **esto**?",
+   "display": "\\dfrac{2026^{2}-2025^{2}}{4051}",
+   "layout": "reto"
+  }
+ ]
+}

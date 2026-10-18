@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "parece_facil",
+ "tema_clave": "caracol que sube un pozo",
+ "tema": "Caracol en pozo de 10 m: sube 3 y resbala 2 cada día",
+ "caption": "No es tan fácil como parece 🐌 Deja tu respuesta 👇 #acertijo #miniretxs #retomatematico",
+ "threads": "Parece fácil: un caracol está en el fondo de un pozo de 10 metros. Cada día sube 3 metros y resbala 2. ¿En cuántos días sale? 🐌",
+ "slides": [
+  {
+   "text": "Parece fácil: un caracol está en el fondo de un pozo de 10 metros. Cada día sube 3 metros y resbala 2. ¿En cuántos días **sale**? 🐌",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

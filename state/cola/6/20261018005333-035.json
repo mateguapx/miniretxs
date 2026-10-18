@@ -1,0 +1,18 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "cajas con etiquetas equivocadas",
+ "tema": "10 cajas de monedas, una pesada de 542 g",
+ "caption": "Una sola pesada basta 🪙 ¿En qué caja están? 👇 #logica #acertijo #miniretxs #retomatematico",
+ "threads": "Sin calculadora: hay 10 cajas de monedas. En 9 cajas cada moneda pesa 10 g y en una caja cada moneda pesa 9 g. Sacas 1 moneda de la caja 1, 2 de la caja 2… y 10 de la caja 10. Juntas pesan 542 g. ¿En qué caja están las monedas ligeras?",
+ "slides": [
+  {
+   "text": "Sin calculadora: en 9 cajas las monedas pesan 10 g y en una caja pesan 9 g. Sacas 1 moneda de la caja 1, 2 de la caja 2… y 10 de la caja 10. Juntas pesan 542 g. ¿En qué caja están las **ligeras**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

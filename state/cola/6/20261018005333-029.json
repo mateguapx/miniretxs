@@ -1,0 +1,18 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "una desigualdad multiplicada por un negativo",
+ "tema": "Demostración falsa de 1/4 > 1/2 con log(1/2)",
+ "caption": "Se ve impecable… pero algo está mal 🕵️ ¿En qué paso? 👇 #logaritmos #miniretxs #retomatematico",
+ "threads": "Defiende tu respuesta: un amigo me “demostró” que 1/4 > 1/2. ¿En qué paso me hizo trampa?\n\n(1) 2 > 1\n(2) 2·log(1/2) > log(1/2)\n(3) log((1/2)²) > log(1/2)\n(4) log(1/4) > log(1/2)\n(5) 1/4 > 1/2",
+ "slides": [
+  {
+   "text": "Defiende tu respuesta: un amigo me “demostró” que 1/4 > 1/2. ¿En qué paso me hizo **trampa**?",
+   "display": "\\begin{aligned}\\text{(1)}\\ & 2 > 1\\\\ \\text{(2)}\\ & 2\\log\\tfrac{1}{2} > \\log\\tfrac{1}{2}\\\\ \\text{(3)}\\ & \\log\\left(\\tfrac{1}{2}\\right)^{2} > \\log\\tfrac{1}{2}\\\\ \\text{(4)}\\ & \\log\\tfrac{1}{4} > \\log\\tfrac{1}{2}\\\\ \\text{(5)}\\ & \\tfrac{1}{4} > \\tfrac{1}{2}\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

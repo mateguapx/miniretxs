@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "radicales y racionalización",
+ "tema": "x = √25: ¿5 o ±5?",
+ "caption": "Parece regalado… hasta que lees los comentarios 👀 ¿Cuánto vale x? 👇 #radicales #miniretxs #retomatematico",
+ "threads": "Sin calculadora y sin pensarle mucho: ¿cuánto vale x?\n\nx = √25\n\nDeja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Sin calculadora y sin pensarle mucho: ¿cuánto vale **x**?",
+   "display": "x=\\sqrt{25}",
+   "layout": "reto"
+  }
+ ]
+}

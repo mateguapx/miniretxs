@@ -17,7 +17,6 @@ jobs:
   post:
     runs-on: ubuntu-24.04
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       IG_TOKEN: ${{ secrets.IG_TOKEN }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
@@ -46,13 +45,13 @@ jobs:
           python -u -m bot.main --type $T ${{ github.event.inputs.dry == 'true' && '--dry' || '' }} 2>&1 | tee gen.txt
           { echo '```'; cat gen.txt; echo '```'; } >> $GITHUB_STEP_SUMMARY
       - name: Guardar imagen de prueba
-        if: ${{ github.event.inputs.dry == 'true' }}
+        if: ${{ github.event.inputs.dry == 'true' && env.SKIP != '1' }}
         uses: actions/upload-artifact@v4
         with:
           name: imagen-prueba
           path: out/
       - name: Subir imagen a rama media (URL pública para Meta)
-        if: ${{ github.event.inputs.dry != 'true' }}
+        if: ${{ github.event.inputs.dry != 'true' && env.SKIP != '1' }}
         run: |
           cd out && git init -q && git checkout -q -b media
           git config user.name bot && git config user.email bot@users.noreply.github.com
@@ -60,11 +59,11 @@ jobs:
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media
           sleep 10
       - name: Publicar en IG, FB y Threads
-        if: ${{ github.event.inputs.dry != 'true' }}
+        if: ${{ github.event.inputs.dry != 'true' && env.SKIP != '1' }}
         run: python -m bot.main --publish-step
         env: { GITHUB_REPOSITORY: "${{ github.repository }}" }
       - name: Guardar estado
-        if: ${{ github.event.inputs.dry != 'true' }}
+        if: ${{ github.event.inputs.dry != 'true' && env.SKIP != '1' }}
         run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
           git add state && git commit -qm "state" || true

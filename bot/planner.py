@@ -40,6 +40,15 @@ def _sin_recientes(candidatos: list[str], recientes: list) -> list[str]:
     return libres or candidatos
 
 
+def elegir_fondo(tema_clave: str, posts: list[dict], weights: dict, rng: random.Random | None = None,
+                 explorar: bool = False) -> str:
+    """Motivo de fondo para un tema, sin repetir el del post anterior si hay alternativas."""
+    rng = rng or random.Random()
+    usar_pesos = int(weights.get("n", 0)) >= MIN_DATOS
+    candidatos = _sin_recientes(fondos_para(tema_clave), [p.get("fondo") for p in posts[-1:]])
+    return _elegir({f: 1.0 for f in candidatos}, weights, "fondo", explorar, usar_pesos, rng)
+
+
 def elegir(tipo: int, posts: list[dict], weights: dict, rng: random.Random | None = None) -> dict:
     rng = rng or random.Random()
     slot = SLOTS[tipo]
@@ -60,8 +69,7 @@ def elegir(tipo: int, posts: list[dict], weights: dict, rng: random.Random | Non
     # 4) Gancho
     hook = _elegir({h: 1.0 for h in HOOKS}, weights, "hook", explorar, usar_pesos, rng)
     # 5) Fondo según el tema (sin repetir el del post anterior si hay alternativas)
-    candidatos = _sin_recientes(fondos_para(tema_clave), [p.get("fondo") for p in posts[-1:]])
-    fondo = _elegir({f: 1.0 for f in candidatos}, weights, "fondo", explorar, usar_pesos, rng)
+    fondo = elegir_fondo(tema_clave, posts, weights, rng, explorar)
     return {
         "tipo": tipo, "nivel": slot["nivel"], "formato": formato, "estilo": estilo, "hook": hook,
         "tema_clave": tema_clave, "area": tema_clave, "fondo": fondo,

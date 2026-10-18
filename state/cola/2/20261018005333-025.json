@@ -1,0 +1,18 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "palabras",
+ "estilo": "debate",
+ "hook": "debate",
+ "tema_clave": "descuentos y aumentos sucesivos",
+ "tema": "Letrero '50% + 20% de descuento': ¿60% o 70%?",
+ "caption": "Ojo antes de ir a la tienda 🛍️ ¿Cuánto te descuentan en total? 👇 #porcentajes #miniretxs #retomatematico",
+ "threads": "En el Buen Fin vi un letrero: “50% + 20% de descuento”. ¿Qué descuento te hacen en total? Defiende tu respuesta 👇",
+ "slides": [
+  {
+   "text": "En el Buen Fin vi un letrero: “50% + 20% de descuento”. ¿Qué descuento te hacen **en total**? Defiende tu respuesta 👇",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}
