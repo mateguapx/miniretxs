@@ -501,5 +501,23 @@
   "ig_id": "18107258345624973",
   "fb_id": null,
   "threads_id": "18138594832730511"
+ },
+ {
+  "id": "20261018-1905-t2",
+  "ts": "2026-10-18T19:05:43+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "áreas y perímetros con ecuación",
+  "fondo": "lissajous",
+  "numero": 22,
+  "modo": "cola",
+  "tema": "Rectángulo 3 cm más largo que ancho con área 40: perímetro",
+  "titulo": "Parece fácil, pero a mi primo le tomó 5 minutos: un rectángulo mide 3 cm más de largo que de ancho y su área es 40 cm². ",
+  "ig_id": "18055975709648743",
+  "fb_id": null,
+  "threads_id": "18097487666408194"
  }
 ]
