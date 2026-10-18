@@ -537,5 +537,23 @@
   "ig_id": "17987850152877900",
   "fb_id": "1395069237021603_122096784885519581",
   "threads_id": "18113339828142784"
+ },
+ {
+  "id": "20261018-2210-t3",
+  "ts": "2026-10-18T22:10:42+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "parece_facil",
+  "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+  "fondo": "lissajous",
+  "numero": 24,
+  "modo": "cola",
+  "tema": "Menos manzana al cuadrado: ¿−9 o 9?",
+  "titulo": "Parece fácil… pero en mi casa salieron dos respuestas:\n🍎 + 🍎 = 6\n🍌 × 🍌 × 🍌 = 8\n−🍎² + 🍌 = ?",
+  "ig_id": "18118703045053237",
+  "fb_id": "1395069237021603_122096798853519581",
+  "threads_id": "17940048132371317"
  }
 ]
