@@ -357,5 +357,24 @@
   "ig_id": "18115139309015937",
   "fb_id": "1395069237021603_122096036091519581",
   "threads_id": "18128682874830065"
+ },
+ {
+  "id": "20261018-0030-t4",
+  "ts": "2026-10-18T00:30:56+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "debate",
+  "hook": "sin_calculadora",
+  "tema_clave": "apretones de manos",
+  "fondo": "red",
+  "numero": 18,
+  "modo": "inicial",
+  "tema": "Apretones de manos en una fiesta con 9 parejas",
+  "titulo": "Sin calculadora: una pareja de **anfitriones** recibe a 8 parejas invitadas.\nTodos se saludan de mano, una sola vez.\n¿Cu",
+  "puntaje_idea": 8.3,
+  "ig_id": "18128356222895541",
+  "fb_id": null,
+  "threads_id": "17902530792670508"
  }
 ]
