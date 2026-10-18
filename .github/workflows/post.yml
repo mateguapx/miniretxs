@@ -25,12 +25,7 @@ jobs:
       THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
       PAGE_HANDLE: ${{ vars.PAGE_HANDLE }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12", cache: pip }
-      - run: |
-          pip install -r requirements.txt && playwright install --with-deps chromium
-          sudo apt-get install -y -q fonts-noto-color-emoji
+      - uses: actions/checkout@v5
       - name: Elegir tipo
         run: |
           case "${{ github.event.schedule }}" in
@@ -39,14 +34,31 @@ jobs:
             *) T="${{ github.event.inputs.type }}";;
           esac
           echo "T=$T" >> $GITHUB_ENV
+      - name: Revisar la cola
+        # Con la cola vacía no se instala nada: aviso "Cola vacía" y SKIP=1 (python del sistema, sin dependencias)
+        run: python3 -m bot.cola revisar $T
+      - uses: actions/setup-python@v6
+        if: ${{ env.SKIP != '1' }}
+        with: { python-version: "3.12", cache: pip }
+      - name: Caché de Chromium
+        if: ${{ env.SKIP != '1' }}
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/ms-playwright
+          key: chromium-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+      - if: ${{ env.SKIP != '1' }}
+        run: |
+          pip install -r requirements.txt && playwright install --with-deps chromium
+          sudo apt-get install -y -q fonts-noto-color-emoji
       - name: Generar y renderizar
+        if: ${{ env.SKIP != '1' }}
         run: |
           set -o pipefail
           python -u -m bot.main --type $T ${{ github.event.inputs.dry == 'true' && '--dry' || '' }} 2>&1 | tee gen.txt
           { echo '```'; cat gen.txt; echo '```'; } >> $GITHUB_STEP_SUMMARY
       - name: Guardar imagen de prueba
         if: ${{ github.event.inputs.dry == 'true' && env.SKIP != '1' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: imagen-prueba
           path: out/
@@ -66,5 +78,5 @@ jobs:
         if: ${{ github.event.inputs.dry != 'true' && env.SKIP != '1' }}
         run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add state && git commit -qm "state" || true
-          git pull --rebase -q && git push -q || true
+          git add -A state && git commit -qm "state" || true
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

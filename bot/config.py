@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-5-5")
 GRAPH_VERSION = os.getenv("GRAPH_VERSION", "v26.0")
 THREADS_VERSION = os.getenv("THREADS_VERSION", "v1.0")
 

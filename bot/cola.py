@@ -10,18 +10,21 @@ Uso:
   python -m bot.cola plan --hasta 8 > plan.json  # qué retos faltan (formato, tipo, gancho, tema) según el aprendizaje
   python -m bot.cola instrucciones plan.json     # las instrucciones completas para escribir cada reto del plan
   python -m bot.cola agregar retos.json          # valida y mete los retos escritos a la cola
+  python -m bot.cola revisar 3                   # (workflow) si la cola del horario 3 está vacía, avisa y marca SKIP=1
 
 Formato de retos.json: lista de objetos = cada objeto del plan + los campos que pide SCHEMA en bot/prompts.py
 (tema, caption, threads, slides=[{text, display}]).
 """
 import argparse
 import json
+import os
 import random
 import sys
 from datetime import datetime, timezone
 from . import planner
 from . import prompts as P
 from .config import ROOT, SLOTS
+from .contenido import contexto_rendimiento, normalizar
 
 STATE = ROOT / "state"
 COLA = STATE / "cola"
@@ -80,7 +83,6 @@ def plan(hasta: int, seed: int | None = None) -> dict:
 
 def instrucciones(plan_data: dict) -> str:
     """Texto completo para escribir cada reto del plan: el mismo que recibía la API (bot/prompts.py)."""
-    from .llm import contexto_rendimiento
     partes = [
         "INSTRUCCIONES GENERALES (rol)", P.SYSTEM, "", P.MANUAL, "",
         "No repitas estos retos ya publicados o en cola: " + ("; ".join(plan_data.get("evitar", [])) or "ninguno"),
@@ -109,8 +111,7 @@ def instrucciones(plan_data: dict) -> str:
 
 
 def validar(item: dict) -> list[str]:
-    """Mismas comprobaciones de forma que hacía el bot con la respuesta de la API (bot/llm.py → _normalizar)."""
-    from .llm import _normalizar
+    """Mismas comprobaciones de forma que hacía el bot con la respuesta de la API (bot/contenido.py → normalizar)."""
     errores = [f"falta '{k}'" for k in CAMPOS_PLAN if not item.get(k)]
     if errores:
         return errores
@@ -119,7 +120,7 @@ def validar(item: dict) -> list[str]:
     for k, banco in (("formato", P.FORMATOS), ("estilo", P.ESTILOS), ("nivel", P.NIVELES), ("hook", P.HOOKS)):
         if item[k] not in banco:
             return [f"{k} inválido: {item[k]}"]
-    return _normalizar(item, item)
+    return normalizar(item, item)
 
 
 def agregar(lista: list[dict]) -> tuple[int, list[str]]:
@@ -156,6 +157,18 @@ def tomar(tipo: int) -> tuple[dict | None, object]:
     return None, None
 
 
+def revisar(tipo: int) -> bool:
+    """Para el workflow: si la cola de ese horario está vacía, deja el aviso y marca SKIP=1 (no se instala nada)."""
+    if archivos(tipo):
+        print(f"Cola del horario {tipo}: {len(archivos(tipo))} retos")
+        return True
+    print(f"::warning title=Cola vacía::No hay retos en la cola del horario {tipo}; no se publica.")
+    if os.getenv("GITHUB_ENV"):
+        with open(os.environ["GITHUB_ENV"], "a") as f:
+            f.write("SKIP=1\n")
+    return False
+
+
 def _main() -> None:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -167,6 +180,8 @@ def _main() -> None:
     si.add_argument("plan")
     sa = sub.add_parser("agregar")
     sa.add_argument("archivo")
+    sr = sub.add_parser("revisar")
+    sr.add_argument("tipo", type=int)
     a = ap.parse_args()
     if a.cmd == "estado":
         print(json.dumps(estado()))
@@ -182,6 +197,8 @@ def _main() -> None:
         print("Cola:", json.dumps(estado()))
         if malos:
             sys.exit(1)
+    elif a.cmd == "revisar":
+        revisar(a.tipo)
 
 
 if __name__ == "__main__":

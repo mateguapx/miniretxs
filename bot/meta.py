@@ -118,3 +118,9 @@ def refresh_threads_token() -> str:
     r = requests.get("https://graph.threads.net/refresh_access_token",
                      params={"grant_type": "th_refresh_token", "access_token": TH_TOKEN()}, timeout=60)
     return _check(r, "Threads refresh")["access_token"]
+
+
+def revisar_page_token() -> str:
+    """Comprueba que el token de Página siga vigente (si venció, Facebook deja de publicar). Devuelve el nombre de la Página."""
+    r = requests.get(f"{FB_BASE}/me", params={"fields": "id,name", "access_token": PAGE_TOKEN()}, timeout=60)
+    return _check(r, "FB token de Página").get("name", "")

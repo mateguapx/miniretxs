@@ -41,7 +41,7 @@ Instagram y Facebook: imagen + caption. Threads: el mismo reto en **texto**.
 5. Actions → `post` → Run workflow (por defecto `dry=true`: genera la imagen y la deja como artefacto descargable). Cuando te guste, déjalo correr por cron.
 
 ## Tokens
-Los tokens de Instagram y Threads duran 60 días. `refresh-tokens.yml` los renueva los días 1 y 15 de cada mes y los guarda como secrets; necesita `GH_PAT`: un token fine-grained de GitHub con permiso **Secrets: Read and write** sobre este repo.
+Los tokens de Instagram y Threads duran 60 días. `refresh-tokens.yml` los renueva los días 1 y 15 de cada mes y los guarda como secrets; necesita `GH_PAT`: un token fine-grained de GitHub con permiso **Secrets: Read and write** sobre este repo. También revisa que `META_PAGE_TOKEN` siga vigente: si venció, la corrida queda en rojo (hay que generar un token de Página que no caduque).
 
 ## Horarios (UTC → México)
 `post.yml`: 14:00, 17:00, 20:00, 23:00, 02:00, 04:00 UTC = tipos 1-6. El cron de GitHub puede retrasarse varios minutos.
