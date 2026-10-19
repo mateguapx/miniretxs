@@ -6,11 +6,11 @@
  "hook": "historia",
  "tema_clave": "porcentajes que engañan",
  "tema": "50 + 50%: ¿75 (calculadora) o 50.5?",
- "caption": "La calculadora dice una cosa y tu profe otra 🧮 ¿Tú qué dices? 👇 #porcentajes #miniretxs #retomatematico",
- "threads": "50 + 50%\n\nAquí la calculadora y la cabeza no siempre dan lo mismo. ¿Cuánto te da?",
+ "caption": "Rápido y sin pensarle mucho 🧮 ¿Cuánto da? 👇 #porcentajes #miniretxs #retomatematico",
+ "threads": "50 + 50%\n\n¿Cuánto da?",
  "slides": [
   {
-   "text": "En mi casa se pelearon por esto. ¿Cuánto **da**?",
+   "text": "A ver, rápido: ¿cuánto **da**?",
    "display": "50 + 50\\%",
    "layout": "reto"
   }

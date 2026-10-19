@@ -10,7 +10,7 @@
  "threads": "1, 2, 8, 48, 384, ?\n\n¿Cuál sigue?",
  "slides": [
   {
-   "text": "Esto divide a mis amigos. ¿Qué número **sigue**? Defiende tu respuesta",
+   "text": "A ver qué tan rápido lo ves. ¿Qué número **sigue**?",
    "display": "1,\\ 2,\\ 8,\\ 48,\\ 384,\\ ?",
    "layout": "reto"
   }

@@ -10,7 +10,7 @@
  "threads": "Letrero en una tienda: “50% + 20% de descuento”.\n\n¿Qué descuento te están haciendo en total?",
  "slides": [
   {
-   "text": "En el Buen Fin vi un letrero: “50% + 20% de descuento”. ¿Qué descuento te hacen **en total**? Defiende tu respuesta 👇",
+   "text": "En el Buen Fin vi un letrero: “50% + 20% de descuento”. ¿Qué **descuento** te hacen en total? Defiende tu respuesta 👇",
    "display": "",
    "layout": "reto"
   }

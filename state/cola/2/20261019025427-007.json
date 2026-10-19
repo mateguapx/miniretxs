@@ -10,7 +10,7 @@
  "threads": "Una familia quiere cruzar el río. Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir remando. ¿Cuántos viajes necesita la lancha para que crucen todos?",
  "slides": [
   {
-   "text": "¿Cuántos **viajes** necesita la lancha? Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir remando. Todos quieren cruzar el río.",
+   "text": "Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir remando. ¿Cuántos viajes necesita la lancha para que **todos** crucen el río?",
    "display": "",
    "layout": "reto"
   }

@@ -74,7 +74,7 @@ def plan(hasta: int, seed: int | None = None) -> dict:
             if faltan[t] > 0:
                 p = planner.elegir(t, historia, weights, rng)
                 item = {k: p[k] for k in CAMPOS_PLAN}
-                formas = [f for f in FORMAS_THREADS if f != ultima and (f != "dos_lecturas" or item["estilo"] == "debate")]
+                formas = [f for f in FORMAS_THREADS if f != ultima]
                 item["forma_threads"] = ultima = rng.choice(formas)
                 items.append(item)
                 historia.append(item)

@@ -10,7 +10,7 @@
  "threads": "En una boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 saludos. ¿Cuántos invitados había?",
  "slides": [
   {
-   "text": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 saludos. ¿Cuántos **invitados** había?",
+   "text": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 **saludos**. ¿Cuántos invitados había?",
    "display": "",
    "layout": "reto"
   }

@@ -27,7 +27,6 @@ FORMAS_THREADS = {
     "contexto": "Una situación cotidiana neutra (tienda, cocina, reloj, liga, examen) que plantea el reto. Sin familiares ni amigos como personajes.",
     "dato": "Una frase verdadera de contexto o curiosidad que lleva al reto, sin pistas que regalen la respuesta.",
     "opinion": "Un comentario breve de la página sobre el reto (\"este parece que necesita calculadora, pero no\") y luego el reto.",
-    "dos_lecturas": "Solo en retos de debate: menciona que hay dos formas de leerlo, sin dar ningún resultado.",
 }
 
 # ---------------------------------------------------------------------------

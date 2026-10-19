@@ -15,6 +15,12 @@ _TH_PROHIBIDO = [
     (re.compile(r"la respuesta no es|tienes \d+ segundos", re.I), "sin \"la respuesta NO es…\" ni \"tienes N segundos\" en Threads"),
 ]
 
+# Revelar que un reto tiene dos respuestas mata el debate: solo va el reto (en imagen, caption y Threads)
+_REVELA_DEBATE = re.compile(
+    r"dos (respuestas|lecturas|formas|bandos|resultados)|m[áa]s de una (respuesta|lectura|forma)|varias (reglas|respuestas|lecturas)"
+    r"|de dos (formas|maneras)|se puede leer|no (nos|se) (ponen|ponemos|pone) de acuerdo|no coincidimos|divide a\b|divididos"
+    r"|divide familias|discut|pele[aá]|se arm[óa]|tiene su truco|admite|lo lee como|unos .{0,30} y otros", re.I)
+
 
 def contexto_rendimiento(insights: dict | None) -> str:
     """Convierte state/insights.json en el bloque de texto para el prompt de ideas."""
@@ -61,6 +67,10 @@ def normalizar(plan: dict, content: dict) -> list[str]:
         return ["Falta el texto para Threads (threads)"]
     if "$" in th or "\\" in th:
         return ["El texto de threads no puede llevar LaTeX ni $"]
+    for donde, txt in (("la imagen", s["text"]), ("el caption", content["caption"]), ("threads", th)):
+        m = _REVELA_DEBATE.search(txt)
+        if m:
+            return [f"En {donde} se insinúa que hay varias respuestas («{m.group(0)}»): pon solo el reto"]
     for patron, problema in _TH_PROHIBIDO:
         if patron.search(th):
             return [f"Texto de threads: {problema}"]

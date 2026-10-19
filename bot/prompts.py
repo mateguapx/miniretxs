@@ -118,13 +118,18 @@ ESTILOS = {
     "debate": (
         "DE DEBATE: admite más de una respuesta defendible para que la gente discuta y se corrija en los comentarios "
         "(notación ambigua tipo 6÷2(1+2), enunciados con dos lecturas razonables, acertijos con interpretaciones "
-        "distintas). Cada lectura debe llevar a una respuesta bien calculada."
+        "distintas). Cada lectura debe llevar a una respuesta bien calculada. "
+        "PROHIBIDO revelar la idea: ni en la imagen, ni en el caption, ni en Threads digas o insinúes que hay dos "
+        "respuestas, dos lecturas o un truco de interpretación (nada de 'en mi casa salieron dos respuestas', "
+        "'se puede leer de dos formas', 'no nos ponemos de acuerdo', 'esto divide a…', 'se armó la pelea'), y no "
+        "resaltes con ** la palabra ambigua. Pon SOLO el reto, con contexto breve si hace falta, y deja que la gente "
+        "descubra sola que hay más de una lectura."
     ),
 }
 # …y lo que se le dice al verificador
 ESTILOS_VERIFICACION = {
     "exacto": "Este reto es EXACTO: debe tener UNA sola respuesta correcta; si admite más de una respuesta razonable o depende de notación ambigua, es un problema.",
-    "debate": "Este reto es DE DEBATE: que admita más de una respuesta o tenga notación ambigua es INTENCIONAL y NO es un problema.",
+    "debate": "Este reto es DE DEBATE: que admita más de una respuesta o tenga notación ambigua es INTENCIONAL y NO es un problema. Pero SÍ es un problema que la imagen, el caption o threads digan o insinúen que hay varias respuestas o lecturas (\"dos respuestas\", \"se puede leer de dos formas\", \"no nos ponemos de acuerdo\", \"esto divide a…\") o que resalten con ** la palabra ambigua.",
 }
 
 # Dificultad (bot/config.py → SLOTS[n]["nivel"]). Todos los niveles menos "popular" llevan el nivel mínimo.
@@ -161,7 +166,7 @@ HOOKS = {
     "parece_facil": "advertir que parece fácil pero tiene trampa ('Parece fácil…', 'No es lo que crees')",
     "contrarreloj": "un límite de tiempo ('Tienes 10 segundos', 'Antes de que se acabe tu café')",
     "sin_calculadora": "el reto de hacerlo de cabeza ('Sin calculadora', 'Solo mentalmente')",
-    "debate": "invitar a defender una respuesta ('¿Cuál es? Defiende tu respuesta', 'Esto divide a tus amigos')",
+    "debate": "invitar a defender una respuesta ('¿Cuál es? Defiende tu respuesta', '¿Tú qué contestas?'), sin insinuar que hay varias respuestas",
     "historia": "una mini situación cotidiana como contexto del reto",
     "no_es_x": ("arrancar con '¡La respuesta NO es X!', donde X es la respuesta intuitiva EQUIVOCADA que casi todos darían "
                 "(ej. '¡La respuesta NO es 49!' en 7×7+7÷7). X debe ser incorrecta en cualquier lectura y no puede regalar la respuesta real"),
@@ -248,6 +253,7 @@ Marca ok=false ÚNICAMENTE si hay:
 - dice "la respuesta NO es X" y X sí es una respuesta correcta o defendible,
 - la respuesta no es corta (un número, una palabra o un número de paso),
 - el reto revela la respuesta (en la imagen, el caption o threads) o da una pista que la regala,
+- dice o insinúa que hay más de una respuesta o lectura ("dos respuestas", "se puede leer de dos formas", "no nos ponemos de acuerdo", "esto divide a…"),
 - el texto de threads no plantea el mismo reto o usa LaTeX/$,
 - LaTeX inválido que se vería roto,
 - una estadística inventada ("el 90% falla").
