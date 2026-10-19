@@ -1,0 +1,18 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "radicales y racionalización",
+ "tema": "(√2 + √8)²",
+ "caption": "El error más común con raíces 👀 Sin calculadora, ¿cuánto te da? Comenta 👇 #radicales #algebra #retomatematico #miniretxs",
+ "threads": "¡La respuesta NO es 10!\n\n(√2 + √8)²\n\n¿Cuánto da? Comenta tu respuesta 👇",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 10! ¿Cuánto da?",
+   "display": "\\left(\\sqrt{2}+\\sqrt{8}\\right)^{2}",
+   "layout": "reto"
+  }
+ ]
+}

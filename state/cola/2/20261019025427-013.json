@@ -1,0 +1,18 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "edades con sistema de ecuaciones",
+ "tema": "Hermano: hace 3 años el triple, dentro de 3 años el doble",
+ "caption": "Antes de que se acabe tu café ☕ ¿cuántos años tengo? Deja tu respuesta 👇 #ecuaciones #algebra #retomatematico #miniretxs",
+ "threads": "Tienes 30 segundos ⏱️\n\nHace 3 años mi hermano tenía el triple de mi edad. Dentro de 3 años tendrá el doble.\n\n¿Cuántos años tengo yo? 👇",
+ "slides": [
+  {
+   "text": "Tienes 30 segundos ⏱️ Hace 3 años mi hermano tenía el **triple** de mi edad. Dentro de 3 años tendrá el doble. ¿Cuántos años tengo yo?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

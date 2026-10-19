@@ -1,0 +1,18 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "el bat y la pelota",
+ "tema": "Bat y pelota: 1,100 pesos, el bat cuesta 1,000 más",
+ "caption": "Contéstalo en 5 segundos… y luego revísalo 👀 Deja tu respuesta 👇 #retomatematico #acertijo #miniretxs #matematicas",
+ "threads": "Un bat y una pelota cuestan 1,100 pesos en total. El bat cuesta 1,000 pesos más que la pelota.\n\n¿Cuánto cuesta la pelota? Deja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Un bat y una pelota cuestan 1,100 pesos en total. El bat cuesta 1,000 pesos más que la pelota. ¿Cuánto cuesta la **pelota**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

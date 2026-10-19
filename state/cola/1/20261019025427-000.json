@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "sucesiones geométricas con giro",
+ "tema": "Alcancía 1, 2, 5, 14, 41: diferencias que se triplican",
+ "caption": "La alcancía de mi sobrina crece raro… pero tiene truco 🐷 Deja tu respuesta 👇 #sucesiones #retomatematico #miniretxs #matematicas",
+ "threads": "Mi sobrina anota cuántas monedas tiene en su alcancía cada semana:\n\n1, 2, 5, 14, 41, ?\n\n¿Qué número sigue? Deja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Mi sobrina anota cuántas monedas tiene en su alcancía cada semana. ¿Qué número **sigue**?",
+   "display": "1,\\ 2,\\ 5,\\ 14,\\ 41,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

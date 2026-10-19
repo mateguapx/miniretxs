@@ -1,0 +1,18 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "sistema con comida y divisiones",
+ "tema": "Pizza, taco y dona con divisiones y un cuadrado",
+ "caption": "Pizza, tacos y donas: el sistema más rico 😋 ¿Cuánto da la última? Defiende tu respuesta 👇 #retomatematico #emojis #algebra #miniretxs",
+ "threads": "Esto divide a mis amigos:\n\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?\n\n¿Cuánto da? 👇",
+ "slides": [
+  {
+   "text": "Esto divide a mis amigos:\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

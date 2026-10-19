@@ -1,0 +1,18 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "logica",
+ "estilo": "debate",
+ "hook": "pregunta_directa",
+ "tema_clave": "cruzar el río con restricciones",
+ "tema": "Familia cruzando el río en lancha de 80 kg: ¿viajes de ida o idas y vueltas?",
+ "caption": "La lancha es chiquita y la familia no 🚣 ¿Cuántos viajes te salen? Explica tu plan en los comentarios 👇 #logica #acertijo #miniretxs #retomatematico",
+ "threads": "Una familia quiere cruzar el río. Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir remando.\n\n¿Cuántos viajes necesita la lancha para que crucen todos? Explica tu plan 👇",
+ "slides": [
+  {
+   "text": "¿Cuántos **viajes** necesita la lancha? Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir remando. Todos quieren cruzar el río.",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

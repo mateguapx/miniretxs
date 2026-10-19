@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "productos notables y diferencia de cuadrados",
+ "tema": "2027 × 2025 − 2026²",
+ "caption": "Con calculadora cualquiera… ¿de cabeza? 🧠 Deja tu respuesta 👇 #productosnotables #algebra #retomatematico #miniretxs",
+ "threads": "Sin calculadora: ¿cuánto da esto?\n\n2027 × 2025 − 2026²\n\nDeja tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Sin calculadora: ¿cuánto da **esto**?",
+   "display": "2027 \\times 2025 - 2026^{2}",
+   "layout": "reto"
+  }
+ ]
+}

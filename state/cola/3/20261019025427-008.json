@@ -1,0 +1,18 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "palabras",
+ "estilo": "debate",
+ "hook": "pregunta_directa",
+ "tema_clave": "descuentos y aumentos sucesivos",
+ "tema": "Descuento que pasa de 20% a 25%: ¿puntos o porcentaje?",
+ "caption": "Pregunta sencilla, respuestas muy distintas 🛍️ ¿Tú qué contestas? Defiéndelo en los comentarios 👇 #porcentajes #retomatematico #miniretxs #matematicas",
+ "threads": "Mi tienda favorita pasó de dar 20% de descuento a dar 25%.\n\n¿En qué porcentaje aumentó el descuento? Defiende tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Mi tienda favorita pasó de dar 20% de descuento a dar 25%. ¿En qué **porcentaje** aumentó el descuento?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

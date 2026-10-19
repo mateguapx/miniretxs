@@ -1,0 +1,18 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "logica",
+ "estilo": "debate",
+ "hook": "historia",
+ "tema_clave": "quién es quién (deducción por pistas)",
+ "tema": "Foto de 4 amigos: «a la derecha de Beto» ¿según quién?",
+ "caption": "Una foto, cuatro amigos y dos respuestas 📸 ¿Quién está en la orilla? Defiende tu respuesta 👇 #logica #acertijo #miniretxs #retomatematico",
+ "threads": "Me pasaron una foto de 4 amigos en fila. Ana sale justo a la derecha de Beto. Beto no sale junto a Caro, y Caro no sale junto a Dani.\n\n¿Quién sale en la orilla izquierda de la foto? Defiende tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Me pasaron una foto de 4 amigos en fila. Ana sale justo a la **derecha** de Beto. Beto no sale junto a Caro, y Caro no sale junto a Dani. ¿Quién sale en la orilla izquierda de la foto?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

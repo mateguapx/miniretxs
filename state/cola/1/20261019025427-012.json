@@ -1,0 +1,18 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "sucesiones geométricas con giro",
+ "tema": "1, 2, 8, 48, 384: razones 2, 4, 6, 8",
+ "caption": "Crece rapidísimo, pero tiene orden 📈 ¿Qué sigue? Deja tu respuesta 👇 #sucesiones #retomatematico #miniretxs #matematicas",
+ "threads": "Esto divide a mis amigos. ¿Qué número sigue?\n\n1, 2, 8, 48, 384, ?\n\nDefiende tu respuesta 👇",
+ "slides": [
+  {
+   "text": "Esto divide a mis amigos. ¿Qué número **sigue**? Defiende tu respuesta",
+   "display": "1,\\ 2,\\ 8,\\ 48,\\ 384,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}
