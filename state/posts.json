@@ -680,5 +680,23 @@
   "ig_id": "18347952514252641",
   "fb_id": "1395069237021603_122097051357519581",
   "threads_id": null
+ },
+ {
+  "id": "20261019-1933-t1",
+  "ts": "2026-10-19T19:34:08+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "cual_mayor",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "comparar expresiones que parecen iguales",
+  "fondo": "funciones",
+  "numero": 28,
+  "modo": "cola",
+  "tema": "√3 + √5 contra √15",
+  "titulo": "Mi amigo jura que son iguales. ¿Cuál es **mayor**?",
+  "ig_id": "18153972613547119",
+  "fb_id": "1395069237021603_122097415107519581",
+  "threads_id": "18080680817717420"
  }
 ]
