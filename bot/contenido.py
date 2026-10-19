@@ -6,6 +6,14 @@ from . import prompts as P
 from .config import HASHTAGS_FIJOS
 
 THREADS_MAX = 500  # límite de caracteres de un post de texto en Threads
+# Lo que Threads marcó como spam: cierres que piden comentarios, los mismos arranques con un familiar y el "la respuesta NO es"
+_TH_PROHIBIDO = [
+    (re.compile(r"comenta|deja tu|d[ée]jame|responde abajo|etiqueta a|defiende tu respuesta|👇", re.I),
+     "sin cierres que pidan comentarios (\"Comenta / Deja tu respuesta 👇\"): termina con la pregunta del reto"),
+    (re.compile(r"\bmis? (t[íi][oa]s?|pap[áa]|mam[áa]|sobrin[oa]s?|herman\w*|prim[oa]s?|amig[oa]s?|abuel[oa]s?|profe\w*|grupo)\b", re.I),
+     "sin \"mi tío / mi sobrina / mi amigo…\" como arranque: usa otra forma"),
+    (re.compile(r"la respuesta no es|tienes \d+ segundos", re.I), "sin \"la respuesta NO es…\" ni \"tienes N segundos\" en Threads"),
+]
 
 
 def contexto_rendimiento(insights: dict | None) -> str:
@@ -53,6 +61,9 @@ def normalizar(plan: dict, content: dict) -> list[str]:
         return ["Falta el texto para Threads (threads)"]
     if "$" in th or "\\" in th:
         return ["El texto de threads no puede llevar LaTeX ni $"]
+    for patron, problema in _TH_PROHIBIDO:
+        if patron.search(th):
+            return [f"Texto de threads: {problema}"]
     if len(th) > THREADS_MAX:
         return [f"El texto de threads tiene {len(th)} caracteres; máximo {THREADS_MAX - 50}"]
     content["threads"] = th

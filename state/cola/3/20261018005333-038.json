@@ -7,12 +7,13 @@
  "tema_clave": "edades con sistema de ecuaciones",
  "tema": "Papá 30 años mayor; en 5 años tendrá el triple",
  "caption": "El “dentro de 5 años” es la trampa ⏳ ¿Cuántos años tengo? 👇 #algebra #miniretxs #retomatematico",
- "threads": "¡La respuesta NO es 15! Mi papá tiene 30 años más que yo y dentro de 5 años tendrá el triple de mi edad. ¿Cuántos años tengo?",
+ "threads": "Un papá tiene 30 años más que su hijo. Dentro de 5 años tendrá el triple de la edad de su hijo. ¿Cuántos años tiene el hijo hoy?",
  "slides": [
   {
    "text": "¡La respuesta **NO** es 15! Mi papá tiene 30 años más que yo y dentro de 5 años tendrá el triple de mi edad. ¿Cuántos años **tengo**?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "contexto"
 }

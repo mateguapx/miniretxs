@@ -7,12 +7,13 @@
  "tema_clave": "calcetines en un cajón (peor caso)",
  "tema": "10 negros y 10 blancos: cuántos sacar para asegurar un par negro",
  "caption": "No es 3 😏 ¿Cuántos sacas? Deja tu respuesta 👇 #logica #probabilidad #miniretxs #retomatematico",
- "threads": "Parece fácil: en un cajón a oscuras hay 10 calcetines negros y 10 blancos. ¿Cuántos tienes que sacar como mínimo para asegurar un par negro? 🧦",
+ "threads": "En un cajón a oscuras hay 10 calcetines negros y 10 blancos. ¿Cuántos tienes que sacar como mínimo para asegurar un par negro? 🧦",
  "slides": [
   {
    "text": "Parece fácil: en un cajón a oscuras hay 10 calcetines negros y 10 blancos. ¿Cuántos tienes que sacar como **mínimo** para asegurar un par **negro**? 🧦",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "directo"
 }

@@ -7,12 +7,13 @@
  "tema_clave": "sucesiones con cuadrados, cubos o factoriales",
  "tema": "1, 2, 6: ¿24 (factoriales) o 15 (diferencias cuadradas)?",
  "caption": "Solo tres números y ya hay pelea 🥊 Comenta tu número y tu regla 👇 #sucesiones #miniretxs #retomatematico",
- "threads": "Sin calculadora: ¿qué número sigue?\n\n1, 2, 6, ?\n\nComenta tu número y tu regla 👇",
+ "threads": "Con tan pocos números caben varias reglas distintas:\n\n1, 2, 6, ?\n\n¿Qué regla ves tú y qué número te da?",
  "slides": [
   {
    "text": "Sin calculadora: ¿qué número **sigue**?",
    "display": "1,\\ 2,\\ 6,\\ ?",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "dato"
 }

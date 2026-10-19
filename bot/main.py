@@ -8,7 +8,8 @@ import argparse
 import json
 import os
 from datetime import datetime, timezone
-from .config import ROOT, SLOTS
+from zoneinfo import ZoneInfo
+from .config import ROOT, SLOTS, THREADS_HORARIOS_REDUCIDOS, THREADS_REDUCIDO_HASTA
 from . import cola, meta, planner
 from .render import render_many, slide_html
 
@@ -92,6 +93,11 @@ def publish_step() -> None:
         "threads": lambda: meta.publish_threads(d["threads"]),
     }
     errores = []
+    tipo = int((d.get("record") or {}).get("tipo") or 0)
+    hoy = datetime.now(ZoneInfo("America/Mexico_City")).date().isoformat()
+    if hoy < THREADS_REDUCIDO_HASTA and tipo not in THREADS_HORARIOS_REDUCIDOS:
+        tareas.pop("threads")  # tras los avisos de spam, solo 3 retos al día en Threads por un tiempo
+        print(f"threads: hasta {THREADS_REDUCIDO_HASTA} solo se publican los horarios {THREADS_HORARIOS_REDUCIDOS}; se omite")
     for red, publicar in tareas.items():
         if not meta.activo(red):
             print(f"{red}: sin secrets, se omite")

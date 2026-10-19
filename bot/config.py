@@ -15,6 +15,21 @@ BRAND = {"bg": "#000000", "fg": "#FFFFFF", "accent": "#ffde59", "alert": "#ff313
 # Hashtags que SIEMPRE van en el caption de Instagram/Facebook (Claude agrega 2-4 más)
 HASHTAGS_FIJOS = ["#miniretxs", "#retomatematico"]
 
+# THREADS: Threads borró 2 retos por "spam" (18 y 19 oct 2026). Hasta esta fecha (México) solo se publican en Threads
+# los retos de estos horarios (3 al día); Instagram y Facebook siguen con los 6.
+THREADS_HORARIOS_REDUCIDOS = (1, 3, 5)
+THREADS_REDUCIDO_HASTA = "2026-11-09"
+
+# Formas del texto de Threads: cada reto usa una distinta a la del anterior para que no parezcan todos iguales.
+FORMAS_THREADS = {
+    "directo": "El reto tal cual, sin introducción ni cierre.",
+    "minima": "Solo la expresión o sucesión y una pregunta de 2 a 5 palabras.",
+    "contexto": "Una situación cotidiana neutra (tienda, cocina, reloj, liga, examen) que plantea el reto. Sin familiares ni amigos como personajes.",
+    "dato": "Una frase verdadera de contexto o curiosidad que lleva al reto, sin pistas que regalen la respuesta.",
+    "opinion": "Un comentario breve de la página sobre el reto (\"este parece que necesita calculadora, pero no\") y luego el reto.",
+    "dos_lecturas": "Solo en retos de debate: menciona que hay dos formas de leerlo, sin dar ningún resultado.",
+}
+
 # ---------------------------------------------------------------------------
 # HORARIOS (tipo de post). Los 6 posts son UNA imagen con el reto, sin imagen final ni respuesta.
 #   nivel:    dificultad del reto ("facil" | "medio" | "dificil")

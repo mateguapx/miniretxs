@@ -7,12 +7,13 @@
  "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
  "tema": "3, 8, 15, 24, 35 (n² − 1)",
  "caption": "Tiene un patrón muy bonito 👀 ¿Lo ves? Deja tu respuesta 👇 #sucesiones #miniretxs #retomatematico",
- "threads": "¿Qué número sigue?\n\n3, 8, 15, 24, 35, ?\n\nDeja tu respuesta 👇",
+ "threads": "De esas sucesiones que se ven raras y en realidad son elegantes:\n\n3, 8, 15, 24, 35, ?\n\n¿Qué número sigue?",
  "slides": [
   {
    "text": "¿Qué número **sigue**?",
    "display": "3,\\ 8,\\ 15,\\ 24,\\ 35,\\ ?",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "opinion"
 }

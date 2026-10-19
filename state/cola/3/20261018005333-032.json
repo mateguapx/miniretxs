@@ -7,12 +7,13 @@
  "tema_clave": "áreas y perímetros con ecuación",
  "tema": "Cuadrado: +2 cm por lado y el área crece 32 cm²",
  "caption": "Sale con una ecuación de una línea ✍️ ¿Cuánto medía? 👇 #algebra #geometria #miniretxs #retomatematico",
- "threads": "Parece fácil: si a un cuadrado le aumentas 2 cm a cada lado, su área crece 32 cm². ¿Cuánto medía su lado?",
+ "threads": "Le aumentas 2 cm a cada lado de un cuadrado y su área crece 32 cm². ¿Cuánto medía su lado al principio?",
  "slides": [
   {
    "text": "Parece fácil: si a un cuadrado le aumentas 2 cm a cada lado, su área crece 32 cm². ¿Cuánto medía su **lado**?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "directo"
 }

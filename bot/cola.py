@@ -23,7 +23,7 @@ import sys
 from datetime import datetime, timezone
 from . import planner
 from . import prompts as P
-from .config import ROOT, SLOTS
+from .config import FORMAS_THREADS, ROOT, SLOTS
 from .contenido import contexto_rendimiento, normalizar
 
 STATE = ROOT / "state"
@@ -68,11 +68,14 @@ def plan(hasta: int, seed: int | None = None) -> dict:
     historia = _load("posts.json", []) + pendientes()
     faltan = {t: max(0, hasta - n) for t, n in estado().items()}
     items = []
+    ultima = None
     while any(faltan.values()):  # intercala horarios como pasa en la vida real (día por día)
         for t in SLOTS:
             if faltan[t] > 0:
                 p = planner.elegir(t, historia, weights, rng)
                 item = {k: p[k] for k in CAMPOS_PLAN}
+                formas = [f for f in FORMAS_THREADS if f != ultima and (f != "dos_lecturas" or item["estilo"] == "debate")]
+                item["forma_threads"] = ultima = rng.choice(formas)
                 items.append(item)
                 historia.append(item)
                 faltan[t] -= 1
@@ -105,6 +108,7 @@ def instrucciones(plan_data: dict) -> str:
             "Audiencia: " + P.AUDIENCIAS.get(r["nivel"], P.AUDIENCIAS["default"]),
             "Tema de partida: " + r["tema_clave"],
             "Gancho (cómo arranca el enunciado): " + P.HOOKS.get(r["hook"], r["hook"]),
+            "Forma del texto de Threads: " + FORMAS_THREADS.get(r.get("forma_threads"), FORMAS_THREADS["directo"]),
             "",
         ]
     return "\n".join(partes)

@@ -7,12 +7,13 @@
  "tema_clave": "porcentajes que engañan",
  "tema": "50 + 50%: ¿75 (calculadora) o 50.5?",
  "caption": "La calculadora dice una cosa y tu profe otra 🧮 ¿Tú qué dices? 👇 #porcentajes #miniretxs #retomatematico",
- "threads": "En mi casa se pelearon por esto. ¿Cuánto da?\n\n50 + 50%\n\nDeja tu respuesta 👇",
+ "threads": "50 + 50%\n\nAquí la calculadora y la cabeza no siempre dan lo mismo. ¿Cuánto te da?",
  "slides": [
   {
    "text": "En mi casa se pelearon por esto. ¿Cuánto **da**?",
    "display": "50 + 50\\%",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "opinion"
 }

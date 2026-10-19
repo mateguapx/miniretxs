@@ -7,12 +7,13 @@
  "tema_clave": "sucesiones recursivas",
  "tema": "1, 2, 5, 12, 29 (a = 2·anterior + el de antes)",
  "caption": "Pista: no es Fibonacci 😉 ¿Cuál sigue? Deja tu respuesta 👇 #sucesiones #miniretxs #retomatematico",
- "threads": "Mi profe de la prepa nos dejó esta: cada número sale de los dos anteriores. ¿Cuál sigue?\n\n1, 2, 5, 12, 29, ?\n\nDeja tu respuesta 👇",
+ "threads": "En esta sucesión cada número sale de los dos anteriores, y crece rapidísimo:\n\n1, 2, 5, 12, 29, ?\n\n¿Qué número sigue?",
  "slides": [
   {
    "text": "Mi profe de la prepa nos dejó esta: cada número sale de los dos anteriores. ¿Cuál **sigue**?",
    "display": "1,\\ 2,\\ 5,\\ 12,\\ 29,\\ ?",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "dato"
 }
