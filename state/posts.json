@@ -555,5 +555,23 @@
   "ig_id": "18118703045053237",
   "fb_id": "1395069237021603_122096798853519581",
   "threads_id": "17940048132371317"
+ },
+ {
+  "id": "20261019-0034-t4",
+  "ts": "2026-10-19T00:34:33+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "patron",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
+  "fondo": "fractal",
+  "numero": 25,
+  "modo": "cola",
+  "tema": "2, 3, 5, 8: ¿12 (diferencias +1,+2,+3) o 13 (Fibonacci)?",
+  "titulo": "Le pasé esta a mi grupo de la prepa y se armó la discusión: ¿qué número **sigue**?",
+  "ig_id": null,
+  "fb_id": "1395069237021603_122096836929519581",
+  "threads_id": "18124230919924275"
  }
 ]
