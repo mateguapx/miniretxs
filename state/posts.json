@@ -591,5 +591,23 @@
   "ig_id": "18109135313216387",
   "fb_id": "1395069237021603_122096981793519581",
   "threads_id": "18074476250755022"
+ },
+ {
+  "id": "20261019-0948-t6",
+  "ts": "2026-10-19T09:48:28+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "focos e interruptores",
+  "fondo": "formulas",
+  "numero": 27,
+  "modo": "cola",
+  "tema": "100 focos y 100 personas: cuántos quedan encendidos",
+  "titulo": "Hay 100 focos apagados en fila. Pasan 100 personas: la 1.ª cambia todos, la 2.ª los múltiplos de 2, la 3.ª los de 3… y a",
+  "ig_id": "18347952514252641",
+  "fb_id": "1395069237021603_122097051357519581",
+  "threads_id": null
  }
 ]
