@@ -7,12 +7,13 @@
  "tema_clave": "sistema no lineal con objetos de la escuela",
  "tema": "Escuela: regla al cuadrado = regla × 4 (¿0 o 4?) y jerarquía",
  "caption": "Parece de tarea de secundaria, pero en mi casa salieron dos respuestas 🤔 ¿Cuál te sale a ti? Comenta 👇 #retomatematico #emojis #algebra #miniretxs",
- "threads": "¡La respuesta NO es 20!\n\n✏️ + ✏️ = 6\n📏 × 📏 = 📏 × 4\n📕 = ✏️ + 📏\n📕 + 📕 × ✏️ = ?\n\n¿Cuánto te da? Comenta tu respuesta 👇",
+ "threads": "✏️ + ✏️ = 6\n📏 × 📏 = 📏 × 4\n📕 = ✏️ + 📏\n📕 + 📕 × ✏️ = ?\n\nLa segunda línea admite más de una lectura. ¿Cuánto te da?",
  "slides": [
   {
    "text": "¡La respuesta **NO** es 20!\n✏️ + ✏️ = 6\n📏 × 📏 = 📏 × 4\n📕 = ✏️ + 📏\n📕 + 📕 × ✏️ = ?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "dos_lecturas"
 }

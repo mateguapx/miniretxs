@@ -7,12 +7,13 @@
  "tema_clave": "sistema de frutas con sumas",
  "tema": "Frutas: plátano vale «tres veces más» que manzana",
  "caption": "«Tres veces más»… ¿cuánto es eso? 🍌 Aquí se arma la discusión. Deja tu respuesta 👇 #retomatematico #emojis #miniretxs #acertijo",
- "threads": "Tienes 10 segundos ⏱️\n\n🍎 + 🍎 + 🍎 = 15\n🍌 vale tres veces más que 🍎\n🍇 + 🍎 = 🍌\n🍎 + 🍌 + 🍇 = ?\n\n¿Cuánto da? Deja tu respuesta 👇",
+ "threads": "Este parece de primaria, pero la segunda línea tiene su truco:\n\n🍎 + 🍎 + 🍎 = 15\n🍌 vale tres veces más que 🍎\n🍇 + 🍎 = 🍌\n🍎 + 🍌 + 🍇 = ?\n\n¿Cuánto da?",
  "slides": [
   {
    "text": "Tienes 10 segundos ⏱️\n🍎 + 🍎 + 🍎 = 15\n🍌 vale **tres veces más** que 🍎\n🍇 + 🍎 = 🍌\n🍎 + 🍌 + 🍇 = ?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "opinion"
 }

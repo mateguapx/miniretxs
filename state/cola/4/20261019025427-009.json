@@ -7,12 +7,13 @@
  "tema_clave": "apretones de manos",
  "tema": "Boda con 190 apretones: ¿cuántos invitados, contando o no a los novios?",
  "caption": "Mi tía contó los saludos de la boda 🤝 ¿Cuántos invitados te salen? Explica cómo lo sacaste 👇 #conteo #combinatoria #miniretxs #retomatematico",
- "threads": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 saludos.\n\n¿Cuántos invitados había? Explica cómo lo sacaste 👇",
+ "threads": "En una boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 saludos. ¿Cuántos invitados había?",
  "slides": [
   {
    "text": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 saludos. ¿Cuántos **invitados** había?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "contexto"
 }

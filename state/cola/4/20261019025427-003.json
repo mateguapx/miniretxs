@@ -7,12 +7,13 @@
  "tema_clave": "comparar logaritmos",
  "tema": "log base 4 de 9 contra log base 9 de 25",
  "caption": "Sin calculadora, ¿cuál gana? 🧠 Defiende tu respuesta en los comentarios 👇 #logaritmos #retomatematico #miniretxs #matematicas",
- "threads": "Esto divide a mis amigos. ¿Cuál es mayor?\n\nlogaritmo base 4 de 9   o   logaritmo base 9 de 25\n\nSin calculadora. Defiende tu respuesta 👇",
+ "threads": "Dos logaritmos que se ven muy parecidos: logaritmo base 4 de 9 y logaritmo base 9 de 25. Sin calculadora, ¿cuál es mayor?",
  "slides": [
   {
    "text": "Esto divide a mis amigos. ¿Cuál es **mayor**?",
    "display": "\\log_{4} 9\\quad\\text{o}\\quad\\log_{9} 25",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "dato"
 }

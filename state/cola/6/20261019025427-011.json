@@ -7,12 +7,13 @@
  "tema_clave": "sombreros de colores",
  "tema": "100 personas en fila con sombreros blancos o negros: cuántos ganan seguro",
  "caption": "Con un buen plan casi todos ganan… ¿cuántos exactamente? 🎩 Explica tu estrategia en los comentarios 👇 #logica #acertijo #miniretxs #retomatematico",
- "threads": "Parece fácil… 100 personas en fila, cada una con sombrero blanco o negro. Cada quien ve los sombreros de todos los que tiene adelante, pero no el suyo. Empezando por el último, cada uno dice un color en voz alta y gana si es el de su sombrero.\n\nSi se ponen de acuerdo antes, ¿cuántos pueden ganar seguro? 👇",
+ "threads": "Un acertijo famoso de lógica: 100 personas en fila, cada una con sombrero blanco o negro. Cada quien ve los sombreros de todos los que tiene adelante, pero no el suyo. Empezando por el último, cada uno dice un color en voz alta y gana si es el de su sombrero. Si se ponen de acuerdo antes, ¿cuántos pueden ganar seguro?",
  "slides": [
   {
    "text": "Parece fácil… 100 personas en fila con sombrero blanco o negro; cada quien ve los de todos los de adelante. Desde el último, cada uno dice un color en voz alta y gana si es el suyo. Si planean antes, ¿cuántos ganan **seguro**?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "dato"
 }

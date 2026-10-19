@@ -7,12 +7,13 @@
  "tema_clave": "partidos de un torneo",
  "tema": "Torneo con los equipos numerados «entre» el 10 y el 20, ida y vuelta más final",
  "caption": "El organizador y mi tío ya no se hablan por este torneo ⚽ ¿Cuántos partidos te salen? Explica cómo lo contaste 👇 #conteo #combinatoria #miniretxs #retomatematico",
- "threads": "En la feria de mi pueblo juegan los equipos con número entre el 10 y el 20. Todos contra todos, ida y vuelta, y al final una final entre los 2 primeros.\n\n¿Cuántos partidos hay en total? Explica cómo lo contaste 👇",
+ "threads": "En la feria juegan los equipos con número entre el 10 y el 20. Todos contra todos, ida y vuelta, y al final una final entre los 2 primeros. ¿Cuántos partidos hay en total?",
  "slides": [
   {
    "text": "En la feria de mi pueblo juegan los equipos con número **entre** el 10 y el 20. Todos contra todos, ida y vuelta, y al final una final entre los 2 primeros. ¿Cuántos partidos hay en total?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "contexto"
 }

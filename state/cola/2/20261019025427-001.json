@@ -7,12 +7,13 @@
  "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
  "tema": "Caballeros y bribones: «Soy bribona o Beto es caballero» (o inclusivo vs exclusivo)",
  "caption": "Una sola frase y ya se está peleando el grupo 😅 ¿Caballero, bribona o no se sabe? Defiende tu respuesta en los comentarios 👇 #logica #acertijo #miniretxs #retomatematico",
- "threads": "Tienes 10 segundos ⏱️\n\nEn una isla los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Soy bribona o Beto es caballero».\n\n¿Qué es Ana? Defiende tu respuesta 👇",
+ "threads": "En una isla, los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Soy bribona o Beto es caballero». ¿Qué es Ana?",
  "slides": [
   {
    "text": "Tienes 10 segundos ⏱️ Los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Soy bribona **o** Beto es caballero». ¿Qué es Ana?",
    "display": "",
    "layout": "reto"
   }
- ]
+ ],
+ "forma_threads": "directo"
 }
