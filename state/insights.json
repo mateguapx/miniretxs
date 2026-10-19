@@ -1,6 +1,26 @@
 {
  "top": [
   {
+   "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
+   "formato": "emoji",
+   "estilo": "debate",
+   "nivel": "medio",
+   "hook": "no_es_x",
+   "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
+   "fondo": "geometria",
+   "score": 3.101,
+   "metricas": {
+    "reach": 109,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 2,
+    "views": 179,
+    "likes": 2,
+    "comments": 0
+   }
+  },
+  {
    "titulo": "¿Qué tan probable es que te salga un **par**? 🧦",
    "formato": "probabilidad",
    "estilo": "exacto",
@@ -8,34 +28,14 @@
    "hook": "debate",
    "tema": "Probabilidad de sacar al menos un par al tomar 3 calcetines de 3 pares de colores",
    "fondo": "red",
-   "score": 2.2,
+   "score": 2.6,
    "metricas": {
-    "reach": 4,
+    "reach": 5,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 8,
-    "likes": 1,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "3 puertas, 1 auto 🚗 y 2 cabras. Eliges una. El presentador **no sabe** dónde está el auto: abre al azar otra puerta y sa",
-   "formato": "probabilidad",
-   "estilo": "exacto",
-   "nivel": "medio",
-   "hook": "sin_calculadora",
-   "tema": "Monty Hall con presentador que no sabe dónde está el auto",
-   "fondo": "red",
-   "score": 1.4,
-   "metricas": {
-    "reach": 2,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 3,
+    "views": 9,
     "likes": 1,
     "comments": 0
    }
@@ -48,6 +48,28 @@
    "hook": "parece_facil",
    "tema": "Edades de Luis y su abuelo: suma 80 y diferencia 70",
    "fondo": "geometria",
+   "score": 1.4,
+   "metricas": {
+    "reach": 2,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 3,
+    "likes": 0,
+    "comments": 0
+   }
+  }
+ ],
+ "bottom": [
+  {
+   "titulo": "Oye, esta me tiene peleado con mi roomie 😅\nUna caja tiene 2 canicas, cada una roja o azul al azar (50-50). La etiqueta d",
+   "formato": "logica",
+   "estilo": "debate",
+   "nivel": "dificil",
+   "hook": "pregunta_directa",
+   "tema": "Caja con 2 canicas y la etiqueta «Hay una roja»",
+   "fondo": "red",
    "score": 1.0,
    "metricas": {
     "reach": 1,
@@ -59,36 +81,14 @@
     "likes": 0,
     "comments": 0
    }
-  }
- ],
- "bottom": [
-  {
-   "titulo": "3 cartas en una bolsa (R = roja, N = negra). Sacas una al azar, tu amigo la mira y dice: «**Tiene rojo**». ¿Qué probabil",
-   "formato": "probabilidad",
-   "estilo": "debate",
-   "nivel": "medio",
-   "hook": "historia",
-   "tema": "Tres cartas de dos caras y un amigo que dice «tiene rojo»",
-   "fondo": "red",
-   "score": 1.0,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 2,
-    "likes": 0,
-    "comments": 0
-   }
   },
   {
-   "titulo": "Solo de cabeza: ¿cuánto vale **esto**?",
-   "formato": "operacion",
-   "estilo": "debate",
-   "nivel": "popular",
-   "hook": "sin_calculadora",
-   "tema": "¿Cuánto vale 0 elevado a la 0?",
+   "titulo": "A ver si te sale: cada animal vale un número **positivo**, siempre el mismo en todas las líneas.\n🐧 + 🐻 = 7\n🐧 × 🐻 = 12\n🐧²",
+   "formato": "emoji",
+   "estilo": "exacto",
+   "nivel": "medio",
+   "hook": "debate",
+   "tema": "Sistema con pingüino, oso y panda: suma 7, producto 12 y un cuadrado",
    "fondo": "rejilla",
    "score": 1.0,
    "metricas": {
@@ -97,27 +97,27 @@
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 1,
-    "likes": 0,
+    "views": 3,
+    "likes": 1,
     "comments": 0
    }
   },
   {
-   "titulo": "Lanzas una moneda justa sin parar y gana el patrón que aparezca **primero** en dos tiros seguidos (C = cara, X = cruz). ",
-   "formato": "probabilidad",
+   "titulo": "Cada emoji vale un número, el mismo en todas las líneas.\n🍎 + 🍎 + 🍌 = 22\n🍎 + 🍌 + 🍌 = 20\n🍎 × 🍇 = 🍌 × 4\n(🍎 × 🍌) − (🍇 × 🍇) =",
+   "formato": "emoji",
    "estilo": "exacto",
-   "nivel": "dificil",
-   "hook": "sin_calculadora",
-   "tema": "Carrera de patrones CC contra CX con una moneda justa",
-   "fondo": "red",
-   "score": 1.0,
+   "nivel": "medio",
+   "hook": "pregunta_directa",
+   "tema": "Sistema con frutas: dos manzanas, dos plátanos y un producto con uvas",
+   "fondo": "fractal",
+   "score": 0.46,
    "metricas": {
     "reach": 1,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 4,
+    "views": 2,
     "likes": 0,
     "comments": 0
    }
