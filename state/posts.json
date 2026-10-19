@@ -573,5 +573,23 @@
   "ig_id": null,
   "fb_id": "1395069237021603_122096836929519581",
   "threads_id": "18124230919924275"
+ },
+ {
+  "id": "20261019-0731-t5",
+  "ts": "2026-10-19T07:32:16+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "parece_facil",
+  "tema_clave": "sistema con animales",
+  "fondo": "geometria",
+  "numero": 26,
+  "modo": "cola",
+  "tema": "Perro ÷ gato(ratón + gato): 6 ÷ 2(3) disfrazado",
+  "titulo": "Parece fácil… a ver la última línea:\n🐶 + 🐶 + 🐶 = 18\n🐱 + 🐱 = 4\n🐭 + 🐭 = 2\n🐶 ÷ 🐱(🐭 + 🐱) = ?",
+  "ig_id": "18109135313216387",
+  "fb_id": "1395069237021603_122096981793519581",
+  "threads_id": "18074476250755022"
  }
 ]
