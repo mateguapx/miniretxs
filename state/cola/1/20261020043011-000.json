@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "debate",
+ "hook": "no_es_x",
+ "tema_clave": "leyes de exponentes con trampa",
+ "forma_threads": "dato",
+ "tema": "(−27) elevado a 2/6: ¿simplificar el exponente o no?",
+ "caption": "Un negativo adentro y una fracción en el exponente. ¿Cuánto te da? Deja tu respuesta 👇 #exponentes #retomatematico #miniretxs #matematicas",
+ "threads": "Un exponente fraccionario es una raíz disfrazada: elevar a la 1/2 es sacar raíz cuadrada y elevar a la 1/3, raíz cúbica.\n\n¿Cuánto da (−27) elevado a la 2/6?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es −9! ¿Cuánto da?",
+   "display": "(-27)^{2/6}",
+   "layout": "reto"
+  }
+ ]
+}

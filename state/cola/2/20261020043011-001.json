@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "sistema con animales y potencias",
+ "forma_threads": "minima",
+ "tema": "Zorro, tortuga y abeja con cuadrados, cubo y jerarquía",
+ "caption": "Tres animales, una potencia y una división escondida. ¿Te sale a la primera? Escribe tu resultado 👇 #retomatematico #miniretxs #sistemasdeecuaciones #matematicas",
+ "threads": "Cada animal es un número positivo:\n🦊 × 🦊 = 64\n🦊 ÷ 🐢 = 4\n🐝 = 🐢³ − 🦊 ÷ 🐢\n🐝² − 🦊 ÷ 🐢 = ?\n\n¿Cuánto da la última?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 4! Cada animal vale un número **positivo**.\n🦊 × 🦊 = 64\n🦊 ÷ 🐢 = 4\n🐝 = 🐢³ − 🦊 ÷ 🐢\n🐝² − 🦊 ÷ 🐢 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

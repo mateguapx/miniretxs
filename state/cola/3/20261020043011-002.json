@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "jerarquía con potencias y raíces",
+ "forma_threads": "dato",
+ "tema": "√(9 + 16) + 3 × 2² − 5⁰",
+ "caption": "Raíz, potencia y un exponente cero en la misma línea. ¿Cuánto te da? Comenta tu resultado 👇 #jerarquiadeoperaciones #retomatematico #miniretxs #matematicas",
+ "threads": "El signo √ apareció impreso por primera vez en 1525, en un libro alemán de álgebra.\n\n¿Cuánto da √(9 + 16) + 3 × 2² − 5⁰?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 18! ¿Cuánto da?",
+   "display": "\\sqrt{9+16} + 3 \\times 2^{2} - 5^{0}",
+   "layout": "reto"
+  }
+ ]
+}
