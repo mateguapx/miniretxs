@@ -895,5 +895,23 @@
   "ig_id": "18143988343592378",
   "fb_id": "1395069237021603_122098490787519581",
   "threads_id": null
+ },
+ {
+  "id": "20261020-2253-t3",
+  "ts": "2026-10-20T22:53:55+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "fracciones algebraicas",
+  "fondo": "formulas",
+  "numero": 36,
+  "modo": "cola",
+  "tema": "(2026² − 2025²)/4051 con diferencia de cuadrados",
+  "titulo": "Sin calculadora: ¿cuánto da **esto**?",
+  "ig_id": "18131511643818701",
+  "fb_id": "1395069237021603_122098570101519581",
+  "threads_id": "17912830959515593"
  }
 ]
