@@ -734,5 +734,23 @@
   "ig_id": "18098359409643568",
   "fb_id": "1395069237021603_122097549693519581",
   "threads_id": "18104532752308525"
+ },
+ {
+  "id": "20261020-0119-t4",
+  "ts": "2026-10-20T01:20:04+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "contar cuadrados o triángulos descritos con palabras",
+  "fondo": "rejilla",
+  "numero": 31,
+  "modo": "cola",
+  "tema": "Cuadrados de todos los tamaños en una cuadrícula de 4×4",
+  "titulo": "Mi hermanito dibujó una cuadrícula de 4 × 4 cuadritos y dice que hay 16 cuadrados. ¿Cuántos cuadrados hay **en total**, ",
+  "ig_id": "18086631296772087",
+  "fb_id": "1395069237021603_122097600393519581",
+  "threads_id": null
  }
 ]
