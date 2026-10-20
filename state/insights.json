@@ -8,14 +8,14 @@
    "hook": "no_es_x",
    "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
    "fondo": "geometria",
-   "score": 3.101,
+   "score": 3.053,
    "metricas": {
-    "reach": 109,
+    "reach": 114,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 179,
+    "views": 189,
     "likes": 2,
     "comments": 0
    }
@@ -41,35 +41,35 @@
    }
   },
   {
-   "titulo": "Parece fácil… ¿cuántos años tiene **Luis**?",
-   "formato": "palabras",
-   "estilo": "exacto",
-   "nivel": "facil",
-   "hook": "parece_facil",
-   "tema": "Edades de Luis y su abuelo: suma 80 y diferencia 70",
-   "fondo": "geometria",
-   "score": 1.4,
+   "titulo": "Mi primo y yo no coincidimos: ¿cuánto da **esto**?",
+   "formato": "operacion",
+   "estilo": "debate",
+   "nivel": "popular",
+   "hook": "debate",
+   "tema": "8 ÷ 2(−2)²: ¿multiplicación implícita o de izquierda a derecha?",
+   "fondo": "funciones",
+   "score": 2.6,
    "metricas": {
-    "reach": 2,
+    "reach": 203,
     "shares": 0,
     "saved": 0,
     "follows": 0,
-    "profile_visits": 0,
-    "views": 3,
-    "likes": 0,
+    "profile_visits": 2,
+    "views": 368,
+    "likes": 3,
     "comments": 0
    }
   }
  ],
  "bottom": [
   {
-   "titulo": "Oye, esta me tiene peleado con mi roomie 😅\nUna caja tiene 2 canicas, cada una roja o azul al azar (50-50). La etiqueta d",
-   "formato": "logica",
+   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "formato": "patron",
    "estilo": "debate",
-   "nivel": "dificil",
-   "hook": "pregunta_directa",
-   "tema": "Caja con 2 canicas y la etiqueta «Hay una roja»",
-   "fondo": "red",
+   "nivel": "facil",
+   "hook": "contrarreloj",
+   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+   "fondo": "espiral",
    "score": 1.0,
    "metricas": {
     "reach": 1,
@@ -83,22 +83,22 @@
    }
   },
   {
-   "titulo": "A ver si te sale: cada animal vale un número **positivo**, siempre el mismo en todas las líneas.\n🐧 + 🐻 = 7\n🐧 × 🐻 = 12\n🐧²",
+   "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
    "formato": "emoji",
-   "estilo": "exacto",
-   "nivel": "medio",
-   "hook": "debate",
-   "tema": "Sistema con pingüino, oso y panda: suma 7, producto 12 y un cuadrado",
-   "fondo": "rejilla",
-   "score": 1.0,
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "pregunta_directa",
+   "tema": "Emojis pegados: ¿producto o número de dos cifras?",
+   "fondo": "lissajous",
+   "score": 0.8,
    "metricas": {
     "reach": 1,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 3,
-    "likes": 1,
+    "views": 1,
+    "likes": 0,
     "comments": 0
    }
   },

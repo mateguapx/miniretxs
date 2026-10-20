@@ -1,28 +1,30 @@
 {
- "n": 13,
- "actualizado": "2026-10-19T19:28:26+00:00",
+ "n": 18,
+ "actualizado": "2026-10-20T18:07:01+00:00",
  "formato": {
   "probabilidad": 1.333,
-  "palabras": 1.133,
+  "palabras": 1.0,
   "logica": 1.0,
-  "emoji": 1.312,
-  "operacion": 1.16
+  "emoji": 1.219,
+  "operacion": 1.333,
+  "patron": 1.0
  },
  "estilo": {
-  "exacto": 1.226,
-  "debate": 1.357
+  "exacto": 1.155,
+  "debate": 1.345
  },
  "hook": {
-  "debate": 1.4,
-  "parece_facil": 1.133,
+  "debate": 1.64,
+  "parece_facil": 1.0,
   "sin_calculadora": 1.067,
-  "pregunta_directa": 1.043,
+  "pregunta_directa": 0.951,
   "historia": 1.0,
-  "no_es_x": 1.7
+  "no_es_x": 1.684,
+  "contrarreloj": 1.0
  },
  "tema": {
   "calcetines en un cajón (peor caso)": 1.533,
-  "edades": 1.133,
+  "edades": 1.0,
   "Monty Hall y variantes": 1.133,
   "caballeros que dicen la verdad y bribones que mienten": 1.0,
   "sistema con trampa de cantidades (racimos, mitades)": 0.82,
@@ -30,16 +32,24 @@
   "operaciones con ceros y unos": 1.0,
   "monedas": 1.0,
   "potencias de números negativos": 1.133,
-  "sistema con comida y divisiones": 1.7,
-  "fracciones algebraicas": 1.133,
+  "sistema con comida y divisiones": 1.684,
+  "fracciones algebraicas": 1.0,
+  "repartos que engañan": 1.0,
   "cajas con etiquetas equivocadas": 1.0,
-  "sistema con animales y potencias": 1.0
+  "sistema con animales y potencias": 1.0,
+  "potencias pequeñas y signos": 1.533,
+  "sistema con frutas y productos": 0.933,
+  "caracol que sube un pozo": 1.0,
+  "sucesiones recursivas": 1.0
  },
  "fondo": {
   "red": 1.286,
-  "geometria": 1.625,
-  "formulas": 1.1,
-  "fractal": 0.82,
-  "rejilla": 1.08
+  "geometria": 1.513,
+  "formulas": 1.0,
+  "fractal": 0.865,
+  "rejilla": 1.08,
+  "funciones": 1.533,
+  "lissajous": 0.95,
+  "espiral": 1.0
  }
 }

@@ -27,7 +27,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 2.6
  },
  {
@@ -58,8 +58,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
-  "score": 1.4
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 1.0
  },
  {
   "id": "20261015-0910-t4",
@@ -89,7 +89,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.4
  },
  {
@@ -120,7 +120,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -151,7 +151,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 0.46
  },
  {
@@ -182,7 +182,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00"
+  "medido": "2026-10-20T18:06:16+00:00"
  },
  {
   "id": "20261016-0052-t4",
@@ -212,7 +212,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -243,7 +243,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -274,7 +274,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -305,7 +305,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.4
  },
  {
@@ -327,17 +327,17 @@
   "fb_id": null,
   "threads_id": "18077082719424547",
   "metricas": {
-   "reach": 109,
+   "reach": 114,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 2,
-   "views": 179,
+   "views": 189,
    "likes": 2,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
-  "score": 3.101
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 3.053
  },
  {
   "id": "20261016-2224-t3",
@@ -367,8 +367,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
-  "score": 1.4
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 1.0
  },
  {
   "id": "20261017-0646-t5",
@@ -389,16 +389,17 @@
   "fb_id": null,
   "threads_id": "17918060469453843",
   "metricas": {
-   "reach": 0,
+   "reach": 1,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00"
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 1.0
  },
  {
   "id": "20261017-0830-t6",
@@ -428,7 +429,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -459,7 +460,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-19T19:28:01+00:00",
+  "medido": "2026-10-20T18:06:16+00:00",
   "score": 1.0
  },
  {
@@ -479,7 +480,19 @@
   "puntaje_idea": 9.3,
   "ig_id": "18130703602828734",
   "fb_id": "1395069237021603_122096010111519581",
-  "threads_id": "18132085040506292"
+  "threads_id": "18132085040506292",
+  "metricas": {
+   "reach": 203,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 2,
+   "views": 368,
+   "likes": 3,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 2.6
  },
  {
   "id": "20261017-2158-t3",
@@ -498,7 +511,19 @@
   "puntaje_idea": 8.5,
   "ig_id": "18115139309015937",
   "fb_id": "1395069237021603_122096036091519581",
-  "threads_id": "18128682874830065"
+  "threads_id": "18128682874830065",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 0.8
  },
  {
   "id": "20261018-0030-t4",
@@ -517,7 +542,18 @@
   "puntaje_idea": 8.3,
   "ig_id": "18128356222895541",
   "fb_id": null,
-  "threads_id": "17902530792670508"
+  "threads_id": "17902530792670508",
+  "metricas": {
+   "reach": 0,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00"
  },
  {
   "id": "20261018-0706-t5",
@@ -535,7 +571,19 @@
   "titulo": "Parece fácil: un caracol está en el fondo de un pozo de 10 metros. Cada día sube 3 metros y resbala 2. ¿En cuántos días ",
   "ig_id": "17896302378414634",
   "fb_id": null,
-  "threads_id": "18151588327468567"
+  "threads_id": "18151588327468567",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 1.0
  },
  {
   "id": "20261018-0847-t6",
@@ -553,7 +601,18 @@
   "titulo": "Sin calculadora: ¿cuántos números **pares** de 3 cifras distintas puedes formar con los dígitos 0, 1, 2, 3 y 4?",
   "ig_id": "18009839634004056",
   "fb_id": null,
-  "threads_id": "17908692351577191"
+  "threads_id": "17908692351577191",
+  "metricas": {
+   "reach": 0,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 0,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00"
  },
  {
   "id": "20261018-1700-t1",
@@ -571,7 +630,19 @@
   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
   "ig_id": "18107258345624973",
   "fb_id": null,
-  "threads_id": "18138594832730511"
+  "threads_id": "18138594832730511",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-20T18:06:16+00:00",
+  "score": 1.0
  },
  {
   "id": "20261018-1905-t2",
