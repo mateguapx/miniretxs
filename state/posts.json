@@ -770,5 +770,23 @@
   "ig_id": "18114844529115372",
   "fb_id": "1395069237021603_122097779991519581",
   "threads_id": "18119604658960672"
+ },
+ {
+  "id": "20261020-0920-t6",
+  "ts": "2026-10-20T09:20:59+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "cajas con etiquetas equivocadas",
+  "fondo": "red",
+  "numero": 33,
+  "modo": "cola",
+  "tema": "Tres cajas mal etiquetadas: mínimo de frutas a sacar",
+  "titulo": "Hay 3 cajas: “manzanas”, “naranjas” y “mixta”, y las 3 etiquetas están mal. Sacas frutas sin ver adentro. ¿Cuántas neces",
+  "ig_id": "18119508964952787",
+  "fb_id": "1395069237021603_122097845049519581",
+  "threads_id": null
  }
 ]
