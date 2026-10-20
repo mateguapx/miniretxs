@@ -859,5 +859,23 @@
   "ig_id": "18119508964952787",
   "fb_id": "1395069237021603_122097845049519581",
   "threads_id": null
+ },
+ {
+  "id": "20261020-1810-t1",
+  "ts": "2026-10-20T18:11:36+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "leyes de exponentes con trampa",
+  "fondo": "lissajous",
+  "numero": 34,
+  "modo": "cola",
+  "tema": "2^3^2 escrito en WhatsApp: ¿512 o 64?",
+  "titulo": "Me lo mandaron así por WhatsApp: 2^3^2 ¿Cuánto te **da**?",
+  "ig_id": "18107018078213666",
+  "fb_id": "1395069237021603_122098407465519581",
+  "threads_id": "18136917682657162"
  }
 ]
