@@ -752,5 +752,23 @@
   "ig_id": "18086631296772087",
   "fb_id": "1395069237021603_122097600393519581",
   "threads_id": null
+ },
+ {
+  "id": "20261020-0720-t5",
+  "ts": "2026-10-20T07:21:19+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "porcentajes que engañan",
+  "fondo": "formulas",
+  "numero": 32,
+  "modo": "cola",
+  "tema": "50 + 50%: ¿75 (calculadora) o 50.5?",
+  "titulo": "A ver, rápido: ¿cuánto **da**?",
+  "ig_id": "18114844529115372",
+  "fb_id": "1395069237021603_122097779991519581",
+  "threads_id": "18119604658960672"
  }
 ]
