@@ -877,5 +877,23 @@
   "ig_id": "18107018078213666",
   "fb_id": "1395069237021603_122098407465519581",
   "threads_id": "18136917682657162"
+ },
+ {
+  "id": "20261020-2013-t2",
+  "ts": "2026-10-20T20:13:52+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "sistema con frutas y productos",
+  "fondo": "geometria",
+  "numero": 35,
+  "modo": "cola",
+  "tema": "Fresa² = 36, fresa × pera = 24, pera + pera × fresa",
+  "titulo": "¡La respuesta **NO** es 48! Cada fruta vale un número positivo:\n🍓 × 🍓 = 36\n🍓 × 🍐 = 24\n🍐 + 🍐 × 🍓 = ?",
+  "ig_id": "18143988343592378",
+  "fb_id": "1395069237021603_122098490787519581",
+  "threads_id": null
  }
 ]
