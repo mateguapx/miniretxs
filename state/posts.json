@@ -949,5 +949,23 @@
   "ig_id": "18120601391291258",
   "fb_id": "1395069237021603_122098872633519581",
   "threads_id": "18099019523532567"
+ },
+ {
+  "id": "20261021-0916-t6",
+  "ts": "2026-10-21T09:17:28+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "sin_calculadora",
+  "tema_clave": "focos e interruptores",
+  "fondo": "red",
+  "numero": 39,
+  "modo": "cola",
+  "tema": "3 interruptores y 3 focos: entradas mínimas (calor vs LED)",
+  "titulo": "Sin calculadora: afuera de un cuarto cerrado hay 3 interruptores y adentro 3 focos apagados. Desde afuera no ves nada. ¿",
+  "ig_id": "18057276287590304",
+  "fb_id": "1395069237021603_122098962105519581",
+  "threads_id": null
  }
 ]
