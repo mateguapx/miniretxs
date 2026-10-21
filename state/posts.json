@@ -931,5 +931,23 @@
   "ig_id": "18107461742346504",
   "fb_id": "1395069237021603_122098632513519581",
   "threads_id": null
+ },
+ {
+  "id": "20261021-0719-t5",
+  "ts": "2026-10-21T07:20:21+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "precios y vueltos",
+  "fondo": "funciones",
+  "numero": 38,
+  "modo": "cola",
+  "tema": "Vaca comprada en 600, vendida en 700, recomprada en 800, vendida en 900",
+  "titulo": "Sin calculadora: mi tío compró una vaca en 600 pesos, la vendió en 700, la volvió a comprar en 800 y la vendió en 900. ¿",
+  "ig_id": "18120601391291258",
+  "fb_id": "1395069237021603_122098872633519581",
+  "threads_id": "18099019523532567"
  }
 ]
