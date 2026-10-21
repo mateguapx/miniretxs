@@ -1063,5 +1063,23 @@
   "ig_id": "18118691581771323",
   "fb_id": "1395069237021603_122099412573519581",
   "threads_id": null
+ },
+ {
+  "id": "20261021-2257-t3",
+  "ts": "2026-10-21T22:58:34+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+  "fondo": "espiral",
+  "numero": 42,
+  "modo": "cola",
+  "tema": "Plátanos juntos se suman: cereza² − dos plátanos",
+  "titulo": "Cada 🍌 vale lo mismo y los emojis juntos se **suman**. ¿Cuánto da la última?\n🍌🍌🍌 + 🍌🍌🍌 = 12\n🍌 × 🍒 = 10\n🍒² − 🍌🍌 = ?",
+  "ig_id": "18102006944376821",
+  "fb_id": "1395069237021603_122099496819519581",
+  "threads_id": "17898364713609339"
  }
 ]
