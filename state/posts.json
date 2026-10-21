@@ -913,5 +913,23 @@
   "ig_id": "18131511643818701",
   "fb_id": "1395069237021603_122098570101519581",
   "threads_id": "17912830959515593"
+ },
+ {
+  "id": "20261021-0104-t4",
+  "ts": "2026-10-21T01:04:55+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "cumpleaños y coincidencias",
+  "fondo": "probabilidad",
+  "numero": 37,
+  "modo": "cola",
+  "tema": "Tres personas: probabilidad de compartir día de la semana de nacimiento",
+  "titulo": "¡La respuesta **NO** es 3/7! Tú y dos amigos nacieron en un día de la semana al azar. ¿Qué probabilidad hay de que al me",
+  "ig_id": "18107461742346504",
+  "fb_id": "1395069237021603_122098632513519581",
+  "threads_id": null
  }
 ]
