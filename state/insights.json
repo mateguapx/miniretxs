@@ -8,14 +8,14 @@
    "hook": "no_es_x",
    "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
    "fondo": "geometria",
-   "score": 3.053,
+   "score": 3.983,
    "metricas": {
-    "reach": 114,
+    "reach": 121,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 189,
+    "views": 199,
     "likes": 2,
     "comments": 0
    }
@@ -35,7 +35,7 @@
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 9,
+    "views": 10,
     "likes": 1,
     "comments": 0
    }
@@ -50,38 +50,18 @@
    "fondo": "funciones",
    "score": 2.6,
    "metricas": {
-    "reach": 203,
+    "reach": 218,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 368,
-    "likes": 3,
+    "views": 388,
+    "likes": 4,
     "comments": 0
    }
   }
  ],
  "bottom": [
-  {
-   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
-   "formato": "patron",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "contrarreloj",
-   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
-   "fondo": "espiral",
-   "score": 1.0,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
   {
    "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
    "formato": "emoji",
@@ -110,6 +90,26 @@
    "hook": "pregunta_directa",
    "tema": "Sistema con frutas: dos manzanas, dos plátanos y un producto con uvas",
    "fondo": "fractal",
+   "score": 0.46,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 2,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "Parece fácil, pero a mi primo le tomó 5 minutos: un rectángulo mide 3 cm más de largo que de ancho y su área es 40 cm². ",
+   "formato": "palabras",
+   "estilo": "exacto",
+   "nivel": "medio",
+   "hook": "parece_facil",
+   "tema": "Rectángulo 3 cm más largo que ancho con área 40: perímetro",
+   "fondo": "lissajous",
    "score": 0.46,
    "metricas": {
     "reach": 1,

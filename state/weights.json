@@ -1,25 +1,25 @@
 {
- "n": 18,
- "actualizado": "2026-10-20T18:07:01+00:00",
+ "n": 23,
+ "actualizado": "2026-10-21T18:16:09+00:00",
  "formato": {
   "probabilidad": 1.333,
-  "palabras": 1.0,
+  "palabras": 0.91,
   "logica": 1.0,
-  "emoji": 1.219,
+  "emoji": 1.316,
   "operacion": 1.333,
   "patron": 1.0
  },
  "estilo": {
-  "exacto": 1.155,
-  "debate": 1.345
+  "exacto": 1.137,
+  "debate": 1.337
  },
  "hook": {
-  "debate": 1.64,
-  "parece_facil": 1.0,
+  "debate": 1.633,
+  "parece_facil": 0.923,
   "sin_calculadora": 1.067,
   "pregunta_directa": 0.951,
   "historia": 1.0,
-  "no_es_x": 1.684,
+  "no_es_x": 1.994,
   "contrarreloj": 1.0
  },
  "tema": {
@@ -27,29 +27,33 @@
   "edades": 1.0,
   "Monty Hall y variantes": 1.133,
   "caballeros que dicen la verdad y bribones que mienten": 1.0,
-  "sistema con trampa de cantidades (racimos, mitades)": 0.82,
+  "sistema con trampa de cantidades (racimos, mitades)": 0.865,
   "cartas": 1.0,
   "operaciones con ceros y unos": 1.0,
   "monedas": 1.0,
   "potencias de números negativos": 1.133,
-  "sistema con comida y divisiones": 1.684,
+  "sistema con comida y divisiones": 1.994,
   "fracciones algebraicas": 1.0,
   "repartos que engañan": 1.0,
   "cajas con etiquetas equivocadas": 1.0,
-  "sistema con animales y potencias": 1.0,
+  "sistema con animales y potencias": 1.2,
   "potencias pequeñas y signos": 1.533,
   "sistema con frutas y productos": 0.933,
   "caracol que sube un pozo": 1.0,
-  "sucesiones recursivas": 1.0
+  "sucesiones recursivas": 1.0,
+  "áreas y perímetros con ecuación": 0.82,
+  "sistema no lineal con objetos de la escuela": 1.0,
+  "sistema con animales": 1.0,
+  "focos e interruptores": 1.0
  },
  "fondo": {
   "red": 1.286,
-  "geometria": 1.513,
+  "geometria": 1.597,
   "formulas": 1.0,
   "fractal": 0.865,
-  "rejilla": 1.08,
+  "rejilla": 1.2,
   "funciones": 1.533,
-  "lissajous": 0.95,
+  "lissajous": 0.877,
   "espiral": 1.0
  }
 }
