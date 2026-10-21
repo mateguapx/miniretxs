@@ -1045,5 +1045,23 @@
   "ig_id": "18164085268498347",
   "fb_id": "1395069237021603_122099339313519581",
   "threads_id": "17994619008112897"
+ },
+ {
+  "id": "20261021-2025-t2",
+  "ts": "2026-10-21T20:25:32+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "relojes y calendarios",
+  "fondo": "red",
+  "numero": 41,
+  "modo": "cola",
+  "tema": "Veces que se enciman las manecillas en un día (22 o 23)",
+  "titulo": "Mi papá dice que es facilísimo: en un día completo, ¿cuántas veces se **enciman** la manecilla de la hora y la de los mi",
+  "ig_id": "18118691581771323",
+  "fb_id": "1395069237021603_122099412573519581",
+  "threads_id": null
  }
 ]
