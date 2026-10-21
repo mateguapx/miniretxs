@@ -1027,5 +1027,23 @@
   "ig_id": "18057276287590304",
   "fb_id": "1395069237021603_122098962105519581",
   "threads_id": null
+ },
+ {
+  "id": "20261021-1818-t1",
+  "ts": "2026-10-21T18:18:50+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
+  "fondo": "espiral",
+  "numero": 40,
+  "modo": "cola",
+  "tema": "3, 8, 15, 24, 35 (n² − 1)",
+  "titulo": "¿Qué número **sigue**?",
+  "ig_id": "18164085268498347",
+  "fb_id": "1395069237021603_122099339313519581",
+  "threads_id": "17994619008112897"
  }
 ]
