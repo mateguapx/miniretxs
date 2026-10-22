@@ -1081,5 +1081,23 @@
   "ig_id": "18102006944376821",
   "fb_id": "1395069237021603_122099496819519581",
   "threads_id": "17898364713609339"
+ },
+ {
+  "id": "20261022-0101-t4",
+  "ts": "2026-10-22T01:02:18+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "Fibonacci disfrazado",
+  "fondo": "fractal",
+  "numero": 43,
+  "modo": "cola",
+  "tema": "1, 3, 4, 7, 11, 18 (Lucas)",
+  "titulo": "Sin calculadora y sin Google: ¿qué número **sigue**?",
+  "ig_id": "17992028664066311",
+  "fb_id": "1395069237021603_122099559681519581",
+  "threads_id": null
  }
 ]
