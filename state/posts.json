@@ -1099,5 +1099,23 @@
   "ig_id": "17992028664066311",
   "fb_id": "1395069237021603_122099559681519581",
   "threads_id": null
+ },
+ {
+  "id": "20261022-0723-t5",
+  "ts": "2026-10-22T07:24:32+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "jerarquía de operaciones con trampa (multiplicar/dividir antes que sumar)",
+  "fondo": "funciones",
+  "numero": 44,
+  "modo": "cola",
+  "tema": "8 + 8 ÷ 8 × 8 − 8",
+  "titulo": "Defiende tu respuesta: ¿cuánto da **esto**?",
+  "ig_id": "17914235904497888",
+  "fb_id": "1395069237021603_122099775423519581",
+  "threads_id": "17959878339253210"
  }
 ]
