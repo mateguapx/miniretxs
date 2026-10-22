@@ -2,7 +2,7 @@
 // Sin texto ni números: solo líneas, puntos y formas. Paleta de marca: amarillo y blanco sobre negro.
 // drawIlustracion(canvas, motivo, semilla). window.ILUSTRACIONES = lista de motivos.
 (function () {
-  const A = [255, 222, 89], WHITE = [255, 255, 255];
+  const A = window.ACENTO_RGB || [255, 222, 89], WHITE = window.FG_RGB || [255, 255, 255];  // colores de la marca
   const rgba = (c, a) => `rgba(${c[0]},${c[1]},${c[2]},${a})`;
   function rng(seed) {
     let t = seed >>> 0;
