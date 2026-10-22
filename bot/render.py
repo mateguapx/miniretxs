@@ -49,14 +49,28 @@ body{{width:{W}px;height:{H}px;background:{b['bg']};color:{b['fg']};font-family:
 .reto .text.lineas{{font-family:Oswald,sans-serif;font-weight:700;font-size:84px;line-height:1.4}}
 .reto .display{{font-size:78px}}
 .top .num{{font-family:Anton;font-size:40px;letter-spacing:3px}}
+/* PORTADA: título gancho arriba + una ilustración de arte matemático grande abajo (sin texto ni números) */
+.portada{{position:absolute;inset:0;z-index:1}}
+.portada .handle{{position:absolute;top:34px;right:44px;font-size:28px;letter-spacing:1px;color:{b['accent']}}}
+.portada .cab{{position:absolute;top:110px;left:70px;right:70px;height:380px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:18px}}
+.portada .ptitle{{font-family:Anton;font-size:112px;line-height:1.08;letter-spacing:.5px}}
+.portada .psub{{font-size:40px;color:#d8d8d8;letter-spacing:.5px}}
+#ilus{{position:absolute;left:0;right:0;bottom:0;z-index:0}}
+/* CIERRE */
+.cierre .main{{gap:40px}}
+.cierre .title{{font-size:120px;text-align:center}}
+.cierre .text{{font-family:Oswald,sans-serif;font-weight:400;font-size:54px;line-height:1.35}}
 .nivel{{color:#000;text-shadow:none}}
 </style></head><body>{inner}
 <script src="vendor/katex/katex.min.js"></script>
 <script src="vendor/katex/contrib/auto-render.min.js"></script>
 <script src="fondos.js"></script>
+<script src="ilustraciones.js"></script>
 <script>
 const bgc=document.getElementById('bg');
 if(bgc&&window.drawFondo)drawFondo(bgc.dataset.motivo,+bgc.dataset.semilla);
+const ilc=document.getElementById('ilus');
+if(ilc&&window.drawIlustracion)drawIlustracion(ilc,ilc.dataset.motivo,+ilc.dataset.semilla);
 renderMathInElement(document.querySelector('.wrap')||document.body,{{delimiters:[{{left:'$$',right:'$$',display:true}},{{left:'$',right:'$',display:false}}],throwOnError:false}});
 document.querySelectorAll('.display').forEach(e=>katex.render(e.dataset.tex,e,{{displayMode:true,throwOnError:false}}));
 const px=e=>parseFloat(getComputedStyle(e).fontSize);
@@ -64,6 +78,8 @@ function fitWidth(){{document.querySelectorAll('.display').forEach(e=>{{let fs=p
 function contentH(m){{const c=[...m.children];return c.reduce((a,x)=>a+x.offsetHeight,0)+parseFloat(getComputedStyle(m).rowGap||0)*Math.max(c.length-1,0)}}
 document.fonts.ready.then(()=>{{
 fitWidth();
+const cab=document.querySelector('.cab');
+if(cab){{const t=cab.querySelector('.ptitle');let j=0;while(cab.scrollHeight>cab.clientHeight+1&&j<40){{t.style.fontSize=(px(t)*0.95)+'px';j++}}}}
 const m=document.querySelector('.main');
 let k=0;
 while(m&&contentH(m)>m.clientHeight&&k<40){{
@@ -97,6 +113,31 @@ def slide_html(s: dict, fondo: str | None = None, semilla: int = 1, numero: int 
     return f"""{bg}<div class="wrap reto">
 <div class="top"><span>{e(HANDLE)}</span><span class="num">{e(num)}</span></div>
 <div class="main">{text}{disp}</div>
+<div class="foot"><span>{e(FOOTER)}</span><span></span></div>
+</div>"""
+
+
+def portada_html(titulo: str, ilustracion: str, semilla: int = 1, sub: str = "") -> str:
+    """Portada del carrusel (estructura de portada editorial): handle pequeño arriba a la derecha, título gancho
+    grande arriba y UNA ilustración de arte matemático ocupando el resto (bot/ilustraciones.js: sin texto ni números)."""
+    e = html.escape
+    sub_h = f'<div class="psub">{_fmt(sub)}</div>' if sub else ""
+    top = 470
+    return f"""<canvas id="ilus" width="{W}" height="{H - top}" style="top:{top}px" data-motivo="{e(ilustracion)}" data-semilla="{int(semilla)}"></canvas>
+<div class="portada"><div class="handle">{e(HANDLE)}</div>
+<div class="cab"><div class="ptitle">{_fmt(titulo)}</div>{sub_h}</div></div>"""
+
+
+def cierre_html(fondo: str | None = None, semilla: int = 1, numero: int | None = None) -> str:
+    """Última imagen del carrusel: invita a comentar la respuesta (la respuesta nunca se publica)."""
+    e = html.escape
+    num = f"RETO #{numero}" if numero else "RETO"
+    bg = (f'<canvas id="bg" width="{W}" height="{H}" data-motivo="{e(fondo)}" data-semilla="{int(semilla) + 7}"></canvas>'
+          f'<div id="bgf"></div>') if fondo else ""
+    return f"""{bg}<div class="wrap reto cierre">
+<div class="top"><span>{e(HANDLE)}</span><span class="num">{e(num)}</span></div>
+<div class="main"><div class="title">¿Cuál es tu <span class="em">respuesta</span>?</div>
+<div class="text">Déjala en los comentarios 👇<br>y reta a un amigo a resolverlo.</div></div>
 <div class="foot"><span>{e(FOOTER)}</span><span></span></div>
 </div>"""
 
