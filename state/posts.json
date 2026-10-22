@@ -1225,5 +1225,23 @@
   "ig_id": "18131791723793626",
   "fb_id": "1395069237021603_122100264393519581",
   "threads_id": "18645932857028396"
+ },
+ {
+  "id": "20261022-2029-t2",
+  "ts": "2026-10-22T20:30:08+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "palabras",
+  "estilo": "debate",
+  "hook": "debate",
+  "tema_clave": "descuentos y aumentos sucesivos",
+  "fondo": "funciones",
+  "numero": 47,
+  "modo": "cola",
+  "tema": "Letrero '50% + 20% de descuento': ¿60% o 70%?",
+  "titulo": "En el Buen Fin vi un letrero: “50% + 20% de descuento”. ¿Qué **descuento** te hacen en total? Defiende tu respuesta 👇",
+  "ig_id": "18632180521065110",
+  "fb_id": "1395069237021603_122100352263519581",
+  "threads_id": null
  }
 ]
