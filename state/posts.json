@@ -1207,5 +1207,23 @@
   "ig_id": "18026873813704017",
   "fb_id": "1395069237021603_122099836227519581",
   "threads_id": null
+ },
+ {
+  "id": "20261022-1812-t1",
+  "ts": "2026-10-22T18:12:56+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "radicales y racionalización",
+  "fondo": "lissajous",
+  "numero": 46,
+  "modo": "cola",
+  "tema": "x = √25: ¿5 o ±5?",
+  "titulo": "Sin calculadora y sin pensarle mucho: ¿cuánto vale **x**?",
+  "ig_id": "18131791723793626",
+  "fb_id": "1395069237021603_122100264393519581",
+  "threads_id": "18645932857028396"
  }
 ]
