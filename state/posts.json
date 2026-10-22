@@ -1117,5 +1117,23 @@
   "ig_id": "17914235904497888",
   "fb_id": "1395069237021603_122099775423519581",
   "threads_id": "17959878339253210"
+ },
+ {
+  "id": "20261022-0919-t6",
+  "ts": "2026-10-22T09:20:16+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "error_oculto",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "una desigualdad multiplicada por un negativo",
+  "fondo": "rejilla",
+  "numero": 45,
+  "modo": "cola",
+  "tema": "Demostración falsa de 1/4 > 1/2 con log(1/2)",
+  "titulo": "Defiende tu respuesta: un amigo me “demostró” que 1/4 > 1/2. ¿En qué paso me hizo **trampa**?",
+  "ig_id": "18026873813704017",
+  "fb_id": "1395069237021603_122099836227519581",
+  "threads_id": null
  }
 ]
