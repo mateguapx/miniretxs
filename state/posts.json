@@ -1243,5 +1243,23 @@
   "ig_id": "18632180521065110",
   "fb_id": "1395069237021603_122100352263519581",
   "threads_id": null
+ },
+ {
+  "id": "20261022-2254-t3",
+  "ts": "2026-10-22T22:55:34+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "áreas y perímetros con ecuación",
+  "fondo": "geometria",
+  "numero": 48,
+  "modo": "cola",
+  "tema": "Cuadrado: +2 cm por lado y el área crece 32 cm²",
+  "titulo": "Parece fácil: si a un cuadrado le aumentas 2 cm a cada lado, su área crece 32 cm². ¿Cuánto medía su **lado**?",
+  "ig_id": "17911098984306836",
+  "fb_id": "1395069237021603_122100453651519581",
+  "threads_id": "18632219842035756"
  }
 ]
