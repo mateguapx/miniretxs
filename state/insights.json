@@ -1,26 +1,6 @@
 {
  "top": [
   {
-   "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
-   "formato": "emoji",
-   "estilo": "debate",
-   "nivel": "medio",
-   "hook": "no_es_x",
-   "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
-   "fondo": "geometria",
-   "score": 3.983,
-   "metricas": {
-    "reach": 121,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 2,
-    "views": 199,
-    "likes": 2,
-    "comments": 0
-   }
-  },
-  {
    "titulo": "¿Qué tan probable es que te salga un **par**? 🧦",
    "formato": "probabilidad",
    "estilo": "exacto",
@@ -41,6 +21,26 @@
    }
   },
   {
+   "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
+   "formato": "emoji",
+   "estilo": "debate",
+   "nivel": "medio",
+   "hook": "no_es_x",
+   "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
+   "fondo": "geometria",
+   "score": 2.6,
+   "metricas": {
+    "reach": 122,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 2,
+    "views": 201,
+    "likes": 2,
+    "comments": 0
+   }
+  },
+  {
    "titulo": "Mi primo y yo no coincidimos: ¿cuánto da **esto**?",
    "formato": "operacion",
    "estilo": "debate",
@@ -50,12 +50,12 @@
    "fondo": "funciones",
    "score": 2.6,
    "metricas": {
-    "reach": 218,
+    "reach": 230,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 388,
+    "views": 408,
     "likes": 4,
     "comments": 0
    }
@@ -83,34 +83,34 @@
    }
   },
   {
-   "titulo": "Cada emoji vale un número, el mismo en todas las líneas.\n🍎 + 🍎 + 🍌 = 22\n🍎 + 🍌 + 🍌 = 20\n🍎 × 🍇 = 🍌 × 4\n(🍎 × 🍌) − (🍇 × 🍇) =",
-   "formato": "emoji",
-   "estilo": "exacto",
-   "nivel": "medio",
-   "hook": "pregunta_directa",
-   "tema": "Sistema con frutas: dos manzanas, dos plátanos y un producto con uvas",
-   "fondo": "fractal",
-   "score": 0.46,
+   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "formato": "patron",
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "contrarreloj",
+   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+   "fondo": "espiral",
+   "score": 0.8,
    "metricas": {
     "reach": 1,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 2,
+    "views": 1,
     "likes": 0,
     "comments": 0
    }
   },
   {
-   "titulo": "Parece fácil, pero a mi primo le tomó 5 minutos: un rectángulo mide 3 cm más de largo que de ancho y su área es 40 cm². ",
+   "titulo": "Sin calculadora: mi tío llena una cubeta de agua en 3 minutos y mi primo en 6. Si se ponen los dos a la vez, ¿en cuántos",
    "formato": "palabras",
-   "estilo": "exacto",
-   "nivel": "medio",
-   "hook": "parece_facil",
-   "tema": "Rectángulo 3 cm más largo que ancho con área 40: perímetro",
-   "fondo": "lissajous",
-   "score": 0.46,
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "sin_calculadora",
+   "tema": "Cubetas: tío en 3 min, primo en 6; dos cubetas juntos",
+   "fondo": "formulas",
+   "score": 0.8,
    "metricas": {
     "reach": 1,
     "shares": 0,
