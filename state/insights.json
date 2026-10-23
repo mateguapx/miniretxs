@@ -30,12 +30,12 @@
    "fondo": "geometria",
    "score": 2.6,
    "metricas": {
-    "reach": 122,
+    "reach": 123,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 201,
+    "views": 204,
     "likes": 2,
     "comments": 0
    }
@@ -50,18 +50,58 @@
    "fondo": "funciones",
    "score": 2.6,
    "metricas": {
-    "reach": 230,
+    "reach": 232,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 408,
+    "views": 414,
     "likes": 4,
     "comments": 0
    }
   }
  ],
  "bottom": [
+  {
+   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "formato": "patron",
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "contrarreloj",
+   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+   "fondo": "espiral",
+   "score": 0.867,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 1,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "Me lo mandaron así por WhatsApp: 2^3^2 ¿Cuánto te **da**?",
+   "formato": "operacion",
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "historia",
+   "tema": "2^3^2 escrito en WhatsApp: ¿512 o 64?",
+   "fondo": "lissajous",
+   "score": 0.867,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 4,
+    "likes": 0,
+    "comments": 0
+   }
+  },
   {
    "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
    "formato": "emoji",
@@ -78,46 +118,6 @@
     "follows": 0,
     "profile_visits": 0,
     "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
-   "formato": "patron",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "contrarreloj",
-   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
-   "fondo": "espiral",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "Sin calculadora: mi tío llena una cubeta de agua en 3 minutos y mi primo en 6. Si se ponen los dos a la vez, ¿en cuántos",
-   "formato": "palabras",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "sin_calculadora",
-   "tema": "Cubetas: tío en 3 min, primo en 6; dos cubetas juntos",
-   "fondo": "formulas",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 2,
     "likes": 0,
     "comments": 0
    }

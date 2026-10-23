@@ -1,28 +1,28 @@
 {
- "n": 29,
- "actualizado": "2026-10-22T18:10:39+00:00",
+ "n": 36,
+ "actualizado": "2026-10-23T17:58:18+00:00",
  "formato": {
-  "probabilidad": 1.333,
-  "palabras": 1.025,
+  "probabilidad": 1.343,
+  "palabras": 1.044,
   "logica": 1.0,
-  "emoji": 1.156,
-  "operacion": 1.229,
-  "patron": 0.933,
-  "cual_mayor": 1.0,
-  "conteo": 1.0
+  "emoji": 1.14,
+  "operacion": 1.178,
+  "conteo": 1.0,
+  "patron": 0.956,
+  "cual_mayor": 1.133
  },
  "estilo": {
-  "exacto": 1.141,
-  "debate": 1.163
+  "exacto": 1.159,
+  "debate": 1.144
  },
  "hook": {
   "debate": 1.457,
   "parece_facil": 1.057,
-  "sin_calculadora": 1.029,
-  "pregunta_directa": 0.971,
-  "historia": 1.0,
-  "no_es_x": 1.533,
-  "contrarreloj": 0.933
+  "sin_calculadora": 1.036,
+  "pregunta_directa": 0.99,
+  "historia": 1.027,
+  "no_es_x": 1.4,
+  "contrarreloj": 0.956
  },
  "tema": {
   "calcetines en un cajón (peor caso)": 1.533,
@@ -33,34 +33,39 @@
   "cartas": 1.0,
   "operaciones con ceros y unos": 1.0,
   "monedas": 1.0,
-  "potencias de números negativos": 1.0,
+  "potencias de números negativos": 1.044,
   "sistema con comida y divisiones": 1.533,
   "fracciones algebraicas": 1.0,
   "repartos que engañan": 1.0,
   "cajas con etiquetas equivocadas": 1.0,
   "sistema con animales y potencias": 1.0,
   "potencias pequeñas y signos": 1.533,
-  "sistema con frutas y productos": 0.933,
+  "sistema con frutas y productos": 0.95,
+  "apretones de manos": 1.0,
   "caracol que sube un pozo": 1.133,
-  "sucesiones recursivas": 0.933,
+  "sucesiones recursivas": 0.956,
   "áreas y perímetros con ecuación": 1.0,
   "sistema no lineal con objetos de la escuela": 1.0,
   "sistema con animales": 1.0,
   "focos e interruptores": 1.0,
-  "comparar expresiones que parecen iguales": 1.0,
+  "comparar expresiones que parecen iguales": 1.133,
   "el bat y la pelota (intuición contra álgebra)": 1.0,
-  "trabajo conjunto (máquinas, llaves, personas)": 0.933,
+  "trabajo conjunto (máquinas, llaves, personas)": 1.0,
   "contar cuadrados o triángulos descritos con palabras": 1.0,
-  "porcentajes que engañan": 1.0
+  "porcentajes que engañan": 1.0,
+  "leyes de exponentes con trampa": 0.956,
+  "cumpleaños y coincidencias": 1.133,
+  "precios y vueltos": 1.0
  },
  "fondo": {
-  "red": 1.25,
-  "geometria": 1.267,
-  "formulas": 0.975,
+  "red": 1.2,
+  "geometria": 1.229,
+  "formulas": 1.0,
   "fractal": 1.0,
-  "rejilla": 1.0,
+  "rejilla": 1.022,
   "funciones": 1.4,
-  "lissajous": 1.033,
-  "espiral": 0.933
+  "lissajous": 1.01,
+  "espiral": 0.956,
+  "probabilidad": 1.133
  }
 }

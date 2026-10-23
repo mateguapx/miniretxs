@@ -27,7 +27,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 2.6
  },
  {
@@ -58,7 +58,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -89,7 +89,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.4
  },
  {
@@ -120,7 +120,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -151,7 +151,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -182,7 +182,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00"
+  "medido": "2026-10-23T17:57:10+00:00"
  },
  {
   "id": "20261016-0052-t4",
@@ -212,7 +212,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -243,7 +243,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -274,7 +274,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -305,8 +305,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
-  "score": 1.0
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.133
  },
  {
   "id": "20261016-1947-t2",
@@ -327,16 +327,16 @@
   "fb_id": null,
   "threads_id": "18077082719424547",
   "metricas": {
-   "reach": 122,
+   "reach": 123,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 2,
-   "views": 201,
+   "views": 204,
    "likes": 2,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 2.6
  },
  {
@@ -367,7 +367,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -398,7 +398,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -429,7 +429,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -460,7 +460,7 @@
    "likes": 1,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -482,16 +482,16 @@
   "fb_id": "1395069237021603_122096010111519581",
   "threads_id": "18132085040506292",
   "metricas": {
-   "reach": 230,
+   "reach": 232,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 2,
-   "views": 408,
+   "views": 414,
    "likes": 4,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 2.6
  },
  {
@@ -522,7 +522,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 0.8
  },
  {
@@ -544,16 +544,17 @@
   "fb_id": null,
   "threads_id": "17902530792670508",
   "metricas": {
-   "reach": 0,
+   "reach": 1,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00"
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261018-0706-t5",
@@ -582,7 +583,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.4
  },
  {
@@ -612,7 +613,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00"
+  "medido": "2026-10-23T17:57:10+00:00"
  },
  {
   "id": "20261018-1700-t1",
@@ -641,8 +642,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
-  "score": 0.8
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 0.867
  },
  {
   "id": "20261018-1905-t2",
@@ -671,7 +672,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -701,7 +702,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -731,7 +732,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -779,7 +780,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -809,7 +810,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -830,17 +831,17 @@
   "fb_id": "1395069237021603_122097415107519581",
   "threads_id": "18080680817717420",
   "metricas": {
-   "reach": 2,
+   "reach": 3,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 5,
+   "views": 7,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
-  "score": 1.0
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.4
  },
  {
   "id": "20261019-2118-t2",
@@ -869,7 +870,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -890,7 +891,7 @@
   "fb_id": "1395069237021603_122097549693519581",
   "threads_id": "18104532752308525",
   "metricas": {
-   "reach": 1,
+   "reach": 2,
    "shares": 0,
    "saved": 0,
    "follows": 0,
@@ -899,8 +900,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
-  "score": 0.8
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261020-0119-t4",
@@ -929,7 +930,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -959,7 +960,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -989,7 +990,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-22T18:09:41+00:00",
+  "medido": "2026-10-23T17:57:10+00:00",
   "score": 1.0
  },
  {
@@ -1008,7 +1009,19 @@
   "titulo": "Me lo mandaron así por WhatsApp: 2^3^2 ¿Cuánto te **da**?",
   "ig_id": "18107018078213666",
   "fb_id": "1395069237021603_122098407465519581",
-  "threads_id": "18136917682657162"
+  "threads_id": "18136917682657162",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 4,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 0.867
  },
  {
   "id": "20261020-2013-t2",
@@ -1026,7 +1039,19 @@
   "titulo": "¡La respuesta **NO** es 48! Cada fruta vale un número positivo:\n🍓 × 🍓 = 36\n🍓 × 🍐 = 24\n🍐 + 🍐 × 🍓 = ?",
   "ig_id": "18143988343592378",
   "fb_id": "1395069237021603_122098490787519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261020-2253-t3",
@@ -1044,7 +1069,19 @@
   "titulo": "Sin calculadora: ¿cuánto da **esto**?",
   "ig_id": "18131511643818701",
   "fb_id": "1395069237021603_122098570101519581",
-  "threads_id": "17912830959515593"
+  "threads_id": "17912830959515593",
+  "metricas": {
+   "reach": 2,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261021-0104-t4",
@@ -1062,7 +1099,19 @@
   "titulo": "¡La respuesta **NO** es 3/7! Tú y dos amigos nacieron en un día de la semana al azar. ¿Qué probabilidad hay de que al me",
   "ig_id": "18107461742346504",
   "fb_id": "1395069237021603_122098632513519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 2,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.4
  },
  {
   "id": "20261021-0719-t5",
@@ -1080,7 +1129,19 @@
   "titulo": "Sin calculadora: mi tío compró una vaca en 600 pesos, la vendió en 700, la volvió a comprar en 800 y la vendió en 900. ¿",
   "ig_id": "18120601391291258",
   "fb_id": "1395069237021603_122098872633519581",
-  "threads_id": "18099019523532567"
+  "threads_id": "18099019523532567",
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261021-0916-t6",
@@ -1098,7 +1159,19 @@
   "titulo": "Sin calculadora: afuera de un cuarto cerrado hay 3 interruptores y adentro 3 focos apagados. Desde afuera no ves nada. ¿",
   "ig_id": "18057276287590304",
   "fb_id": "1395069237021603_122098962105519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-23T17:57:10+00:00",
+  "score": 1.0
  },
  {
   "id": "20261021-1818-t1",
