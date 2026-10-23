@@ -1424,5 +1424,23 @@
   "ig_id": "18097504793438319",
   "fb_id": "1395069237021603_122101267689519581",
   "threads_id": null
+ },
+ {
+  "id": "20261023-2249-t3",
+  "ts": "2026-10-23T22:50:29+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "edades con sistema de ecuaciones",
+  "fondo": "formulas",
+  "numero": 54,
+  "modo": "cola",
+  "tema": "Papá 30 años mayor; en 5 años tendrá el triple",
+  "titulo": "¡La respuesta **NO** es 15! Mi papá tiene 30 años más que yo y dentro de 5 años tendrá el triple de mi edad. ¿Cuántos añ",
+  "ig_id": "18129762562859846",
+  "fb_id": "1395069237021603_122101356027519581",
+  "threads_id": "17973457488168896"
  }
 ]
