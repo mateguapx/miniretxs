@@ -1261,5 +1261,23 @@
   "ig_id": "17911098984306836",
   "fb_id": "1395069237021603_122100453651519581",
   "threads_id": "18632219842035756"
+ },
+ {
+  "id": "20261023-0103-t4",
+  "ts": "2026-10-23T01:04:14+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "sucesiones recursivas",
+  "fondo": "espiral",
+  "numero": 49,
+  "modo": "cola",
+  "tema": "1, 2, 5, 12, 29 (a = 2·anterior + el de antes)",
+  "titulo": "Mi profe de la prepa nos dejó esta: cada número sale de los dos anteriores. ¿Cuál **sigue**?",
+  "ig_id": "18411677137092286",
+  "fb_id": "1395069237021603_122100531267519581",
+  "threads_id": null
  }
 ]
