@@ -1388,5 +1388,23 @@
   "ig_id": "17963236083252304",
   "fb_id": "1395069237021603_122100784299519581",
   "threads_id": null
+ },
+ {
+  "id": "20261023-1812-t1",
+  "ts": "2026-10-23T18:13:16+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "debate",
+  "hook": "sin_calculadora",
+  "tema_clave": "sucesiones con cuadrados, cubos o factoriales",
+  "fondo": "rejilla",
+  "numero": 52,
+  "modo": "cola",
+  "tema": "1, 2, 6: ¿24 (factoriales) o 15 (diferencias cuadradas)?",
+  "titulo": "Sin calculadora: ¿qué número **sigue**?",
+  "ig_id": "17993397429018288",
+  "fb_id": "1395069237021603_122101190367519581",
+  "threads_id": "17963608821246858"
  }
 ]
