@@ -1406,5 +1406,23 @@
   "ig_id": "17993397429018288",
   "fb_id": "1395069237021603_122101190367519581",
   "threads_id": "17963608821246858"
+ },
+ {
+  "id": "20261023-2009-t2",
+  "ts": "2026-10-23T20:09:59+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "quién es quién (deducción por pistas)",
+  "fondo": "red",
+  "numero": 53,
+  "modo": "cola",
+  "tema": "Ana, Beto y Caro: médico, maestro y chef con pistas incompletas",
+  "titulo": "Ana, Beto y Caro son médico, maestro y chef (uno cada quien). Ana no es médica, Beto no es chef y Caro no es maestra. ¿Q",
+  "ig_id": "18097504793438319",
+  "fb_id": "1395069237021603_122101267689519581",
+  "threads_id": null
  }
 ]
