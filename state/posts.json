@@ -1297,5 +1297,23 @@
   "ig_id": "18348508726280218",
   "fb_id": "1395069237021603_122100705921519581",
   "threads_id": "18127744540782642"
+ },
+ {
+  "id": "20261023-0925-t6",
+  "ts": "2026-10-23T09:25:51+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "cajas con etiquetas equivocadas",
+  "fondo": "red",
+  "numero": 51,
+  "modo": "cola",
+  "tema": "10 cajas de monedas, una pesada de 542 g",
+  "titulo": "Sin calculadora: en 9 cajas las monedas pesan 10 g y en una caja pesan 9 g. Sacas 1 moneda de la caja 1, 2 de la caja 2…",
+  "ig_id": "17963236083252304",
+  "fb_id": "1395069237021603_122100784299519581",
+  "threads_id": null
  }
 ]
