@@ -1442,5 +1442,23 @@
   "ig_id": "18129762562859846",
   "fb_id": "1395069237021603_122101356027519581",
   "threads_id": "17973457488168896"
+ },
+ {
+  "id": "20261024-0112-t4",
+  "ts": "2026-10-24T01:13:05+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "debate",
+  "hook": "contrarreloj",
+  "tema_clave": "partidos de un torneo",
+  "fondo": "red",
+  "numero": 55,
+  "modo": "cola",
+  "tema": "Liga de 8 equipos todos contra todos: ¿28 o 56?",
+  "titulo": "Tienes 15 segundos ⏱️ En una liga de 8 equipos, todos juegan contra todos. ¿Cuántos **partidos** hay?",
+  "ig_id": "18065469584794493",
+  "fb_id": "1395069237021603_122101445919519581",
+  "threads_id": null
  }
 ]
