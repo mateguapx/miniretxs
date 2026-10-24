@@ -59,12 +59,34 @@ def _wait_ready(container_id: str, tries: int = 30) -> None:
     raise TimeoutError(f"Contenedor {container_id} no terminó a tiempo")
 
 
+def _no_listo(r: requests.Response) -> bool:
+    """Meta a veces responde 'Media ID is not available' (9007/2207027) aunque el contenedor ya diga FINISHED."""
+    try:
+        e = r.json().get("error", {})
+    except ValueError:
+        return False
+    return e.get("code") == 9007 or e.get("error_subcode") == 2207027
+
+
+def _ig_publicar(creation_id: str) -> str:
+    """media_publish con reintentos SOLO ante 'contenedor aún no listo': ese error garantiza que no se publicó,
+    así que reintentar no duplica el post."""
+    for espera in (10, 20, 30, None):
+        r = _pedir("POST", f"{IG_BASE}/{IG_ID()}/media_publish", False,
+                   data={"creation_id": creation_id, "access_token": IG_TOKEN()})
+        if r.ok or espera is None or not _no_listo(r):
+            return _check(r, f"IG POST {IG_ID()}/media_publish")["id"]
+        time.sleep(espera)
+        _wait_ready(creation_id)
+    raise AssertionError("inalcanzable")
+
+
 # --- Instagram ---
 def publish_instagram(image_url: str, caption: str) -> str:
     """Post de una sola imagen."""
     c = _ig_post(f"{IG_ID()}/media", image_url=image_url, caption=caption)["id"]
     _wait_ready(c)
-    return _ig_post(f"{IG_ID()}/media_publish", creation_id=c)["id"]
+    return _ig_publicar(c)
 
 
 def ig_media_info(media_id: str) -> dict:
