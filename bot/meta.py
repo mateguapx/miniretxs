@@ -72,8 +72,8 @@ def _ig_publicar(creation_id: str) -> str:
     """media_publish con reintentos SOLO ante 'contenedor aún no listo': ese error garantiza que no se publicó,
     así que reintentar no duplica el post."""
     for espera in (10, 20, 30, None):
-        r = _pedir("POST", f"{IG_BASE}/{IG_ID()}/media_publish", False,
-                   data={"creation_id": creation_id, "access_token": IG_TOKEN()})
+        r = requests.post(f"{IG_BASE}/{IG_ID()}/media_publish",
+                          data={"creation_id": creation_id, "access_token": IG_TOKEN()}, timeout=60)
         if r.ok or espera is None or not _no_listo(r):
             return _check(r, f"IG POST {IG_ID()}/media_publish")["id"]
         time.sleep(espera)
