@@ -30,12 +30,12 @@
    "fondo": "geometria",
    "score": 2.6,
    "metricas": {
-    "reach": 123,
+    "reach": 125,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 204,
+    "views": 209,
     "likes": 2,
     "comments": 0
    }
@@ -50,18 +50,38 @@
    "fondo": "funciones",
    "score": 2.6,
    "metricas": {
-    "reach": 232,
+    "reach": 235,
     "shares": 0,
     "saved": 0,
     "follows": 0,
     "profile_visits": 2,
-    "views": 414,
+    "views": 420,
     "likes": 4,
     "comments": 0
    }
   }
  ],
  "bottom": [
+  {
+   "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
+   "formato": "emoji",
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "pregunta_directa",
+   "tema": "Emojis pegados: ¿producto o número de dos cifras?",
+   "fondo": "lissajous",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 1,
+    "likes": 0,
+    "comments": 0
+   }
+  },
   {
    "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
    "formato": "patron",
@@ -70,7 +90,7 @@
    "hook": "contrarreloj",
    "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
    "fondo": "espiral",
-   "score": 0.867,
+   "score": 0.8,
    "metricas": {
     "reach": 1,
     "shares": 0,
@@ -90,26 +110,6 @@
    "hook": "historia",
    "tema": "2^3^2 escrito en WhatsApp: ¿512 o 64?",
    "fondo": "lissajous",
-   "score": 0.867,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 4,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
-   "formato": "emoji",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "pregunta_directa",
-   "tema": "Emojis pegados: ¿producto o número de dos cifras?",
-   "fondo": "lissajous",
    "score": 0.8,
    "metricas": {
     "reach": 1,
@@ -117,7 +117,7 @@
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 1,
+    "views": 4,
     "likes": 0,
     "comments": 0
    }
