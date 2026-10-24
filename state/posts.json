@@ -1478,5 +1478,23 @@
   "ig_id": "18112506983588557",
   "fb_id": "1395069237021603_122101662009519581",
   "threads_id": "18373296607243269"
+ },
+ {
+  "id": "20261024-0848-t6",
+  "ts": "2026-10-24T08:49:04+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "contrarreloj",
+  "tema_clave": "sombreros de colores",
+  "fondo": "red",
+  "numero": 57,
+  "modo": "cola",
+  "tema": "3 rojos y 2 azules, tres personas en fila: color del de adelante",
+  "titulo": "Tienes 30 segundos ⏱️ Hay 3 sombreros rojos y 2 azules. A 3 personas en fila les ponen uno: la de atrás ve los 2 de enfr",
+  "ig_id": null,
+  "fb_id": "1395069237021603_122101732317519581",
+  "threads_id": null
  }
 ]
