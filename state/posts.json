@@ -1586,5 +1586,23 @@
   "ig_id": "17992442391066311",
   "fb_id": "1395069237021603_122102113119519581",
   "threads_id": "18104457707360361"
+ },
+ {
+  "id": "20261024-1909-t2",
+  "ts": "2026-10-24T19:10:21+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "monedas y balanzas",
+  "fondo": "probabilidad",
+  "numero": 59,
+  "modo": "cola",
+  "tema": "9 monedas, una más ligera: pesadas mínimas",
+  "titulo": "¡La respuesta **NO** es 4! Tienes 9 monedas iguales, pero una pesa menos. Con una balanza de dos platos, ¿cuántas pesada",
+  "ig_id": "17917674378461774",
+  "fb_id": "1395069237021603_122102214105519581",
+  "threads_id": null
  }
 ]
