@@ -1568,5 +1568,23 @@
   "ig_id": null,
   "fb_id": "1395069237021603_122101732317519581",
   "threads_id": null
+ },
+ {
+  "id": "20261024-1704-t1",
+  "ts": "2026-10-24T17:05:30+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "sucesiones geométricas con giro",
+  "fondo": "espiral",
+  "numero": 58,
+  "modo": "cola",
+  "tema": "3, 5, 9, 17, 33 (2ⁿ + 1)",
+  "titulo": "¿Qué número **sigue**?",
+  "ig_id": "17992442391066311",
+  "fb_id": "1395069237021603_122102113119519581",
+  "threads_id": "18104457707360361"
  }
 ]
