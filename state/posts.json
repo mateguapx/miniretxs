@@ -1604,5 +1604,23 @@
   "ig_id": "17917674378461774",
   "fb_id": "1395069237021603_122102214105519581",
   "threads_id": null
+ },
+ {
+  "id": "20261024-2211-t3",
+  "ts": "2026-10-24T22:11:59+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "no_es_x",
+  "tema_clave": "sistema no lineal con objetos de la escuela",
+  "fondo": "espiral",
+  "numero": 60,
+  "modo": "cola",
+  "tema": "Escuela: regla al cuadrado = regla × 4 (¿0 o 4?) y jerarquía",
+  "titulo": "¡La respuesta **NO** es 20!\n✏️ + ✏️ = 6\n📏 × 📏 = 📏 × 4\n📕 = ✏️ + 📏\n📕 + 📕 × ✏️ = ?",
+  "ig_id": "18130138585864447",
+  "fb_id": "1395069237021603_122102323185519581",
+  "threads_id": "18647734327063644"
  }
 ]
