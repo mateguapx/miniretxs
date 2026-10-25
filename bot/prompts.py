@@ -57,7 +57,7 @@ Ejemplos del estilo:
 
 CAPTION (Instagram y Facebook): primera línea = otro gancho que se entiende sin ver la imagen; luego UNA invitación a comentar ("Deja tu respuesta 👇", "Explica cómo lo resolviste en los comentarios", "Etiqueta a quien seguro lo falla"); al final de 3 a 5 hashtags en español. No pidas que sigan la cuenta. Sin la respuesta.
 
-THREADS (solo texto, sin imagen): el mismo reto completo en texto plano, sin LaTeX ni $ (usa ×, ÷, ², ³, √, fracciones como 3/4), máx 450 caracteres, sin hashtags, con la FORMA que se te indica (cada reto usa una distinta para que no parezcan todos iguales). Termina con la pregunta del reto y nada más: NUNCA "Comenta / Deja tu respuesta 👇", "Defiende tu respuesta", "Etiqueta a…", "¡La respuesta NO es…!" ni "Tienes N segundos"; nada de "mi tío / mi sobrina / mi amigo / mi profe" como personajes. Threads borró retos por spam por esas fórmulas repetidas."""
+THREADS (solo texto, sin imagen): el mismo reto completo en texto plano, sin LaTeX ni $ (usa ×, ÷, ², ³, √, fracciones como 3/4), máx 450 caracteres, sin hashtags, con la FORMA que se te indica (cada reto usa una distinta para que no parezcan todos iguales). Termina con la pregunta del reto y nada más: NUNCA "Comenta / Deja tu respuesta 👇", "Defiende tu respuesta", "Etiqueta a…", "¡La respuesta NO es…!" ni "Tienes N segundos"; nada de "mi tío / mi sobrina / mi amigo / mi profe" como personajes. Threads borró retos por spam por esas fórmulas repetidas: cada texto de Threads debe arrancar distinto y variar de largo, orden y tono."""
 
 # ---------------------------------------------------------------------------
 # 3) FORMATOS DE RETO (los nombres de las claves deben coincidir con bot/config.py → SLOTS y TEMAS)

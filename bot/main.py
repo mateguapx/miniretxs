@@ -7,9 +7,11 @@ Los textos NO se generan aquí (no se usa la API de Claude): se toman ya escrito
 import argparse
 import json
 import os
+import random
+import time
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
-from .config import ROOT, SLOTS, THREADS_HORARIOS_REDUCIDOS, THREADS_REDUCIDO_HASTA
+from .config import ROOT, SLOTS, THREADS_ESPERA_MAX_MIN, THREADS_PAUSA_HASTA, THREADS_POR_DIA, threads_horarios
 from . import cola, meta, planner
 from .render import render_many, slide_html
 
@@ -81,6 +83,20 @@ def main() -> None:
     }, ensure_ascii=False))
 
 
+def _threads_omitir(tipo: int, hoy: str, mx) -> str:
+    """Motivo para NO publicar este reto en Threads (vacío = sí se publica). Ver bot/config.py."""
+    if hoy < THREADS_PAUSA_HASTA:
+        return f"en pausa hasta {THREADS_PAUSA_HASTA} (avisos de spam)"
+    horarios = threads_horarios(hoy)
+    if tipo not in horarios:
+        return f"hoy solo publican en Threads los horarios {horarios}"
+    ya = sum(1 for p in _load("posts.json", []) if p.get("threads_id") and p.get("ts")
+             and datetime.fromisoformat(p["ts"]).astimezone(mx).date().isoformat() == hoy)
+    if ya >= THREADS_POR_DIA:  # por si un cron atrasado de ayer ya cayó hoy
+        return f"ya van {ya} hoy (máximo {THREADS_POR_DIA})"
+    return ""
+
+
 def publish_step() -> None:
     """Segunda fase (tras subir la imagen a la rama media): publica en cada red de forma independiente.
     Si una red falla, las demás se publican igual y el estado se guarda; el fallo queda como advertencia visible.
@@ -94,14 +110,20 @@ def publish_step() -> None:
     }
     errores = []
     tipo = int((d.get("record") or {}).get("tipo") or 0)
-    hoy = datetime.now(ZoneInfo("America/Mexico_City")).date().isoformat()
-    if hoy < THREADS_REDUCIDO_HASTA and tipo not in THREADS_HORARIOS_REDUCIDOS:
-        tareas.pop("threads")  # tras los avisos de spam, solo 3 retos al día en Threads por un tiempo
-        print(f"threads: hasta {THREADS_REDUCIDO_HASTA} solo se publican los horarios {THREADS_HORARIOS_REDUCIDOS}; se omite")
+    mx = ZoneInfo("America/Mexico_City")
+    hoy = datetime.now(mx).date().isoformat()
+    motivo = _threads_omitir(tipo, hoy, mx)
+    if motivo:
+        tareas.pop("threads")
+        print("threads:", motivo, "; se omite")
     for red, publicar in tareas.items():
         if not meta.activo(red):
             print(f"{red}: sin secrets, se omite")
             continue
+        if red == "threads" and THREADS_ESPERA_MAX_MIN and os.getenv("GITHUB_ACTIONS"):
+            espera = random.randint(0, THREADS_ESPERA_MAX_MIN * 60)  # IG y FB ya salieron: Threads a una hora no fija
+            print(f"threads: espera aleatoria de {espera // 60} min")
+            time.sleep(espera)
         try:
             ids[red] = publicar()
             print(f"{red}:", ids[red])
@@ -111,6 +133,8 @@ def publish_step() -> None:
         print(f"::warning title=Fallo de publicación::{err}")
     if any(ids.values()):
         record = d.get("record") or {}
+        if ids["threads"]:
+            record["threads_texto"] = d["threads"]  # para que los siguientes no arranquen igual (bot/contenido.py)
         record.update({"ig_id": ids["ig"], "fb_id": ids["fb"], "threads_id": ids["threads"],
                        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds")})
         posts = _load("posts.json", [])

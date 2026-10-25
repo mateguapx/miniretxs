@@ -84,12 +84,31 @@ def plan(hasta: int, seed: int | None = None) -> dict:
     return {"evitar": (viejos + ya)[-160:], "insights": _load("insights.json", {}), "retos": items}
 
 
+def _arranque(texto: str, n: int = 3) -> str:
+    """Primeras n palabras del texto de Threads, normalizadas (para que los retos no arranquen todos igual)."""
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", str(texto or "").lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return " ".join(re.findall(r"[a-z0-9ñ]+", t)[:n])
+
+
+def arranques_recientes() -> list[str]:
+    """Arranques de los textos de Threads ya publicados (últimos 40) y de los que están en cola."""
+    textos = [p.get("threads_texto") for p in _load("posts.json", [])[-40:]] + [p.get("threads") for p in pendientes()]
+    return [a for a in (_arranque(t) for t in textos if t) if a]
+
+
 def instrucciones(plan_data: dict) -> str:
     """Texto completo para escribir cada reto del plan: el mismo que recibía la API (bot/prompts.py)."""
     partes = [
         "INSTRUCCIONES GENERALES (rol)", P.SYSTEM, "", P.MANUAL, "",
         "No repitas estos retos ya publicados o en cola: " + ("; ".join(plan_data.get("evitar", [])) or "ninguno"),
     ]
+    arr = sorted(set(arranques_recientes()))
+    partes += ["", "VARIEDAD EN THREADS (Threads borró retos por spam): cada texto de Threads debe sonar distinto a los "
+               "demás del lote y a los recientes: cambia el arranque, la longitud, el orden (reto primero o contexto primero) "
+               "y el tono. No arranques con las mismas 3 palabras que ninguno de estos: " + ("; ".join(arr) or "ninguno")]
     ctx = contexto_rendimiento(plan_data.get("insights"))
     if ctx:
         partes += ["", ctx]
@@ -130,8 +149,14 @@ def validar(item: dict) -> list[str]:
 def agregar(lista: list[dict]) -> tuple[int, list[str]]:
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
     ok, malos = 0, []
+    usados = set(arranques_recientes())
     for i, item in enumerate(lista):
         errores = validar(item)
+        a = _arranque(item.get("threads"))
+        if not errores and a in usados:
+            errores = [f"el texto de threads arranca igual que otro reciente o del lote («{a}…»): cambia el arranque"]
+        if not errores:
+            usados.add(a)
         if errores:
             malos.append(f"reto {i + 1} ({item.get('tema', '?')}): {'; '.join(errores)}")
             continue

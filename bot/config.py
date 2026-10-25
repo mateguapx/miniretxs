@@ -15,10 +15,23 @@ BRAND = {"bg": "#000000", "fg": "#FFFFFF", "accent": "#ffde59", "alert": "#ff313
 # Hashtags que SIEMPRE van en el caption de Instagram/Facebook (Claude agrega 2-4 más)
 HASHTAGS_FIJOS = ["#miniretxs", "#retomatematico"]
 
-# THREADS: Threads borró 2 retos por "spam" (18 y 19 oct 2026). Hasta esta fecha (México) solo se publican en Threads
-# los retos de estos horarios (3 al día); Instagram y Facebook siguen con los 6.
-THREADS_HORARIOS_REDUCIDOS = (1, 3, 5)
-THREADS_REDUCIDO_HASTA = "2026-11-09"
+# THREADS: Threads borró retos por "spam" (18 y 19 oct 2026) y siguió borrando con 3 al día.
+#   1) PAUSA: hasta esta fecha (México, exclusiva) NO se publica nada en Threads; IG y FB siguen con los 6.
+#      Durante la pausa Arty usa la cuenta a mano para que deje de parecer solo un bot.
+#   2) Desde THREADS_PAUSA_HASTA: THREADS_POR_DIA retos al día, en horarios que cambian cada día (elegidos al azar
+#      con la fecha como semilla) y con una espera aleatoria antes de publicar, para no salir siempre a la misma hora.
+THREADS_PAUSA_HASTA = "2026-11-04"
+THREADS_POR_DIA = 2
+THREADS_ESPERA_MAX_MIN = 40  # espera aleatoria (0..N min) antes de publicar en Threads, después de IG y FB
+
+
+def threads_horarios(fecha: str) -> tuple[int, ...]:
+    """Horarios (tipos 1-6) que publican en Threads ese día (fecha México AAAA-MM-DD). Vacío durante la pausa."""
+    if fecha < THREADS_PAUSA_HASTA:
+        return ()
+    import random
+    return tuple(sorted(random.Random("threads-" + fecha).sample(range(1, 7), THREADS_POR_DIA)))
+
 
 # Formas del texto de Threads: cada reto usa una distinta a la del anterior para que no parezcan todos iguales.
 FORMAS_THREADS = {
@@ -27,6 +40,9 @@ FORMAS_THREADS = {
     "contexto": "Una situación cotidiana neutra (tienda, cocina, reloj, liga, examen) que plantea el reto. Sin familiares ni amigos como personajes.",
     "dato": "Una frase verdadera de contexto o curiosidad que lleva al reto, sin pistas que regalen la respuesta.",
     "opinion": "Un comentario breve de la página sobre el reto (\"este parece que necesita calculadora, pero no\") y luego el reto.",
+    "pregunta_abierta": "Arranca con una pregunta casual a quien lee (no sobre comentar) y luego el reto, en tono de plática.",
+    "confesion": "La página admite algo en primera persona (\"tardé más de lo que quisiera en esta\") y luego el reto.",
+    "lista": "El reto en 2 o 3 renglones cortos, como apunte rápido, sin introducción.",
 }
 
 # ---------------------------------------------------------------------------
