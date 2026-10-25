@@ -1658,5 +1658,23 @@
   "ig_id": "17953871136287859",
   "fb_id": "1395069237021603_122102651523519581",
   "threads_id": null
+ },
+ {
+  "id": "20261025-0904-t6",
+  "ts": "2026-10-25T09:05:07+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "conteo",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "partidos de un torneo",
+  "fondo": "red",
+  "numero": 63,
+  "modo": "cola",
+  "tema": "Torneo con los equipos numerados «entre» el 10 y el 20, ida y vuelta más final",
+  "titulo": "En la feria de mi pueblo juegan los equipos con número entre el 10 y el 20. Todos contra todos, ida y vuelta, y al final",
+  "ig_id": "18131790100822383",
+  "fb_id": "1395069237021603_122102726049519581",
+  "threads_id": null
  }
 ]
