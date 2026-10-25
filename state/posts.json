@@ -1622,5 +1622,23 @@
   "ig_id": "18130138585864447",
   "fb_id": "1395069237021603_122102323185519581",
   "threads_id": "18647734327063644"
+ },
+ {
+  "id": "20261025-0036-t4",
+  "ts": "2026-10-25T00:37:22+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "calcetines en un cajón (peor caso)",
+  "fondo": "red",
+  "numero": 61,
+  "modo": "cola",
+  "tema": "10 negros y 10 blancos: cuántos sacar para asegurar un par negro",
+  "titulo": "Parece fácil: en un cajón a oscuras hay 10 calcetines negros y 10 blancos. ¿Cuántos tienes que sacar como **mínimo** par",
+  "ig_id": "18124292360486269",
+  "fb_id": "1395069237021603_122102412015519581",
+  "threads_id": null
  }
 ]
