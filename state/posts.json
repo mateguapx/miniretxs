@@ -1640,5 +1640,23 @@
   "ig_id": "18124292360486269",
   "fb_id": "1395069237021603_122102412015519581",
   "threads_id": null
+ },
+ {
+  "id": "20261025-0727-t5",
+  "ts": "2026-10-25T07:27:40+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "emoji",
+  "estilo": "debate",
+  "hook": "contrarreloj",
+  "tema_clave": "sistema de frutas con sumas",
+  "fondo": "lissajous",
+  "numero": 62,
+  "modo": "cola",
+  "tema": "Frutas: plátano vale «tres veces más» que manzana",
+  "titulo": "Tienes 10 segundos ⏱️\n🍎 + 🍎 + 🍎 = 15\n🍌 vale tres veces más que 🍎\n🍇 + 🍎 = 🍌\n🍎 + 🍌 + 🍇 = **?**",
+  "ig_id": "17953871136287859",
+  "fb_id": "1395069237021603_122102651523519581",
+  "threads_id": null
  }
 ]
