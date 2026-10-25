@@ -63,13 +63,13 @@
  ],
  "bottom": [
   {
-   "titulo": "Mis amigos se pelean por este. 🍎 y 🍌 son **dígitos** del 0 al 9:\n🍎 + 🍌 = 9\n🍎 − 🍌 = 3\n🍇 = 🍎🍌\n🍇 + 🍌 = ?",
-   "formato": "emoji",
+   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "formato": "patron",
    "estilo": "debate",
    "nivel": "facil",
-   "hook": "pregunta_directa",
-   "tema": "Emojis pegados: ¿producto o número de dos cifras?",
-   "fondo": "lissajous",
+   "hook": "contrarreloj",
+   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+   "fondo": "espiral",
    "score": 0.8,
    "metricas": {
     "reach": 1,
@@ -83,13 +83,13 @@
    }
   },
   {
-   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
-   "formato": "patron",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "contrarreloj",
-   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
-   "fondo": "espiral",
+   "titulo": "Mi hermanito dibujó una cuadrícula de 4 × 4 cuadritos y dice que hay 16 cuadrados. ¿Cuántos cuadrados hay **en total**, ",
+   "formato": "conteo",
+   "estilo": "exacto",
+   "nivel": "medio",
+   "hook": "historia",
+   "tema": "Cuadrados de todos los tamaños en una cuadrícula de 4×4",
+   "fondo": "rejilla",
    "score": 0.8,
    "metricas": {
     "reach": 1,
