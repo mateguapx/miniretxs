@@ -1768,5 +1768,23 @@
   "ig_id": "17939662836392973",
   "fb_id": "1395069237021603_122103103311519581",
   "threads_id": null
+ },
+ {
+  "id": "20261025-1923-t2",
+  "ts": "2026-10-25T19:23:52+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "contrarreloj",
+  "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
+  "fondo": "formulas",
+  "numero": 65,
+  "modo": "cola",
+  "tema": "Caballeros y bribones: «Soy bribona o Beto es caballero» (o inclusivo vs exclusivo)",
+  "titulo": "Tienes 10 segundos ⏱️ Los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Soy bribona o Be",
+  "ig_id": "18136576771735577",
+  "fb_id": "1395069237021603_122103184683519581",
+  "threads_id": null
  }
 ]
