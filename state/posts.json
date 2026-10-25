@@ -1750,5 +1750,23 @@
   "ig_id": "18131790100822383",
   "fb_id": "1395069237021603_122102726049519581",
   "threads_id": null
+ },
+ {
+  "id": "20261025-1718-t1",
+  "ts": "2026-10-25T17:18:56+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "sucesiones geométricas con giro",
+  "fondo": "fractal",
+  "numero": 64,
+  "modo": "cola",
+  "tema": "Alcancía 1, 2, 5, 14, 41: diferencias que se triplican",
+  "titulo": "Mi sobrina anota cuántas monedas tiene en su alcancía cada semana. ¿Qué número **sigue**?",
+  "ig_id": "17939662836392973",
+  "fb_id": "1395069237021603_122103103311519581",
+  "threads_id": null
  }
 ]
