@@ -1980,5 +1980,23 @@
   "ig_id": "18102341912066011",
   "fb_id": "1395069237021603_122104329771519581",
   "threads_id": null
+ },
+ {
+  "id": "20261026-2331-t3",
+  "ts": "2026-10-26T23:31:28+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "sistema con comida y divisiones",
+  "fondo": "geometria",
+  "numero": 72,
+  "modo": "cola",
+  "tema": "Pizza, taco y dona con divisiones y un cuadrado",
+  "titulo": "A ver si te sale a la primera:\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?",
+  "ig_id": "17988373473117769",
+  "fb_id": "1395069237021603_122104407447519581",
+  "threads_id": null
  }
 ]
