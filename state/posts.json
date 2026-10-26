@@ -1944,5 +1944,23 @@
   "ig_id": "17998997568012702",
   "fb_id": "1395069237021603_122103782331519581",
   "threads_id": null
+ },
+ {
+  "id": "20261026-1938-t1",
+  "ts": "2026-10-26T19:38:33+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "productos notables y diferencia de cuadrados",
+  "fondo": "geometria",
+  "numero": 70,
+  "modo": "cola",
+  "tema": "2027 × 2025 − 2026²",
+  "titulo": "Sin calculadora: ¿cuánto da **esto**?",
+  "ig_id": "18125249299908365",
+  "fb_id": "1395069237021603_122104270575519581",
+  "threads_id": null
  }
 ]
