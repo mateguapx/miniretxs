@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "no_es_x",
+ "tema_clave": "sistema de frutas con sumas",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Manzana, plátano y uvas: «la mitad de 🍎 + 🍇»",
+ "caption": "Tres líneas fáciles y una pregunta final que se contesta rapidito 🍎 ¿Cuánto te dio? Deja tu respuesta 👇 #retoemoji #mates #miniretxs #retomatematico",
+ "threads": "¿Cómo vas con las sumas de fruta? Va una rápida:\n\n🍎 + 🍎 = 16\n🍎 − 🍌 = 2\n🍌 + 🍇 = 10\nLa mitad de 🍎 + 🍇 = ?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 12!\n🍎 + 🍎 = 16\n🍎 − 🍌 = 2\n🍌 + 🍇 = 10\nLa mitad de 🍎 + 🍇 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

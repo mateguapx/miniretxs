@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "radicales y racionalización",
+ "forma_threads": "pregunta_abierta",
+ "tema": "6/√3 − √12",
+ "caption": "Racionaliza, simplifica y mira lo que queda 👀 Deja tu respuesta 👇 #radicales #racionalizacion #miniretxs #retomatematico",
+ "threads": "¿Todavía te acuerdas de racionalizar? A ver con esta:\n\n6/√3 − √12\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "¿Cuánto da **esto**? ¿Tú qué contestas?",
+   "display": "\\dfrac{6}{\\sqrt{3}} - \\sqrt{12}",
+   "layout": "reto"
+  }
+ ]
+}

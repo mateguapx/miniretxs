@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "el número que sigue en un patrón de dobles",
+ "forma_threads": "pregunta_abierta",
+ "tema": "2, 3, 6, 7, 14, 15: +1 y ×2 alternados",
+ "caption": "Los likes de Sofi siguen una regla muy sencilla 📱 ¿Cuál es el que sigue? Deja tu respuesta 👇 #patrones #sucesiones #miniretxs #retomatematico",
+ "threads": "¿Eres de los que ven patrones en todo? Prueba con esta:\n\n2, 3, 6, 7, 14, 15, ?\n\n¿Qué número sigue?",
+ "slides": [
+  {
+   "text": "Cada mañana Sofi anota los likes de su foto nueva. ¿Qué número **sigue**?",
+   "display": "2,\\ 3,\\ 6,\\ 7,\\ 14,\\ 15,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

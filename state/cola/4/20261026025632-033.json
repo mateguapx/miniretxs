@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
+ "forma_threads": "contexto",
+ "tema": "3, 4, 7, 12, 19: diferencias impares (n² + 3)",
+ "caption": "Fíjate en cuánto crece cada vez 📈 ¿Cuál sigue? Deja tu respuesta 👇 #sucesiones #patrones #miniretxs #retomatematico",
+ "threads": "Último ejercicio de la guía para el examen:\n\n3, 4, 7, 12, 19, ?\n\n¿Qué número sigue?",
+ "slides": [
+  {
+   "text": "Tienes 20 segundos ⏱️ ¿Qué número **sigue**?",
+   "display": "3,\\ 4,\\ 7,\\ 12,\\ 19,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

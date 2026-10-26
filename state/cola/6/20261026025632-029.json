@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "raíz cuadrada de un negativo",
+ "forma_threads": "contexto",
+ "tema": "Prueba falsa de 1 = −1 con √(−1)·√(−1)",
+ "caption": "Números imaginarios, raíces y un resultado imposible 🌀 ¿Qué paso no se vale? Deja el número del paso 👇 #numeroscomplejos #algebra #miniretxs #retomatematico",
+ "threads": "Pizarrón de la clase de álgebra, viernes en la tarde:\n\nPaso 1: 1 = √1\nPaso 2: √1 = √((−1)(−1))\nPaso 3: √((−1)(−1)) = √(−1) · √(−1)\nPaso 4: √(−1) · √(−1) = i · i = −1\nPaso 5: entonces 1 = −1\n\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "¿En qué **paso** está el error de esta “prueba” de que 1 = −1?",
+   "display": "\\begin{aligned}\\text{(1)}&\\quad 1 = \\sqrt{1}\\\\ \\text{(2)}&\\quad \\sqrt{1} = \\sqrt{(-1)(-1)}\\\\ \\text{(3)}&\\quad \\sqrt{(-1)(-1)} = \\sqrt{-1}\\cdot\\sqrt{-1}\\\\ \\text{(4)}&\\quad \\sqrt{-1}\\cdot\\sqrt{-1} = i \\cdot i = -1\\\\ \\text{(5)}&\\quad \\text{entonces } 1 = -1\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "Fibonacci disfrazado",
+ "forma_threads": "opinion",
+ "tema": "1, 1, 4, 9, 25, 64: cuadrados de Fibonacci",
+ "caption": "Parece al azar, pero tiene una regla preciosa 🌻 ¿Cuál sigue? Deja tu respuesta 👇 #patrones #sucesiones #miniretxs #retomatematico",
+ "threads": "Con lápiz y papel sale, pero de cabeza es más bonita:\n\n1, 1, 4, 9, 25, 64, ?\n\n¿Qué número sigue?",
+ "slides": [
+  {
+   "text": "Solo mentalmente: ¿qué número **sigue**?",
+   "display": "1,\\ 1,\\ 4,\\ 9,\\ 25,\\ 64,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

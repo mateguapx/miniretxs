@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "cajas con etiquetas equivocadas",
+ "forma_threads": "dato",
+ "tema": "4 frascos con todas las etiquetas mal: desarreglos de 4",
+ "caption": "Cuatro frascos, cuatro etiquetas y todas mal puestas 🫙 ¿Cuántos desastres distintos hay? Explica cómo lo contaste en los comentarios 👇 #combinatoria #logica #miniretxs #retomatematico",
+ "threads": "Hay 24 formas de pegar 4 etiquetas distintas en 4 frascos.\n\nAna pegó las de sal, azúcar, café y arroz y ninguna quedó en su frasco correcto. ¿De cuántas formas distintas pudo pasar eso?",
+ "slides": [
+  {
+   "text": "Ana pegó las etiquetas de sal, azúcar, café y arroz en sus 4 frascos, pero **ninguna** quedó en el frasco correcto. ¿De cuántas formas distintas pudo quedar ese desastre?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

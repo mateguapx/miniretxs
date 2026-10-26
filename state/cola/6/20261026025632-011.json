@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "una desigualdad multiplicada por un negativo",
+ "forma_threads": "directo",
+ "tema": "Prueba falsa de que (x − 3)² < 0 multiplicando por x − 3 negativo",
+ "caption": "Un cuadrado negativo no existe en los reales… entonces algo falló 🤔 ¿En qué paso? Deja el número del paso 👇 #desigualdades #algebra #miniretxs #retomatematico",
+ "threads": "Un cuadrado negativo en 5 pasos:\n\nPaso 1: x = 2\nPaso 2: x < 3\nPaso 3: x(x − 3) < 3(x − 3)\nPaso 4: x² − 3x < 3x − 9\nPaso 5: (x − 3)² < 0\n\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "¿Tú qué contestas? Con esto “probé” que un cuadrado puede ser **negativo**. ¿En qué paso está el error?",
+   "display": "\\begin{aligned}\\text{(1)}&\\quad x = 2\\\\ \\text{(2)}&\\quad x < 3\\\\ \\text{(3)}&\\quad x(x-3) < 3(x-3)\\\\ \\text{(4)}&\\quad x^{2}-3x < 3x-9\\\\ \\text{(5)}&\\quad (x-3)^{2} < 0\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "palabras",
+ "estilo": "debate",
+ "hook": "sin_calculadora",
+ "tema_clave": "áreas y perímetros con ecuación",
+ "forma_threads": "directo",
+ "tema": "Rectángulo de perímetro 40 con largo «tres veces más» que el ancho: área",
+ "caption": "Una ecuación, un rectángulo y listo 📐 ¿Cuánto mide el área? Deja tu respuesta 👇 #geometria #ecuaciones #miniretxs #retomatematico",
+ "threads": "Un rectángulo tiene 40 cm de perímetro y su largo mide tres veces más que su ancho. ¿Cuál es su área en cm²?",
+ "slides": [
+  {
+   "text": "Sin calculadora: un rectángulo tiene 40 cm de perímetro y su largo mide tres veces más que su ancho. ¿Cuál es su **área** en cm²?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

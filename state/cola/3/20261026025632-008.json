@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "cual_mayor",
+ "estilo": "debate",
+ "hook": "debate",
+ "tema_clave": "comparar logaritmos",
+ "forma_threads": "directo",
+ "tema": "log 50 contra 2 (log sin base)",
+ "caption": "Un logaritmo contra un 2 solito. ¿Cuál gana? Deja tu respuesta 👇 #logaritmos #cualesmayor #miniretxs #retomatematico",
+ "threads": "log 50 o 2\n¿Cuál es mayor?",
+ "slides": [
+  {
+   "text": "¿Cuál es **mayor**? ¿Tú qué contestas?",
+   "display": "\\log 50 \\quad\\text{o}\\quad 2",
+   "layout": "reto"
+  }
+ ]
+}

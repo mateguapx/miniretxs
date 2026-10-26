@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "debate",
+ "hook": "no_es_x",
+ "tema_clave": "apretones de manos",
+ "forma_threads": "contexto",
+ "tema": "Llegas a una junta de 8 personas: apretones de manos contigo incluido",
+ "caption": "Saludos de mano en la junta 🤝 ¿Cuántos son en total? Deja tu respuesta 👇 #combinatoria #conteo #miniretxs #retomatematico",
+ "threads": "Junta de trabajo, 9 de la mañana: llegas a una reunión de 8 personas y todos se saludan de mano una sola vez, tú incluido. ¿Cuántos apretones hay?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 64! Llegas a una junta de 8 personas y todos se saludan de mano una sola vez, tú incluido. ¿Cuántos apretones hay?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

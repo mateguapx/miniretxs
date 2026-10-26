@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "cancelar mal en una fracción",
+ "forma_threads": "confesion",
+ "tema": "Prueba falsa de 3/4 = 1/2 cancelando x² en una suma",
+ "caption": "La misma fracción termina valiendo 3/4 y 1/2: algún paso hizo trampa ✏️ ¿Cuál? Deja el número del paso 👇 #fracciones #algebra #miniretxs #retomatematico",
+ "threads": "Admito que esta me hizo dudar un rato:\n\nPaso 1: x = 2\nPaso 2: (x² + x)/(x² + 2x) = x(x + 1)/(x(x + 2))\nPaso 3: x(x + 1)/(x(x + 2)) = (x + 1)/(x + 2) = 3/4\nPaso 4: (x² + x)/(x² + 2x) = x/(2x) = 1/2\nPaso 5: entonces 3/4 = 1/2\n\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "Antes de que se acabe tu café ☕ aquí “probé” que 3/4 = 1/2. ¿En qué **paso** está el error?",
+   "display": "\\begin{aligned}\\text{(1)}&\\quad x = 2\\\\ \\text{(2)}&\\quad \\frac{x^{2}+x}{x^{2}+2x} = \\frac{x(x+1)}{x(x+2)}\\\\ \\text{(3)}&\\quad \\frac{x(x+1)}{x(x+2)} = \\frac{x+1}{x+2} = \\frac{3}{4}\\\\ \\text{(4)}&\\quad \\frac{x^{2}+x}{x^{2}+2x} = \\frac{x}{2x} = \\frac{1}{2}\\\\ \\text{(5)}&\\quad \\text{entonces } \\frac{3}{4} = \\frac{1}{2}\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

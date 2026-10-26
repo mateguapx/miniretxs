@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "debate",
+ "hook": "parece_facil",
+ "tema_clave": "jerarquía con potencias y raíces",
+ "forma_threads": "opinion",
+ "tema": "2⁴ ÷ 2√4: multiplicación implícita con raíz",
+ "caption": "Una potencia, una raíz y una división. ¿Cuánto te da? Deja tu respuesta 👇 #potencias #raices #miniretxs #retomatematico",
+ "threads": "Se ve inofensiva, pero vale ir con calma:\n\n2⁴ ÷ 2√4\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "Parece fácil… ¿cuánto da **esto**?",
+   "display": "2^{4} \\div 2\\sqrt{4}",
+   "layout": "reto"
+  }
+ ]
+}

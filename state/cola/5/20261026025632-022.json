@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "sistema con animales",
+ "forma_threads": "opinion",
+ "tema": "Rana, búho y pulpo con jerarquía al final",
+ "caption": "Las tres primeras líneas salen solas… la última es la que cuenta 🐸 Deja tu respuesta 👇 #retoemoji #mates #miniretxs #retomatematico",
+ "threads": "Este se ve de kínder, pero la última línea pide atención:\n\n🐸 + 🐸 + 🐸 = 15\n🐸 + 🦉 + 🦉 = 13\n🦉 − 🐙 = 1\n🐙 + 🐸 × 🦉 = ?",
+ "slides": [
+  {
+   "text": "Mía dejó este acertijo en el pizarrón del salón:\n🐸 + 🐸 + 🐸 = 15\n🐸 + 🦉 + 🦉 = 13\n🦉 − 🐙 = 1\n🐙 + 🐸 × 🦉 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

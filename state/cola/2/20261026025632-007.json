@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "sistema con frutas y productos",
+ "forma_threads": "confesion",
+ "tema": "Fresa, durazno y limón: fresa sale de 3·f = f²",
+ "caption": "La primera línea ya es una ecuación de segundo grado 🍓 ¿Cuánto da la última? Deja tu respuesta 👇 #retoemoji #ecuaciones #miniretxs #retomatematico",
+ "threads": "A la primera me equivoqué con esta. Cada fruta vale un número positivo:\n\n🍓 + 🍓 + 🍓 = 🍓 × 🍓\n🍓 × 🍑 = 🍑 + 12\n🍑 ÷ 🍓 + 🍋 = 🍑\n🍋 + 🍑 × 🍓 = ?",
+ "slides": [
+  {
+   "text": "¿Tú qué contestas? Cada fruta vale un número **positivo**:\n🍓 + 🍓 + 🍓 = 🍓 × 🍓\n🍓 × 🍑 = 🍑 + 12\n🍑 ÷ 🍓 + 🍋 = 🍑\n🍋 + 🍑 × 🍓 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

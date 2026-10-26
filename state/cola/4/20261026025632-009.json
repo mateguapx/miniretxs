@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "partidos de un torneo",
+ "forma_threads": "lista",
+ "tema": "Torneo de 23 equipos por eliminación directa: partidos hasta el campeón",
+ "caption": "No hace falta armar las llaves completas ⚽ ¿Cuántos partidos son? Deja tu respuesta 👇 #conteo #torneo #miniretxs #retomatematico",
+ "threads": "Torneo de 23 equipos.\nEliminación directa; si en una ronda sobra uno, pasa directo.\n¿Cuántos partidos hasta tener campeón?",
+ "slides": [
+  {
+   "text": "Tienes 30 segundos ⏱️ Un torneo de 23 equipos es de eliminación directa: quien pierde se va y, si en una ronda sobra uno, pasa directo. ¿Cuántos **partidos** hay hasta tener campeón?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

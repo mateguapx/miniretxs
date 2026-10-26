@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "dividir entre cero escondido",
+ "forma_threads": "confesion",
+ "tema": "Prueba falsa de 6 = 1 dividiendo entre x − 3 con x = 3",
+ "caption": "Todo se ve bien hasta que llegas a 6 = 1 🤯 ¿Dónde está la trampa? Deja el número del paso 👇 #algebra #demostraciones #miniretxs #retomatematico",
+ "threads": "Lo confieso: la primera vez que vi esta, no encontré el error.\n\nPaso 1: x = 3\nPaso 2: x² − 9 = x − 3\nPaso 3: (x − 3)(x + 3) = x − 3\nPaso 4: x + 3 = 1\nPaso 5: 3 + 3 = 1, o sea 6 = 1\n\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "Tienes 30 segundos ⏱️ Según esta “prueba”, 6 = 1. ¿En qué **paso** está el error?",
+   "display": "\\begin{aligned}\\text{(1)}&\\quad x = 3\\\\ \\text{(2)}&\\quad x^{2} - 9 = x - 3\\\\ \\text{(3)}&\\quad (x-3)(x+3) = x - 3\\\\ \\text{(4)}&\\quad x + 3 = 1\\\\ \\text{(5)}&\\quad 3 + 3 = 1,\\ \\text{o sea } 6 = 1\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

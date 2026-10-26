@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+ "forma_threads": "opinion",
+ "tema": "Coco, kiwi y durazno: coco² = 4·coco y kiwis que son la mitad",
+ "caption": "Se ve larga, pero cada línea te regala una fruta 🥥 ¿Cuánto da la última? Deja tu respuesta 👇 #retoemoji #ecuaciones #miniretxs #retomatematico",
+ "threads": "Esta parece pedir calculadora, pero sale en la cabeza. Cada fruta vale un número positivo:\n\n🥥 × 🥥 = 4 × 🥥\n🥝 + 🥝 = 🥥 ÷ 2\n🍑 = 🥥 ÷ 🥝 + 🥥 × 🥝\n🍑² ÷ 🥥 − 🥝 = ?",
+ "slides": [
+  {
+   "text": "Sin calculadora: cada fruta vale un número **positivo**.\n🥥 × 🥥 = 4 × 🥥\n🥝 + 🥝 = 🥥 ÷ 2\n🍑 = 🥥 ÷ 🥝 + 🥥 × 🥝\n🍑² ÷ 🥥 − 🥝 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

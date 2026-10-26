@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "parece_facil",
+ "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Caballeros y bribones: «exactamente uno», «exactamente dos», «los tres bribones»",
+ "caption": "Tres frases, una sola forma de que todo cuadre 🕵️ ¿Quién dice la verdad? Deja tu respuesta 👇 #logica #acertijos #miniretxs #retomatematico",
+ "threads": "¿Qué tan bueno eres para cachar mentiras? Los caballeros siempre dicen la verdad y los bribones siempre mienten.\n\nAna: «Exactamente uno de los tres es caballero».\nBeto: «Exactamente dos somos caballeros».\nCaro: «Los tres somos bribones».\n\n¿Quién es caballero?",
+ "slides": [
+  {
+   "text": "Parece fácil… Los caballeros siempre dicen la verdad y los bribones siempre mienten.\nAna: «Exactamente uno de los tres es caballero».\nBeto: «Exactamente dos somos caballeros».\nCaro: «Los tres somos bribones».\n¿Quién es **caballero**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

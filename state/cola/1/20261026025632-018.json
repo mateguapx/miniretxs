@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "logaritmos que se simplifican",
+ "forma_threads": "minima",
+ "tema": "log 81 ÷ log 3",
+ "caption": "Aquí no se vale “tachar” los log 😅 ¿Cuánto da de verdad? Deja tu respuesta 👇 #logaritmos #algebra #miniretxs #retomatematico",
+ "threads": "(log 81) ÷ (log 3)\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 27! ¿Cuánto da?",
+   "display": "\\dfrac{\\log 81}{\\log 3}",
+   "layout": "reto"
+  }
+ ]
+}

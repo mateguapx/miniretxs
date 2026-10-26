@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "porcentajes que engañan",
+ "forma_threads": "directo",
+ "tema": "10% de 10% de 1000",
+ "caption": "Porcentajes encadenados: el clásico que se resuelve en 5 segundos… si no te apuras. Deja tu respuesta 👇 #porcentajes #mates #miniretxs #retomatematico",
+ "threads": "¿Cuánto es el 10% del 10% de 1000?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 200! ¿Cuánto da?",
+   "display": "10\\% \\text{ de } 10\\% \\text{ de } 1000",
+   "layout": "reto"
+  }
+ ]
+}

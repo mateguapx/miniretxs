@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "no_es_x",
+ "tema_clave": "sistema no lineal con objetos de la escuela",
+ "forma_threads": "confesion",
+ "tema": "Lápiz × regla = 24 y regla − lápiz = 2 sin decir si son positivos",
+ "caption": "Útiles escolares, productos y cuadrados ✏️ ¿Cuánto da la última línea? Deja tu respuesta 👇 #retoemoji #ecuaciones #miniretxs #retomatematico",
+ "threads": "Me costó más de lo que esperaba esta, y es de útiles escolares. Cada objeto vale un número:\n\n✏️ × 📏 = 24\n📏 − ✏️ = 2\n📕 = 📏² − ✏️²\n📕 + ✏️ × 📏 = ?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 144! Cada objeto vale un número:\n✏️ × 📏 = 24\n📏 − ✏️ = 2\n📕 = 📏² − ✏️²\n📕 + ✏️ × 📏 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

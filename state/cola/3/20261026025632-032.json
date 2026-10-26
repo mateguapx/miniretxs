@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "fracciones algebraicas",
+ "forma_threads": "minima",
+ "tema": "(x² − 9)/(x − 3) − x",
+ "caption": "No necesitas saber cuánto vale x 😉 ¿Cuánto da? Deja tu respuesta 👇 #fraccionesalgebraicas #factorizacion #miniretxs #retomatematico",
+ "threads": "(x² − 9)/(x − 3) − x, con x ≠ 3\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "Tienes 15 segundos ⏱️ ¿Cuánto da si x ≠ 3?",
+   "display": "\\dfrac{x^{2}-9}{x-3} - x",
+   "layout": "reto"
+  }
+ ]
+}

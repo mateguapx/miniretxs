@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "radicales y racionalización",
+ "forma_threads": "minima",
+ "tema": "1/(√2+1) − 1/(√2−1) con racionalización",
+ "caption": "Dos fracciones con raíces que se ven casi iguales… ¿qué queda al restarlas? Deja tu respuesta 👇 #radicales #algebra #miniretxs #retomatematico",
+ "threads": "1/(√2 + 1) − 1/(√2 − 1)\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "¿Cuánto te da **esto**? Sin redondear 😉",
+   "display": "\\dfrac{1}{\\sqrt{2}+1} - \\dfrac{1}{\\sqrt{2}-1}",
+   "layout": "reto"
+  }
+ ]
+}

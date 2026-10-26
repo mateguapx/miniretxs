@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "parece_facil",
+ "tema_clave": "sistema con comida y divisiones",
+ "forma_threads": "directo",
+ "tema": "Panquecito, cuernito y galleta que termina en 12 ÷ 6(2)",
+ "caption": "Postres, un cuadrado y una división al final 🧁 ¿Cuánto da la última línea? Deja tu respuesta 👇 #retoemoji #jerarquiadeoperaciones #miniretxs #retomatematico",
+ "threads": "Cada postre vale un número positivo:\n\n🧁 × 🧁 = 36\n🥐 ÷ 🧁 = 2\n🍪 + 🍪 = 🧁 − 4\n🥐 ÷ 🧁(🍪 + 🍪) = ?",
+ "slides": [
+  {
+   "text": "Parece fácil… Cada postre vale un número positivo:\n🧁 × 🧁 = 36\n🥐 ÷ 🧁 = 2\n🍪 + 🍪 = 🧁 − 4\n🥐 ÷ 🧁(🍪 + 🍪) = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

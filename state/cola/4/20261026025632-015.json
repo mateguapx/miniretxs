@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "formar números con dígitos",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Candado de 3 dígitos distintos en orden creciente: C(10,3)",
+ "caption": "Ese dato de “menor a mayor” cambia todo 🔒 ¿Cuántas claves son? Deja tu respuesta 👇 #combinatoria #conteo #miniretxs #retomatematico",
+ "threads": "¿Alguna vez se te ha olvidado una clave? Imagina esto: un candado de 3 dígitos (del 0 al 9), los tres distintos y de menor a mayor. ¿Cuántas claves tendrías que probar como máximo?",
+ "slides": [
+  {
+   "text": "Se te olvidó la clave de tu candado de 3 dígitos (del 0 al 9). Solo recuerdas que los tres son distintos y van de **menor a mayor**. ¿Cuántas claves tendrías que probar como máximo?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}
