@@ -1962,5 +1962,23 @@
   "ig_id": "18125249299908365",
   "fb_id": "1395069237021603_122104270575519581",
   "threads_id": null
+ },
+ {
+  "id": "20261026-2116-t2",
+  "ts": "2026-10-26T21:16:35+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "pregunta_directa",
+  "tema_clave": "cruzar el río con restricciones",
+  "fondo": "formulas",
+  "numero": 71,
+  "modo": "cola",
+  "tema": "Familia cruzando el río en lancha de 80 kg: ¿viajes de ida o idas y vueltas?",
+  "titulo": "Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir rem",
+  "ig_id": "18102341912066011",
+  "fb_id": "1395069237021603_122104329771519581",
+  "threads_id": null
  }
 ]
