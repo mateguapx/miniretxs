@@ -1840,5 +1840,23 @@
   "ig_id": "17941495137368997",
   "fb_id": "1395069237021603_122103681993519581",
   "threads_id": null
+ },
+ {
+  "id": "20261026-0959-t6",
+  "ts": "2026-10-26T10:00:25+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "sombreros de colores",
+  "fondo": "formulas",
+  "numero": 69,
+  "modo": "cola",
+  "tema": "100 personas en fila con sombreros blancos o negros: cuántos ganan seguro",
+  "titulo": "Parece fácil… 100 personas en fila con sombrero blanco o negro; cada quien ve los de todos los de adelante. Desde el últ",
+  "ig_id": "17998997568012702",
+  "fb_id": "1395069237021603_122103782331519581",
+  "threads_id": null
  }
 ]
