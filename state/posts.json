@@ -1822,5 +1822,23 @@
   "ig_id": "18228922252338386",
   "fb_id": "1395069237021603_122103399573519581",
   "threads_id": null
+ },
+ {
+  "id": "20261026-0736-t5",
+  "ts": "2026-10-26T07:36:53+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "el bat y la pelota",
+  "fondo": "espiral",
+  "numero": 68,
+  "modo": "cola",
+  "tema": "Bat y pelota: 1,100 pesos, el bat cuesta 1,000 más",
+  "titulo": "Un bat y una pelota cuestan 1,100 pesos en total. El bat cuesta 1,000 pesos más que la pelota. ¿Cuánto cuesta la **pelot",
+  "ig_id": "17941495137368997",
+  "fb_id": "1395069237021603_122103681993519581",
+  "threads_id": null
  }
 ]
