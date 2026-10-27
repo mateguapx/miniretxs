@@ -2151,5 +2151,23 @@
   "ig_id": "17889762513478480",
   "fb_id": "1395069237021603_122105396355519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-2325-t3",
+  "ts": "2026-10-27T23:25:45+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "radicales y racionalización",
+  "fondo": "lissajous",
+  "numero": 78,
+  "modo": "cola",
+  "tema": "(√2 + √8)²",
+  "titulo": "¡La respuesta **NO** es 10! ¿Cuánto da?",
+  "ig_id": "18110424133933643",
+  "fb_id": "1395069237021603_122105473191519581",
+  "threads_id": null
  }
 ]
