@@ -2115,5 +2115,23 @@
   "ig_id": "18120718051994813",
   "fb_id": "1395069237021603_122104781571519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-1914-t1",
+  "ts": "2026-10-27T19:15:15+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "sucesiones geométricas con giro",
+  "fondo": "fractal",
+  "numero": 76,
+  "modo": "cola",
+  "tema": "1, 2, 8, 48, 384: razones 2, 4, 6, 8",
+  "titulo": "A ver qué tan rápido lo ves. ¿Qué número **sigue**?",
+  "ig_id": "18287411566294399",
+  "fb_id": "1395069237021603_122105318367519581",
+  "threads_id": null
  }
 ]
