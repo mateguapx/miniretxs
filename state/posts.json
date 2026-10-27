@@ -2016,5 +2016,23 @@
   "ig_id": "18108829679194468",
   "fb_id": "1395069237021603_122104472841519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-0733-t5",
+  "ts": "2026-10-27T07:33:53+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "patron",
+  "estilo": "debate",
+  "hook": "parece_facil",
+  "tema_clave": "sucesión sencilla con giro",
+  "fondo": "espiral",
+  "numero": 74,
+  "modo": "cola",
+  "tema": "Reloj de pared: 8, 9, 10, 11, 12, ¿13 o 1?",
+  "titulo": "Parece fácil… cada hora anoto lo que marca mi reloj. ¿Qué número **sigue**?",
+  "ig_id": "17886022575623126",
+  "fb_id": "1395069237021603_122104690497519581",
+  "threads_id": null
  }
 ]
