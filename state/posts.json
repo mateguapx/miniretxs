@@ -2034,5 +2034,23 @@
   "ig_id": "17886022575623126",
   "fb_id": "1395069237021603_122104690497519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-0944-t6",
+  "ts": "2026-10-27T09:45:03+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "quién es quién (deducción por pistas)",
+  "fondo": "formulas",
+  "numero": 75,
+  "modo": "cola",
+  "tema": "Foto de 4 amigos: «a la derecha de Beto» ¿según quién?",
+  "titulo": "Me pasaron una foto de 4 amigos en fila. Ana sale justo a la derecha de Beto. Beto no sale junto a Caro, y Caro no sale ",
+  "ig_id": "18120718051994813",
+  "fb_id": "1395069237021603_122104781571519581",
+  "threads_id": null
  }
 ]
