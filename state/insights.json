@@ -63,13 +63,13 @@
  ],
  "bottom": [
   {
-   "titulo": "Mi hermanito dibujó una cuadrícula de 4 × 4 cuadritos y dice que hay 16 cuadrados. ¿Cuántos cuadrados hay **en total**, ",
-   "formato": "conteo",
-   "estilo": "exacto",
-   "nivel": "medio",
-   "hook": "historia",
-   "tema": "Cuadrados de todos los tamaños en una cuadrícula de 4×4",
-   "fondo": "rejilla",
+   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
+   "formato": "patron",
+   "estilo": "debate",
+   "nivel": "facil",
+   "hook": "contrarreloj",
+   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
+   "fondo": "espiral",
    "score": 0.8,
    "metricas": {
     "reach": 1,

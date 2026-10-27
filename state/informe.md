@@ -1,5 +1,5 @@
 # Informe de rendimiento
-Actualizado: 2026-10-26T19:35:30+00:00 · posts medidos: 49
+Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 
 
 ## Posts (puntaje 1.0 = normal para su tipo)
@@ -9,17 +9,23 @@ Actualizado: 2026-10-26T19:35:30+00:00 · posts medidos: 49
 | 2.60 | 6 | probabilidad | debate | ¿Qué tan probable es que te salga un **p | 5 | 0 | 0 | 0 | 0 |
 | 2.60 | 2 | emoji | no_es_x | Cada emoji vale un número **positivo**,  | 125 | 0 | 0 | 0 | 0 |
 | 2.60 | 5 | operacion | debate | Mi primo y yo no coincidimos: ¿cuánto da | 235 | 0 | 0 | 0 | 0 |
-| 2.60 | 1 | patron | pregunta_directa | ¿Qué número **sigue**? | 169 | 0 | 1 | 1 | 4 |
+| 2.60 | 1 | patron | pregunta_directa | ¿Qué número **sigue**? | 172 | 0 | 1 | 1 | 4 |
 | 1.40 | 5 | palabras | parece_facil | Parece fácil: un caracol está en el fond | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 2 | palabras | parece_facil | Parece fácil, pero a mi primo le tomó 5  | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 2 | logica | historia | Mi papá dice que es facilísimo: en un dí | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 5 | operacion | debate | Defiende tu respuesta: ¿cuánto da **esto | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 6 | error_oculto | debate | Defiende tu respuesta: un amigo me “demo | 2 | 0 | 0 | 0 | 1 |
 | 1.40 | 2 | palabras | debate | En el Buen Fin vi un letrero: “50% + 20% | 2 | 0 | 0 | 0 | 0 |
+| 1.40 | 5 | emoji | contrarreloj | Tienes 10 segundos ⏱️
+🍎 + 🍎 + 🍎 = 15
+🍌 v | 2 | 0 | 0 | 0 | 0 |
 | 1.20 | 1 | cual_mayor | historia | Mi amigo jura que son iguales. ¿Cuál es  | 3 | 0 | 0 | 0 | 0 |
 | 1.20 | 3 | palabras | parece_facil | Parece fácil: si a un cuadrado le aument | 3 | 0 | 0 | 0 | 0 |
+| 1.13 | 4 | probabilidad | sin_calculadora | 3 puertas, 1 auto 🚗 y 2 cabras. Eliges u | 2 | 0 | 0 | 0 | 0 |
+| 1.13 | 4 | probabilidad | no_es_x | ¡La respuesta **NO** es 3/7! Tú y dos am | 2 | 0 | 0 | 0 | 0 |
+| 1.13 | 4 | patron | sin_calculadora | Sin calculadora y sin Google: ¿qué númer | 2 | 0 | 0 | 0 | 0 |
+| 1.13 | 4 | patron | historia | Mi profe de la prepa nos dejó esta: cada | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | palabras | parece_facil | Parece fácil… ¿cuántos años tiene **Luis | 2 | 0 | 0 | 0 | 0 |
-| 1.00 | 4 | probabilidad | sin_calculadora | 3 puertas, 1 auto 🚗 y 2 cabras. Eliges u | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 6 | logica | sin_calculadora | 3 de cada 4 habitantes son caballeros (s | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | emoji | pregunta_directa | Cada emoji vale un número, el mismo en t | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | operacion | sin_calculadora | Solo de cabeza: ¿cuánto vale **esto**? | 1 | 0 | 0 | 0 | 0 |
@@ -40,65 +46,70 @@ Actualizado: 2026-10-26T19:35:30+00:00 · posts medidos: 49
 | 1.00 | 6 | logica | debate | Hay 3 cajas: “manzanas”, “naranjas” y “m | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | emoji | no_es_x | ¡La respuesta **NO** es 48! Cada fruta v | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | operacion | sin_calculadora | Sin calculadora: ¿cuánto da **esto**? | 2 | 0 | 0 | 0 | 0 |
-| 1.00 | 4 | probabilidad | no_es_x | ¡La respuesta **NO** es 3/7! Tú y dos am | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | palabras | sin_calculadora | Sin calculadora: mi tío compró una vaca  | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 6 | logica | sin_calculadora | Sin calculadora: afuera de un cuarto cer | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | emoji | pregunta_directa | Cada 🍌 vale lo mismo y los emojis juntos | 2 | 0 | 0 | 0 | 0 |
-| 1.00 | 4 | patron | sin_calculadora | Sin calculadora y sin Google: ¿qué númer | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 1 | operacion | sin_calculadora | Sin calculadora y sin pensarle mucho: ¿c | 2 | 0 | 0 | 0 | 0 |
-| 1.00 | 4 | patron | historia | Mi profe de la prepa nos dejó esta: cada | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | patron | historia | Mi sobrina de 10 años lo sacó en 5 segun | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | logica | no_es_x | ¡La respuesta **NO** es 4! Tienes 9 mone | 1 | 0 | 0 | 0 | 0 |
-| 0.80 | 4 | probabilidad | historia | 3 cartas en una bolsa (R = roja, N = neg | 1 | 0 | 0 | 0 | 0 |
+| 1.00 | 3 | emoji | no_es_x | ¡La respuesta **NO** es 20!
+✏️ + ✏️ = 6
+ | 2 | 0 | 0 | 0 | 0 |
+| 1.00 | 6 | conteo | historia | En la feria de mi pueblo juegan los equi | 1 | 0 | 0 | 0 | 0 |
+| 0.87 | 4 | probabilidad | historia | 3 cartas en una bolsa (R = roja, N = neg | 1 | 0 | 0 | 0 | 0 |
+| 0.87 | 4 | conteo | sin_calculadora | Sin calculadora: una pareja de **anfitri | 1 | 0 | 0 | 0 | 0 |
+| 0.87 | 4 | conteo | historia | Mi hermanito dibujó una cuadrícula de 4  | 1 | 0 | 0 | 0 | 0 |
+| 0.87 | 4 | probabilidad | parece_facil | Parece fácil: en un cajón a oscuras hay  | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 3 | emoji | pregunta_directa | Mis amigos se pelean por este. 🍎 y 🍌 son | 1 | 0 | 0 | 0 | 0 |
-| 0.80 | 4 | conteo | sin_calculadora | Sin calculadora: una pareja de **anfitri | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 1 | patron | contrarreloj | Tienes 10 segundos ⏱️ Mi hermano dice qu | 1 | 0 | 0 | 0 | 0 |
-| 0.80 | 4 | conteo | historia | Mi hermanito dibujó una cuadrícula de 4  | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 1 | operacion | historia | Me lo mandaron así por WhatsApp: 2^3^2 ¿ | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 1 | patron | sin_calculadora | Sin calculadora: ¿qué número **sigue**? | 1 | 0 | 0 | 0 | 0 |
 
 ## Formatos (>1 = funciona mejor que el promedio)
 
 - probabilidad: 1.20
+- patron: 1.18
 - operacion: 1.16
-- patron: 1.15
+- emoji: 1.14
 - error_oculto: 1.13
 - palabras: 1.13
-- emoji: 1.13
 - cual_mayor: 1.07
 - logica: 1.04
-- conteo: 0.90
+- conteo: 0.95
 
 ## Exacto vs. debate (>1 = funciona mejor que el promedio)
 
-- exacto: 1.16
+- exacto: 1.17
 - debate: 1.13
 
 ## Ganchos (>1 = funciona mejor que el promedio)
 
 - debate: 1.44
-- no_es_x: 1.27
+- no_es_x: 1.25
 - pregunta_directa: 1.16
-- parece_facil: 1.12
-- historia: 1.00
-- sin_calculadora: 0.97
-- contrarreloj: 0.93
+- parece_facil: 1.10
+- contrarreloj: 1.05
+- historia: 1.02
+- sin_calculadora: 0.99
 
 ## Temas (>1 = funciona mejor que el promedio)
 
-- calcetines en un cajón (peor caso): 1.53
 - sistema con comida y divisiones: 1.53
 - potencias pequeñas y signos: 1.53
 - sucesiones cuadráticas (diferencias de segundo orden): 1.53
+- calcetines en un cajón (peor caso): 1.37
 - áreas y perímetros con ecuación: 1.15
 - caracol que sube un pozo: 1.13
 - relojes y calendarios: 1.13
 - jerarquía de operaciones con trampa (multiplicar/dividir antes que sumar): 1.13
 - una desigualdad multiplicada por un negativo: 1.13
 - descuentos y aumentos sucesivos: 1.13
+- sistema de frutas con sumas: 1.13
 - comparar expresiones que parecen iguales: 1.07
+- Monty Hall y variantes: 1.04
+- cumpleaños y coincidencias: 1.04
+- Fibonacci disfrazado: 1.04
 - edades: 1.00
-- Monty Hall y variantes: 1.00
 - caballeros que dicen la verdad y bribones que mienten: 1.00
 - sistema con trampa de cantidades (racimos, mitades): 1.00
 - operaciones con ceros y unos: 1.00
@@ -114,28 +125,27 @@ Actualizado: 2026-10-26T19:35:30+00:00 · posts medidos: 49
 - el bat y la pelota (intuición contra álgebra): 1.00
 - trabajo conjunto (máquinas, llaves, personas): 1.00
 - porcentajes que engañan: 1.00
-- cumpleaños y coincidencias: 1.00
 - precios y vueltos: 1.00
-- Fibonacci disfrazado: 1.00
 - radicales y racionalización: 1.00
 - sucesión que suma los dos anteriores: 1.00
 - monedas y balanzas: 1.00
+- partidos de un torneo: 1.00
+- sucesiones recursivas: 0.98
+- cartas: 0.96
+- apretones de manos: 0.96
+- contar cuadrados o triángulos descritos con palabras: 0.96
 - sistema con frutas y productos: 0.95
-- sucesiones recursivas: 0.95
-- cartas: 0.93
-- apretones de manos: 0.93
-- contar cuadrados o triángulos descritos con palabras: 0.93
 - leyes de exponentes con trampa: 0.93
 - sucesiones con cuadrados, cubos o factoriales: 0.93
 
 ## Fondos (>1 = funciona mejor que el promedio)
 
 - funciones: 1.37
-- espiral: 1.23
 - geometria: 1.23
-- red: 1.15
-- lissajous: 1.05
+- espiral: 1.22
+- red: 1.13
+- lissajous: 1.09
+- probabilidad: 1.03
+- fractal: 1.02
+- rejilla: 1.01
 - formulas: 1.00
-- fractal: 1.00
-- rejilla: 1.00
-- probabilidad: 1.00
