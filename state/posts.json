@@ -1998,5 +1998,23 @@
   "ig_id": "17988373473117769",
   "fb_id": "1395069237021603_122104407447519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-0139-t4",
+  "ts": "2026-10-27T01:40:18+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "debate",
+  "hook": "historia",
+  "tema_clave": "apretones de manos",
+  "fondo": "formulas",
+  "numero": 73,
+  "modo": "cola",
+  "tema": "Boda con 190 apretones: ¿cuántos invitados, contando o no a los novios?",
+  "titulo": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 **saludos**. ¿Cuántos invi",
+  "ig_id": "18108829679194468",
+  "fb_id": "1395069237021603_122104472841519581",
+  "threads_id": null
  }
 ]
