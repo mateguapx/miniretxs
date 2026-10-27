@@ -2133,5 +2133,23 @@
   "ig_id": "18287411566294399",
   "fb_id": "1395069237021603_122105318367519581",
   "threads_id": null
+ },
+ {
+  "id": "20261027-2104-t2",
+  "ts": "2026-10-27T21:04:29+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "contrarreloj",
+  "tema_clave": "edades con sistema de ecuaciones",
+  "fondo": "geometria",
+  "numero": 77,
+  "modo": "cola",
+  "tema": "Hermano: hace 3 años el triple, dentro de 3 años el doble",
+  "titulo": "Tienes 30 segundos ⏱️ Hace 3 años mi hermano tenía el **triple** de mi edad. Dentro de 3 años tendrá el doble. ¿Cuántos ",
+  "ig_id": "17889762513478480",
+  "fb_id": "1395069237021603_122105396355519581",
+  "threads_id": null
  }
 ]
