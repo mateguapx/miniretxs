@@ -2325,5 +2325,23 @@
   "ig_id": "18037214180906341",
   "fb_id": "1395069237021603_122106252087519581",
   "threads_id": null
+ },
+ {
+  "id": "20261028-2348-t3",
+  "ts": "2026-10-28T23:48:39+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "jerarquía con potencias y raíces",
+  "fondo": "formulas",
+  "numero": 84,
+  "modo": "cola",
+  "tema": "√(9 + 16) + 3 × 2² − 5⁰",
+  "titulo": "¡La respuesta **NO** es 18! ¿Cuánto da?",
+  "ig_id": "18119156782961343",
+  "fb_id": "1395069237021603_122106290967519581",
+  "threads_id": null
  }
 ]
