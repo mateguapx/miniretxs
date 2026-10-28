@@ -83,26 +83,6 @@
    }
   },
   {
-   "titulo": "Me lo mandaron así por WhatsApp: 2^3^2 ¿Cuánto te **da**?",
-   "formato": "operacion",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "historia",
-   "tema": "2^3^2 escrito en WhatsApp: ¿512 o 64?",
-   "fondo": "lissajous",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 4,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
    "titulo": "Sin calculadora: ¿qué número **sigue**?",
    "formato": "patron",
    "estilo": "debate",
@@ -118,6 +98,26 @@
     "follows": 0,
     "profile_visits": 0,
     "views": 1,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "¿Qué número **sigue**?",
+   "formato": "patron",
+   "estilo": "exacto",
+   "nivel": "facil",
+   "hook": "pregunta_directa",
+   "tema": "3, 5, 9, 17, 33 (2ⁿ + 1)",
+   "fondo": "espiral",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 2,
     "likes": 0,
     "comments": 0
    }

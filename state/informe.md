@@ -1,5 +1,5 @@
 # Informe de rendimiento
-Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
+Actualizado: 2026-10-28T19:07:32+00:00 · posts medidos: 56
 
 
 ## Posts (puntaje 1.0 = normal para su tipo)
@@ -9,9 +9,10 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 | 2.60 | 6 | probabilidad | debate | ¿Qué tan probable es que te salga un **p | 5 | 0 | 0 | 0 | 0 |
 | 2.60 | 2 | emoji | no_es_x | Cada emoji vale un número **positivo**,  | 125 | 0 | 0 | 0 | 0 |
 | 2.60 | 5 | operacion | debate | Mi primo y yo no coincidimos: ¿cuánto da | 235 | 0 | 0 | 0 | 0 |
-| 2.60 | 1 | patron | pregunta_directa | ¿Qué número **sigue**? | 172 | 0 | 1 | 1 | 4 |
+| 2.60 | 1 | patron | pregunta_directa | ¿Qué número **sigue**? | 175 | 0 | 1 | 2 | 6 |
 | 1.40 | 5 | palabras | parece_facil | Parece fácil: un caracol está en el fond | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 2 | palabras | parece_facil | Parece fácil, pero a mi primo le tomó 5  | 2 | 0 | 0 | 0 | 0 |
+| 1.40 | 6 | logica | debate | Hay 100 focos apagados en fila. Pasan 10 | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 2 | logica | historia | Mi papá dice que es facilísimo: en un dí | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 5 | operacion | debate | Defiende tu respuesta: ¿cuánto da **esto | 2 | 0 | 0 | 0 | 0 |
 | 1.40 | 6 | error_oculto | debate | Defiende tu respuesta: un amigo me “demo | 2 | 0 | 0 | 0 | 1 |
@@ -39,11 +40,11 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 | 1.00 | 3 | emoji | parece_facil | Parece fácil… pero en mi casa salieron d | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | emoji | parece_facil | Parece fácil… a ver la última línea:
 🐶 + | 1 | 0 | 0 | 0 | 0 |
-| 1.00 | 6 | logica | debate | Hay 100 focos apagados en fila. Pasan 10 | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | palabras | historia | Un bat y una pelota cuestan 120 pesos en | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | palabras | sin_calculadora | Sin calculadora: mi tío llena una cubeta | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | operacion | historia | A ver, rápido: ¿cuánto **da**? | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 6 | logica | debate | Hay 3 cajas: “manzanas”, “naranjas” y “m | 1 | 0 | 0 | 0 | 0 |
+| 1.00 | 1 | operacion | historia | Me lo mandaron así por WhatsApp: 2^3^2 ¿ | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | emoji | no_es_x | ¡La respuesta **NO** es 48! Cada fruta v | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | operacion | sin_calculadora | Sin calculadora: ¿cuánto da **esto**? | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | palabras | sin_calculadora | Sin calculadora: mi tío compró una vaca  | 1 | 0 | 0 | 0 | 0 |
@@ -51,30 +52,32 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 | 1.00 | 3 | emoji | pregunta_directa | Cada 🍌 vale lo mismo y los emojis juntos | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 1 | operacion | sin_calculadora | Sin calculadora y sin pensarle mucho: ¿c | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 5 | patron | historia | Mi sobrina de 10 años lo sacó en 5 segun | 1 | 0 | 0 | 0 | 0 |
+| 1.00 | 2 | logica | historia | Ana, Beto y Caro son médico, maestro y c | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 2 | logica | no_es_x | ¡La respuesta **NO** es 4! Tienes 9 mone | 1 | 0 | 0 | 0 | 0 |
 | 1.00 | 3 | emoji | no_es_x | ¡La respuesta **NO** es 20!
 ✏️ + ✏️ = 6
  | 2 | 0 | 0 | 0 | 0 |
 | 1.00 | 6 | conteo | historia | En la feria de mi pueblo juegan los equi | 1 | 0 | 0 | 0 | 0 |
+| 1.00 | 2 | logica | contrarreloj | Tienes 10 segundos ⏱️ Los caballeros sie | 1 | 0 | 0 | 0 | 0 |
 | 0.87 | 4 | probabilidad | historia | 3 cartas en una bolsa (R = roja, N = neg | 1 | 0 | 0 | 0 | 0 |
 | 0.87 | 4 | conteo | sin_calculadora | Sin calculadora: una pareja de **anfitri | 1 | 0 | 0 | 0 | 0 |
 | 0.87 | 4 | conteo | historia | Mi hermanito dibujó una cuadrícula de 4  | 1 | 0 | 0 | 0 | 0 |
 | 0.87 | 4 | probabilidad | parece_facil | Parece fácil: en un cajón a oscuras hay  | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 3 | emoji | pregunta_directa | Mis amigos se pelean por este. 🍎 y 🍌 son | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 1 | patron | contrarreloj | Tienes 10 segundos ⏱️ Mi hermano dice qu | 1 | 0 | 0 | 0 | 0 |
-| 0.80 | 1 | operacion | historia | Me lo mandaron así por WhatsApp: 2^3^2 ¿ | 1 | 0 | 0 | 0 | 0 |
 | 0.80 | 1 | patron | sin_calculadora | Sin calculadora: ¿qué número **sigue**? | 1 | 0 | 0 | 0 | 0 |
+| 0.80 | 1 | patron | pregunta_directa | ¿Qué número **sigue**? | 1 | 0 | 0 | 0 | 0 |
 
 ## Formatos (>1 = funciona mejor que el promedio)
 
 - probabilidad: 1.20
-- patron: 1.18
-- operacion: 1.16
+- operacion: 1.18
+- patron: 1.14
 - emoji: 1.14
 - error_oculto: 1.13
 - palabras: 1.13
+- logica: 1.07
 - cual_mayor: 1.07
-- logica: 1.04
 - conteo: 0.95
 
 ## Exacto vs. debate (>1 = funciona mejor que el promedio)
@@ -84,12 +87,12 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 
 ## Ganchos (>1 = funciona mejor que el promedio)
 
-- debate: 1.44
+- debate: 1.48
 - no_es_x: 1.25
-- pregunta_directa: 1.16
+- pregunta_directa: 1.12
 - parece_facil: 1.10
-- contrarreloj: 1.05
-- historia: 1.02
+- contrarreloj: 1.04
+- historia: 1.03
 - sin_calculadora: 0.99
 
 ## Temas (>1 = funciona mejor que el promedio)
@@ -105,6 +108,7 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 - una desigualdad multiplicada por un negativo: 1.13
 - descuentos y aumentos sucesivos: 1.13
 - sistema de frutas con sumas: 1.13
+- focos e interruptores: 1.10
 - comparar expresiones que parecen iguales: 1.07
 - Monty Hall y variantes: 1.04
 - cumpleaños y coincidencias: 1.04
@@ -121,13 +125,14 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 - sistema con animales y potencias: 1.00
 - sistema no lineal con objetos de la escuela: 1.00
 - sistema con animales: 1.00
-- focos e interruptores: 1.00
 - el bat y la pelota (intuición contra álgebra): 1.00
 - trabajo conjunto (máquinas, llaves, personas): 1.00
 - porcentajes que engañan: 1.00
+- leyes de exponentes con trampa: 1.00
 - precios y vueltos: 1.00
 - radicales y racionalización: 1.00
 - sucesión que suma los dos anteriores: 1.00
+- quién es quién (deducción por pistas): 1.00
 - monedas y balanzas: 1.00
 - partidos de un torneo: 1.00
 - sucesiones recursivas: 0.98
@@ -135,17 +140,17 @@ Actualizado: 2026-10-27T18:58:53+00:00 · posts medidos: 53
 - apretones de manos: 0.96
 - contar cuadrados o triángulos descritos con palabras: 0.96
 - sistema con frutas y productos: 0.95
-- leyes de exponentes con trampa: 0.93
 - sucesiones con cuadrados, cubos o factoriales: 0.93
+- sucesiones geométricas con giro: 0.93
 
 ## Fondos (>1 = funciona mejor que el promedio)
 
 - funciones: 1.37
 - geometria: 1.23
-- espiral: 1.22
-- red: 1.13
-- lissajous: 1.09
+- espiral: 1.17
+- red: 1.12
+- lissajous: 1.11
+- formulas: 1.04
 - probabilidad: 1.03
 - fractal: 1.02
 - rejilla: 1.01
-- formulas: 1.00

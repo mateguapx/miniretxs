@@ -1,29 +1,29 @@
 {
- "n": 53,
- "actualizado": "2026-10-27T18:58:53+00:00",
+ "n": 56,
+ "actualizado": "2026-10-28T19:07:32+00:00",
  "formato": {
   "probabilidad": 1.2,
   "palabras": 1.127,
-  "logica": 1.044,
+  "logica": 1.073,
   "emoji": 1.138,
-  "operacion": 1.164,
+  "operacion": 1.182,
   "conteo": 0.947,
-  "patron": 1.183,
+  "patron": 1.141,
   "cual_mayor": 1.067,
   "error_oculto": 1.133
  },
  "estilo": {
-  "exacto": 1.171,
-  "debate": 1.133
+  "exacto": 1.172,
+  "debate": 1.131
  },
  "hook": {
-  "debate": 1.44,
+  "debate": 1.48,
   "parece_facil": 1.096,
   "sin_calculadora": 0.995,
-  "pregunta_directa": 1.156,
-  "historia": 1.019,
+  "pregunta_directa": 1.12,
+  "historia": 1.031,
   "no_es_x": 1.248,
-  "contrarreloj": 1.05
+  "contrarreloj": 1.04
  },
  "tema": {
   "calcetines en un cajón (peor caso)": 1.367,
@@ -48,13 +48,13 @@
   "áreas y perímetros con ecuación": 1.15,
   "sistema no lineal con objetos de la escuela": 1.0,
   "sistema con animales": 1.0,
-  "focos e interruptores": 1.0,
+  "focos e interruptores": 1.1,
   "comparar expresiones que parecen iguales": 1.067,
   "el bat y la pelota (intuición contra álgebra)": 1.0,
   "trabajo conjunto (máquinas, llaves, personas)": 1.0,
   "contar cuadrados o triángulos descritos con palabras": 0.956,
   "porcentajes que engañan": 1.0,
-  "leyes de exponentes con trampa": 0.933,
+  "leyes de exponentes con trampa": 1.0,
   "cumpleaños y coincidencias": 1.044,
   "precios y vueltos": 1.0,
   "sucesiones cuadráticas (diferencias de segundo orden)": 1.533,
@@ -66,19 +66,21 @@
   "descuentos y aumentos sucesivos": 1.133,
   "sucesión que suma los dos anteriores": 1.0,
   "sucesiones con cuadrados, cubos o factoriales": 0.933,
+  "quién es quién (deducción por pistas)": 1.0,
+  "sucesiones geométricas con giro": 0.933,
   "monedas y balanzas": 1.0,
   "sistema de frutas con sumas": 1.133,
   "partidos de un torneo": 1.0
  },
  "fondo": {
-  "red": 1.133,
+  "red": 1.124,
   "geometria": 1.225,
-  "formulas": 1.0,
+  "formulas": 1.04,
   "fractal": 1.022,
   "rejilla": 1.008,
   "funciones": 1.371,
-  "lissajous": 1.089,
-  "espiral": 1.219,
+  "lissajous": 1.111,
+  "espiral": 1.167,
   "probabilidad": 1.033
  }
 }
