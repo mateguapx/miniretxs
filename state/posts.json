@@ -2205,5 +2205,23 @@
   "ig_id": "18137188975727727",
   "fb_id": "1395069237021603_122105876565519581",
   "threads_id": null
+ },
+ {
+  "id": "20261028-1030-t6",
+  "ts": "2026-10-28T10:30:31+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "Monty Hall y variantes",
+  "fondo": "red",
+  "numero": 81,
+  "modo": "cola",
+  "tema": "Monty Hall con 4 puertas: cambiar al azar a una de las 2 que quedan",
+  "titulo": "Sin calculadora: 4 puertas, 1 auto y 3 cabras. Eliges una. El presentador, que **sabe** dónde está, siempre abre otra co",
+  "ig_id": "17955870123268628",
+  "fb_id": "1395069237021603_122105976789519581",
+  "threads_id": null
  }
 ]
