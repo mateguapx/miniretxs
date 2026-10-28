@@ -2169,5 +2169,23 @@
   "ig_id": "18110424133933643",
   "fb_id": "1395069237021603_122105473191519581",
   "threads_id": null
+ },
+ {
+  "id": "20261028-0150-t4",
+  "ts": "2026-10-28T01:51:05+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "probabilidad",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "dados",
+  "fondo": "red",
+  "numero": 79,
+  "modo": "cola",
+  "tema": "Dos dados, al menos uno es 3: probabilidad de sumar 7",
+  "titulo": "Sin calculadora: lanzas 2 dados y sabes que **al menos uno** salió 3. ¿Qué probabilidad hay de que sumen 7?",
+  "ig_id": "18118431907966749",
+  "fb_id": "1395069237021603_122105597199519581",
+  "threads_id": null
  }
 ]
