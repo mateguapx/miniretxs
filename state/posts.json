@@ -2289,5 +2289,23 @@
   "ig_id": "17955870123268628",
   "fb_id": "1395069237021603_122105976789519581",
   "threads_id": null
+ },
+ {
+  "id": "20261028-1911-t1",
+  "ts": "2026-10-28T19:11:46+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "debate",
+  "hook": "no_es_x",
+  "tema_clave": "leyes de exponentes con trampa",
+  "fondo": "formulas",
+  "numero": 82,
+  "modo": "cola",
+  "tema": "(−27) elevado a 2/6: ¿simplificar el exponente o no?",
+  "titulo": "¡La respuesta **NO** es −9! ¿Cuánto da?",
+  "ig_id": "17930295567180086",
+  "fb_id": "1395069237021603_122106211629519581",
+  "threads_id": null
  }
 ]
