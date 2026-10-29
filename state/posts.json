@@ -2493,5 +2493,23 @@
   "ig_id": "18079463075417471",
   "fb_id": "1395069237021603_122106664761519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-2129-t2",
+  "ts": "2026-10-29T21:30:04+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "contrarreloj",
+  "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+  "fondo": "formulas",
+  "numero": 89,
+  "modo": "cola",
+  "tema": "Sistema de sandía, limón y cereza con media sandía",
+  "titulo": "Tienes 30 segundos ⏱️ Cada fruta vale siempre lo mismo:\n🍉 + 🍉 = 20\n🍉 ÷ 🍋 = 5\n🍋 × 🍒 = 🍉 + 4\n½ 🍉 + 🍋 × 🍒 = ?",
+  "ig_id": "17911606059308025",
+  "fb_id": "1395069237021603_122106699723519581",
+  "threads_id": null
  }
 ]
