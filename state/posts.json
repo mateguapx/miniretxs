@@ -2379,5 +2379,23 @@
   "ig_id": "18143596282714365",
   "fb_id": "1395069237021603_122106436179519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-1050-t6",
+  "ts": "2026-10-29T10:50:57+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "cajas con etiquetas equivocadas",
+  "fondo": "red",
+  "numero": 87,
+  "modo": "cola",
+  "tema": "4 frascos con todas las etiquetas mal: desarreglos de 4",
+  "titulo": "Ana pegó las etiquetas de sal, azúcar, café y arroz en sus 4 frascos, pero **ninguna** quedó en el frasco correcto. ¿De ",
+  "ig_id": "18118002149008629",
+  "fb_id": "1395069237021603_122106492807519581",
+  "threads_id": null
  }
 ]
