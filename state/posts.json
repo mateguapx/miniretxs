@@ -2511,5 +2511,23 @@
   "ig_id": "17911606059308025",
   "fb_id": "1395069237021603_122106699723519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-2345-t3",
+  "ts": "2026-10-29T23:45:33+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "cual_mayor",
+  "estilo": "debate",
+  "hook": "contrarreloj",
+  "tema_clave": "comparar sumas de raíces",
+  "fondo": "rejilla",
+  "numero": 90,
+  "modo": "cola",
+  "tema": "«Raíz de 9 + 16» contra √9 + √16",
+  "titulo": "Tienes 10 segundos ⏱️ ¿Cuál es **mayor**?",
+  "ig_id": "18224085574343953",
+  "fb_id": "1395069237021603_122106726639519581",
+  "threads_id": null
  }
 ]
