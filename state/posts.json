@@ -2475,5 +2475,23 @@
   "ig_id": "18118002149008629",
   "fb_id": "1395069237021603_122106492807519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-1919-t1",
+  "ts": "2026-10-29T19:20:18+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "pregunta_directa",
+  "tema_clave": "radicales y racionalización",
+  "fondo": "fractal",
+  "numero": 88,
+  "modo": "cola",
+  "tema": "1/(√2+1) − 1/(√2−1) con racionalización",
+  "titulo": "¿Cuánto te da **esto**? Sin redondear 😉",
+  "ig_id": "18079463075417471",
+  "fb_id": "1395069237021603_122106664761519581",
+  "threads_id": null
  }
 ]
