@@ -2343,5 +2343,23 @@
   "ig_id": "18119156782961343",
   "fb_id": "1395069237021603_122106290967519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-0159-t4",
+  "ts": "2026-10-29T01:59:30+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "cual_mayor",
+  "estilo": "debate",
+  "hook": "no_es_x",
+  "tema_clave": "comparar potencias con bases y exponentes distintos",
+  "fondo": "rejilla",
+  "numero": 85,
+  "modo": "cola",
+  "tema": "(−2)^11 contra (−3)^7: ¿mayor como valor o como tamaño?",
+  "titulo": "¡**NO** son iguales! ¿Cuál es mayor?",
+  "ig_id": "18183747586441799",
+  "fb_id": "1395069237021603_122106322341519581",
+  "threads_id": null
  }
 ]
