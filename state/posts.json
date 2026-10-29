@@ -2361,5 +2361,23 @@
   "ig_id": "18183747586441799",
   "fb_id": "1395069237021603_122106322341519581",
   "threads_id": null
+ },
+ {
+  "id": "20261029-0815-t5",
+  "ts": "2026-10-29T08:15:34+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "no_es_x",
+  "tema_clave": "porcentajes que engañan",
+  "fondo": "funciones",
+  "numero": 86,
+  "modo": "cola",
+  "tema": "10% de 10% de 1000",
+  "titulo": "¡La respuesta **NO** es 200! ¿Cuánto da?",
+  "ig_id": "18143596282714365",
+  "fb_id": "1395069237021603_122106436179519581",
+  "threads_id": null
  }
 ]
