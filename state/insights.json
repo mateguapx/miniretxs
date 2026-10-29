@@ -1,26 +1,6 @@
 {
  "top": [
   {
-   "titulo": "¿Qué tan probable es que te salga un **par**? 🧦",
-   "formato": "probabilidad",
-   "estilo": "exacto",
-   "nivel": "dificil",
-   "hook": "debate",
-   "tema": "Probabilidad de sacar al menos un par al tomar 3 calcetines de 3 pares de colores",
-   "fondo": "red",
-   "score": 2.6,
-   "metricas": {
-    "reach": 5,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 2,
-    "views": 10,
-    "likes": 1,
-    "comments": 0
-   }
-  },
-  {
    "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
    "formato": "emoji",
    "estilo": "debate",
@@ -59,49 +39,29 @@
     "likes": 4,
     "comments": 0
    }
+  },
+  {
+   "titulo": "¿Qué número **sigue**?",
+   "formato": "patron",
+   "estilo": "exacto",
+   "nivel": "facil",
+   "hook": "pregunta_directa",
+   "tema": "3, 8, 15, 24, 35 (n² − 1)",
+   "fondo": "espiral",
+   "score": 2.6,
+   "metricas": {
+    "reach": 175,
+    "shares": 0,
+    "saved": 1,
+    "follows": 2,
+    "profile_visits": 2,
+    "views": 308,
+    "likes": 5,
+    "comments": 6
+   }
   }
  ],
  "bottom": [
-  {
-   "titulo": "Tienes 10 segundos ⏱️ Mi hermano dice que es obvio… ¿qué número **sigue**?",
-   "formato": "patron",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "contrarreloj",
-   "tema": "1, 2, 4, 8, 16: ¿32 o 31? (dobles contra regiones del círculo)",
-   "fondo": "espiral",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "Sin calculadora: ¿qué número **sigue**?",
-   "formato": "patron",
-   "estilo": "debate",
-   "nivel": "facil",
-   "hook": "sin_calculadora",
-   "tema": "1, 2, 6: ¿24 (factoriales) o 15 (diferencias cuadradas)?",
-   "fondo": "rejilla",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
   {
    "titulo": "¿Qué número **sigue**?",
    "formato": "patron",
@@ -118,6 +78,46 @@
     "follows": 0,
     "profile_visits": 0,
     "views": 2,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "Sin calculadora: ¿cuánto da **esto**?",
+   "formato": "operacion",
+   "estilo": "exacto",
+   "nivel": "facil",
+   "hook": "sin_calculadora",
+   "tema": "2027 × 2025 − 2026²",
+   "fondo": "geometria",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 3,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "A ver si te sale a la primera:\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?",
+   "formato": "emoji",
+   "estilo": "exacto",
+   "nivel": "facil",
+   "hook": "debate",
+   "tema": "Pizza, taco y dona con divisiones y un cuadrado",
+   "fondo": "geometria",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 1,
     "likes": 0,
     "comments": 0
    }

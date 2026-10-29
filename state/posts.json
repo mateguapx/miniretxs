@@ -715,17 +715,18 @@
   "fb_id": "1395069237021603_122096784885519581",
   "threads_id": "18113339828142784",
   "metricas": {
-   "reach": 2,
+   "reach": 3,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 5,
+   "views": 9,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
-  "score": 1.0
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.2,
+  "final": true
  },
  {
   "id": "20261018-2210-t3",
@@ -754,8 +755,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
-  "score": 1.0
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261019-0034-t4",
@@ -802,8 +804,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
-  "score": 1.0
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261019-0948-t6",
@@ -832,8 +835,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
-  "score": 1.4
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.4,
+  "final": true
  },
  {
   "id": "20261019-1933-t1",
@@ -862,7 +866,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.2
  },
  {
@@ -892,7 +896,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -922,7 +926,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -952,7 +956,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 0.867
  },
  {
@@ -982,7 +986,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1012,7 +1016,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1042,7 +1046,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1063,17 +1067,17 @@
   "fb_id": "1395069237021603_122098490787519581",
   "threads_id": null,
   "metricas": {
-   "reach": 1,
+   "reach": 2,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 2,
+   "views": 4,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
-  "score": 1.0
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.4
  },
  {
   "id": "20261020-2253-t3",
@@ -1102,7 +1106,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1132,7 +1136,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.133
  },
  {
@@ -1162,7 +1166,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1192,7 +1196,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1218,11 +1222,11 @@
    "saved": 1,
    "follows": 2,
    "profile_visits": 2,
-   "views": 307,
+   "views": 308,
    "likes": 5,
    "comments": 6
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 2.6
  },
  {
@@ -1252,7 +1256,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.4
  },
  {
@@ -1282,7 +1286,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1312,7 +1316,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.133
  },
  {
@@ -1342,7 +1346,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.4
  },
  {
@@ -1372,7 +1376,7 @@
    "likes": 0,
    "comments": 1
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.4
  },
  {
@@ -1402,7 +1406,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1432,7 +1436,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.4
  },
  {
@@ -1462,7 +1466,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.2
  },
  {
@@ -1492,7 +1496,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.133
  },
  {
@@ -1522,7 +1526,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1552,7 +1556,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261023-1812-t1",
@@ -1581,7 +1585,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 0.8
  },
  {
@@ -1611,7 +1615,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1641,7 +1645,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261024-0112-t4",
@@ -1670,7 +1674,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261024-0702-t5",
@@ -1690,16 +1694,17 @@
   "fb_id": "1395069237021603_122101662009519581",
   "threads_id": "18373296607243269",
   "metricas": {
-   "reach": 0,
+   "reach": 1,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0
  },
  {
   "id": "20261024-0848-t6",
@@ -1746,7 +1751,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 0.8
  },
  {
@@ -1776,7 +1781,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1806,7 +1811,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1836,7 +1841,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 0.867
  },
  {
@@ -1866,7 +1871,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.4
  },
  {
@@ -1896,7 +1901,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1926,7 +1931,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261025-1923-t2",
@@ -1955,7 +1960,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00",
+  "medido": "2026-10-29T19:12:02+00:00",
   "score": 1.0
  },
  {
@@ -1985,7 +1990,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261026-0047-t4",
@@ -2014,7 +2019,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261026-0736-t5",
@@ -2034,16 +2039,17 @@
   "fb_id": "1395069237021603_122103681993519581",
   "threads_id": null,
   "metricas": {
-   "reach": 0,
+   "reach": 1,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0
  },
  {
   "id": "20261026-0959-t6",
@@ -2072,7 +2078,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-28T19:05:44+00:00"
+  "medido": "2026-10-29T19:12:02+00:00"
  },
  {
   "id": "20261026-1938-t1",
@@ -2090,7 +2096,19 @@
   "titulo": "Sin calculadora: ¿cuánto da **esto**?",
   "ig_id": "18125249299908365",
   "fb_id": "1395069237021603_122104270575519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 0.8
  },
  {
   "id": "20261026-2116-t2",
@@ -2108,7 +2126,19 @@
   "titulo": "Papá y mamá pesan 80 kg cada uno; sus 2 hijos, 40 kg cada uno. La lancha aguanta máximo 80 kg y alguien tiene que ir rem",
   "ig_id": "18102341912066011",
   "fb_id": "1395069237021603_122104329771519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0
  },
  {
   "id": "20261026-2331-t3",
@@ -2126,7 +2156,19 @@
   "titulo": "A ver si te sale a la primera:\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?",
   "ig_id": "17988373473117769",
   "fb_id": "1395069237021603_122104407447519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 0.8
  },
  {
   "id": "20261027-0139-t4",
@@ -2144,7 +2186,19 @@
   "titulo": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 **saludos**. ¿Cuántos invi",
   "ig_id": "18108829679194468",
   "fb_id": "1395069237021603_122104472841519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 179,
+   "shares": 0,
+   "saved": 1,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 314,
+   "likes": 3,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 2.6
  },
  {
   "id": "20261027-0733-t5",
@@ -2162,7 +2216,19 @@
   "titulo": "Parece fácil… cada hora anoto lo que marca mi reloj. ¿Qué número **sigue**?",
   "ig_id": "17886022575623126",
   "fb_id": "1395069237021603_122104690497519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0
  },
  {
   "id": "20261027-0944-t6",
@@ -2180,7 +2246,19 @@
   "titulo": "Me pasaron una foto de 4 amigos en fila. Ana sale justo a la derecha de Beto. Beto no sale junto a Caro, y Caro no sale ",
   "ig_id": "18120718051994813",
   "fb_id": "1395069237021603_122104781571519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-29T19:12:02+00:00",
+  "score": 1.0
  },
  {
   "id": "20261027-1914-t1",
