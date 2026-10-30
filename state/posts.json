@@ -2663,5 +2663,23 @@
   "ig_id": "18339750361277863",
   "fb_id": "1395069237021603_122106908121519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-1856-t1",
+  "ts": "2026-10-30T18:56:32+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "sin_calculadora",
+  "tema_clave": "logaritmos que se simplifican",
+  "fondo": "formulas",
+  "numero": 94,
+  "modo": "cola",
+  "tema": "log₂ 48 − log₂ 3",
+  "titulo": "De cabeza, sin calculadora: ¿cuánto **vale**?",
+  "ig_id": "18107205320251641",
+  "fb_id": "1395069237021603_122107056699519581",
+  "threads_id": null
  }
 ]
