@@ -2699,5 +2699,23 @@
   "ig_id": "18127545859906645",
   "fb_id": "1395069237021603_122107084995519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-2325-t3",
+  "ts": "2026-10-30T23:25:55+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "cual_mayor",
+  "estilo": "debate",
+  "hook": "debate",
+  "tema_clave": "comparar logaritmos",
+  "fondo": "rejilla",
+  "numero": 96,
+  "modo": "cola",
+  "tema": "log 50 contra 2 (log sin base)",
+  "titulo": "¿Cuál es **mayor**? ¿Tú qué contestas?",
+  "ig_id": "18147188344584148",
+  "fb_id": "1395069237021603_122107115265519581",
+  "threads_id": null
  }
 ]
