@@ -1,26 +1,6 @@
 {
  "top": [
   {
-   "titulo": "Cada emoji vale un número **positivo**, el mismo en todas las líneas. ¿Cuánto da la última?\n🍔 × 🍟 = 12\n🍔 − 🍟 = 4\n🍟 + 🍩 =",
-   "formato": "emoji",
-   "estilo": "debate",
-   "nivel": "medio",
-   "hook": "no_es_x",
-   "tema": "Sistema con hamburguesa, papas y dona que termina en 6 ÷ 2(1+2) disfrazado",
-   "fondo": "geometria",
-   "score": 2.6,
-   "metricas": {
-    "reach": 125,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 2,
-    "views": 209,
-    "likes": 2,
-    "comments": 0
-   }
-  },
-  {
    "titulo": "Mi primo y yo no coincidimos: ¿cuánto da **esto**?",
    "formato": "operacion",
    "estilo": "debate",
@@ -59,17 +39,37 @@
     "likes": 5,
     "comments": 6
    }
+  },
+  {
+   "titulo": "Mi tía jura que en la boda todos se saludaron de mano con todos, novios incluidos, y hubo 190 **saludos**. ¿Cuántos invi",
+   "formato": "conteo",
+   "estilo": "debate",
+   "nivel": "medio",
+   "hook": "historia",
+   "tema": "Boda con 190 apretones: ¿cuántos invitados, contando o no a los novios?",
+   "fondo": "formulas",
+   "score": 2.6,
+   "metricas": {
+    "reach": 188,
+    "shares": 0,
+    "saved": 1,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 329,
+    "likes": 4,
+    "comments": 0
+   }
   }
  ],
  "bottom": [
   {
-   "titulo": "¿Qué número **sigue**?",
-   "formato": "patron",
+   "titulo": "¡La respuesta **NO** es 15! Mi papá tiene 30 años más que yo y dentro de 5 años tendrá el triple de mi edad. ¿Cuántos añ",
+   "formato": "palabras",
    "estilo": "exacto",
    "nivel": "facil",
-   "hook": "pregunta_directa",
-   "tema": "3, 5, 9, 17, 33 (2ⁿ + 1)",
-   "fondo": "espiral",
+   "hook": "no_es_x",
+   "tema": "Papá 30 años mayor; en 5 años tendrá el triple",
+   "fondo": "formulas",
    "score": 0.8,
    "metricas": {
     "reach": 1,
@@ -77,27 +77,7 @@
     "saved": 0,
     "follows": 0,
     "profile_visits": 0,
-    "views": 2,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "Sin calculadora: ¿cuánto da **esto**?",
-   "formato": "operacion",
-   "estilo": "exacto",
-   "nivel": "facil",
-   "hook": "sin_calculadora",
-   "tema": "2027 × 2025 − 2026²",
-   "fondo": "geometria",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 3,
+    "views": 1,
     "likes": 0,
     "comments": 0
    }
@@ -118,6 +98,26 @@
     "follows": 0,
     "profile_visits": 0,
     "views": 1,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "¡La respuesta **NO** es 10! ¿Cuánto da?",
+   "formato": "operacion",
+   "estilo": "exacto",
+   "nivel": "facil",
+   "hook": "no_es_x",
+   "tema": "(√2 + √8)²",
+   "fondo": "lissajous",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 6,
     "likes": 0,
     "comments": 0
    }

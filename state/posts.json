@@ -663,7 +663,7 @@
    "comments": 0
   },
   "medido": "2026-10-28T19:05:44+00:00",
-  "score": 0.8,
+  "score": 1.0,
   "final": true
  },
  {
@@ -866,8 +866,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.2
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.8,
+  "final": true
  },
  {
   "id": "20261019-2118-t2",
@@ -896,8 +897,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261019-2315-t3",
@@ -926,8 +928,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261020-0119-t4",
@@ -956,8 +959,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 0.867
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 0.867,
+  "final": true
  },
  {
   "id": "20261020-0720-t5",
@@ -986,8 +990,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261020-0920-t6",
@@ -1016,8 +1021,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0,
+  "final": true
  },
  {
   "id": "20261020-1810-t1",
@@ -1046,8 +1052,9 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.4,
+  "final": true
  },
  {
   "id": "20261020-2013-t2",
@@ -1076,7 +1083,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.4
  },
  {
@@ -1106,7 +1113,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1127,17 +1134,17 @@
   "fb_id": "1395069237021603_122098632513519581",
   "threads_id": null,
   "metricas": {
-   "reach": 2,
+   "reach": 3,
    "shares": 0,
    "saved": 0,
    "follows": 0,
-   "profile_visits": 0,
-   "views": 3,
+   "profile_visits": 1,
+   "views": 7,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.133
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.4
  },
  {
   "id": "20261021-0719-t5",
@@ -1166,7 +1173,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1196,7 +1203,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1226,7 +1233,7 @@
    "likes": 5,
    "comments": 6
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 2.6
  },
  {
@@ -1256,7 +1263,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.4
  },
  {
@@ -1286,7 +1293,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1316,7 +1323,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.133
  },
  {
@@ -1346,7 +1353,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.4
  },
  {
@@ -1376,7 +1383,7 @@
    "likes": 0,
    "comments": 1
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.4
  },
  {
@@ -1406,8 +1413,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.4
  },
  {
   "id": "20261022-2029-t2",
@@ -1436,7 +1443,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.4
  },
  {
@@ -1466,7 +1473,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.2
  },
  {
@@ -1496,7 +1503,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.133
  },
  {
@@ -1526,7 +1533,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1556,7 +1563,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261023-1812-t1",
@@ -1585,8 +1592,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 0.8
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261023-2009-t2",
@@ -1615,7 +1622,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1636,16 +1643,17 @@
   "fb_id": "1395069237021603_122101356027519581",
   "threads_id": "17973457488168896",
   "metricas": {
-   "reach": 0,
+   "reach": 1,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 0.8
  },
  {
   "id": "20261024-0112-t4",
@@ -1674,7 +1682,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261024-0702-t5",
@@ -1703,7 +1711,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1751,8 +1759,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 0.8
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261024-1909-t2",
@@ -1781,7 +1789,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1811,7 +1819,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1841,7 +1849,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 0.867
  },
  {
@@ -1862,17 +1870,17 @@
   "fb_id": "1395069237021603_122102651523519581",
   "threads_id": null,
   "metricas": {
-   "reach": 2,
+   "reach": 3,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 2,
+   "views": 6,
    "likes": 0,
-   "comments": 0
+   "comments": 1
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.4
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.8
  },
  {
   "id": "20261025-0904-t6",
@@ -1901,7 +1909,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -1931,7 +1939,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261025-1923-t2",
@@ -1951,17 +1959,17 @@
   "fb_id": "1395069237021603_122103184683519581",
   "threads_id": null,
   "metricas": {
-   "reach": 1,
+   "reach": 2,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 2,
+   "views": 5,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.4
  },
  {
   "id": "20261025-2214-t3",
@@ -1990,7 +1998,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261026-0047-t4",
@@ -2019,7 +2027,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261026-0736-t5",
@@ -2048,7 +2056,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -2078,7 +2086,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00"
+  "medido": "2026-10-30T18:49:50+00:00"
  },
  {
   "id": "20261026-1938-t1",
@@ -2107,8 +2115,8 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 0.8
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261026-2116-t2",
@@ -2137,7 +2145,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -2167,7 +2175,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 0.8
  },
  {
@@ -2188,16 +2196,16 @@
   "fb_id": "1395069237021603_122104472841519581",
   "threads_id": null,
   "metricas": {
-   "reach": 179,
+   "reach": 188,
    "shares": 0,
    "saved": 1,
    "follows": 0,
    "profile_visits": 0,
-   "views": 314,
-   "likes": 3,
+   "views": 329,
+   "likes": 4,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 2.6
  },
  {
@@ -2227,7 +2235,7 @@
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
+  "medido": "2026-10-30T18:49:50+00:00",
   "score": 1.0
  },
  {
@@ -2248,17 +2256,17 @@
   "fb_id": "1395069237021603_122104781571519581",
   "threads_id": null,
   "metricas": {
-   "reach": 1,
+   "reach": 2,
    "shares": 0,
    "saved": 0,
    "follows": 0,
    "profile_visits": 0,
-   "views": 3,
+   "views": 4,
    "likes": 0,
    "comments": 0
   },
-  "medido": "2026-10-29T19:12:02+00:00",
-  "score": 1.0
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.4
  },
  {
   "id": "20261027-1914-t1",
@@ -2276,7 +2284,19 @@
   "titulo": "A ver qué tan rápido lo ves. ¿Qué número **sigue**?",
   "ig_id": "18287411566294399",
   "fb_id": "1395069237021603_122105318367519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261027-2104-t2",
@@ -2294,7 +2314,19 @@
   "titulo": "Tienes 30 segundos ⏱️ Hace 3 años mi hermano tenía el **triple** de mi edad. Dentro de 3 años tendrá el doble. ¿Cuántos ",
   "ig_id": "17889762513478480",
   "fb_id": "1395069237021603_122105396355519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 3,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261027-2325-t3",
@@ -2312,7 +2344,19 @@
   "titulo": "¡La respuesta **NO** es 10! ¿Cuánto da?",
   "ig_id": "18110424133933643",
   "fb_id": "1395069237021603_122105473191519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 6,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 0.8
  },
  {
   "id": "20261028-0150-t4",
@@ -2330,7 +2374,19 @@
   "titulo": "Sin calculadora: lanzas 2 dados y sabes que **al menos uno** salió 3. ¿Qué probabilidad hay de que sumen 7?",
   "ig_id": "18118431907966749",
   "fb_id": "1395069237021603_122105597199519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 0.867
  },
  {
   "id": "20261028-0806-t5",
@@ -2348,7 +2404,19 @@
   "titulo": "La vi en un pizarrón al salir de clase. ¿Cuánto **da**?",
   "ig_id": "18137188975727727",
   "fb_id": "1395069237021603_122105876565519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261028-1030-t6",
@@ -2366,7 +2434,19 @@
   "titulo": "Sin calculadora: 4 puertas, 1 auto y 3 cabras. Eliges una. El presentador, que **sabe** dónde está, siempre abre otra co",
   "ig_id": "17955870123268628",
   "fb_id": "1395069237021603_122105976789519581",
-  "threads_id": null
+  "threads_id": null,
+  "metricas": {
+   "reach": 1,
+   "shares": 0,
+   "saved": 0,
+   "follows": 0,
+   "profile_visits": 0,
+   "views": 1,
+   "likes": 0,
+   "comments": 0
+  },
+  "medido": "2026-10-30T18:49:50+00:00",
+  "score": 1.0
  },
  {
   "id": "20261028-1911-t1",
