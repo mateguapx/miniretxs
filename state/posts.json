@@ -2681,5 +2681,23 @@
   "ig_id": "18107205320251641",
   "fb_id": "1395069237021603_122107056699519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-2114-t2",
+  "ts": "2026-10-30T21:14:50+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "emoji",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "sistema con frutas y productos",
+  "fondo": "geometria",
+  "numero": 95,
+  "modo": "cola",
+  "tema": "Fresa, durazno y limón: fresa sale de 3·f = f²",
+  "titulo": "¿Tú qué contestas? Cada fruta vale un número **positivo**:\n🍓 + 🍓 + 🍓 = 🍓 × 🍓\n🍓 × 🍑 = 🍑 + 12\n🍑 ÷ 🍓 + 🍋 = 🍑\n🍋 + 🍑 × 🍓 = ?",
+  "ig_id": "18127545859906645",
+  "fb_id": "1395069237021603_122107084995519581",
+  "threads_id": null
  }
 ]
