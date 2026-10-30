@@ -2547,5 +2547,23 @@
   "ig_id": "18103914140563261",
   "fb_id": "1395069237021603_122106756363519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-0822-t5",
+  "ts": "2026-10-30T08:22:42+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "el número que sigue en un patrón de dobles",
+  "fondo": "fractal",
+  "numero": 92,
+  "modo": "cola",
+  "tema": "2, 3, 6, 7, 14, 15: +1 y ×2 alternados",
+  "titulo": "Cada mañana Sofi anota los likes de su foto nueva. ¿Qué número **sigue**?",
+  "ig_id": "18064665608553334",
+  "fb_id": "1395069237021603_122106843261519581",
+  "threads_id": null
  }
 ]
