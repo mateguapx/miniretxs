@@ -2565,5 +2565,23 @@
   "ig_id": "18064665608553334",
   "fb_id": "1395069237021603_122106843261519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-1048-t6",
+  "ts": "2026-10-30T10:48:50+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "error_oculto",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "una desigualdad multiplicada por un negativo",
+  "fondo": "rejilla",
+  "numero": 93,
+  "modo": "cola",
+  "tema": "Prueba falsa de que (x − 3)² < 0 multiplicando por x − 3 negativo",
+  "titulo": "¿Tú qué contestas? Con esto “probé” que un cuadrado puede ser **negativo**. ¿En qué paso está el error?",
+  "ig_id": "18339750361277863",
+  "fb_id": "1395069237021603_122106908121519581",
+  "threads_id": null
  }
 ]
