@@ -2529,5 +2529,23 @@
   "ig_id": "18224085574343953",
   "fb_id": "1395069237021603_122106726639519581",
   "threads_id": null
+ },
+ {
+  "id": "20261030-0211-t4",
+  "ts": "2026-10-30T02:12:22+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "patron",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "sucesiones geométricas con giro",
+  "fondo": "espiral",
+  "numero": 91,
+  "modo": "cola",
+  "tema": "1, −1, 3, −5, 11, −21: cada término es 1 − 2·anterior",
+  "titulo": "Parece fácil… pero ojo con los signos. ¿Qué número **sigue**?",
+  "ig_id": "18103914140563261",
+  "fb_id": "1395069237021603_122106756363519581",
+  "threads_id": null
  }
 ]
