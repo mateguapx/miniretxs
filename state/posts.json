@@ -2717,5 +2717,23 @@
   "ig_id": "18147188344584148",
   "fb_id": "1395069237021603_122107115265519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-0154-t4",
+  "ts": "2026-10-31T01:54:43+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "exacto",
+  "hook": "contrarreloj",
+  "tema_clave": "partidos de un torneo",
+  "fondo": "red",
+  "numero": 97,
+  "modo": "cola",
+  "tema": "Torneo de 23 equipos por eliminación directa: partidos hasta el campeón",
+  "titulo": "Tienes 30 segundos ⏱️ Un torneo de 23 equipos es de eliminación directa: quien pierde se va y, si en una ronda sobra uno",
+  "ig_id": "17975350722165541",
+  "fb_id": "1395069237021603_122107141827519581",
+  "threads_id": null
  }
 ]
