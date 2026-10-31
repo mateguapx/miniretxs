@@ -2866,5 +2866,23 @@
   "ig_id": "18066641048788558",
   "fb_id": "1395069237021603_122107386411519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-2022-t2",
+  "ts": "2026-10-31T20:22:29+00:00",
+  "tipo": 2,
+  "nivel": "medio",
+  "formato": "logica",
+  "estilo": "exacto",
+  "hook": "parece_facil",
+  "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
+  "fondo": "red",
+  "numero": 101,
+  "modo": "cola",
+  "tema": "Caballeros y bribones: «exactamente uno», «exactamente dos», «los tres bribones»",
+  "titulo": "Parece fácil… Los caballeros siempre dicen la verdad y los bribones siempre mienten.\nAna: «Exactamente uno de los tres e",
+  "ig_id": null,
+  "fb_id": "1395069237021603_122107429371519581",
+  "threads_id": null
  }
 ]
