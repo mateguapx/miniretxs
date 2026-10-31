@@ -2884,5 +2884,23 @@
   "ig_id": null,
   "fb_id": "1395069237021603_122107429371519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-2305-t3",
+  "ts": "2026-10-31T23:05:43+00:00",
+  "tipo": 3,
+  "nivel": "facil",
+  "formato": "palabras",
+  "estilo": "debate",
+  "hook": "sin_calculadora",
+  "tema_clave": "áreas y perímetros con ecuación",
+  "fondo": "fractal",
+  "numero": 102,
+  "modo": "cola",
+  "tema": "Rectángulo de perímetro 40 con largo «tres veces más» que el ancho: área",
+  "titulo": "Sin calculadora: un rectángulo tiene 40 cm de perímetro y su largo mide tres veces más que su ancho. ¿Cuál es su **área*",
+  "ig_id": null,
+  "fb_id": "1395069237021603_122107461999519581",
+  "threads_id": null
  }
 ]
