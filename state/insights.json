@@ -1,26 +1,6 @@
 {
  "top": [
   {
-   "titulo": "Mi primo y yo no coincidimos: ¿cuánto da **esto**?",
-   "formato": "operacion",
-   "estilo": "debate",
-   "nivel": "popular",
-   "hook": "debate",
-   "tema": "8 ÷ 2(−2)²: ¿multiplicación implícita o de izquierda a derecha?",
-   "fondo": "funciones",
-   "score": 2.6,
-   "metricas": {
-    "reach": 235,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 2,
-    "views": 420,
-    "likes": 4,
-    "comments": 0
-   }
-  },
-  {
    "titulo": "¿Qué número **sigue**?",
    "formato": "patron",
    "estilo": "exacto",
@@ -50,25 +30,65 @@
    "fondo": "formulas",
    "score": 2.6,
    "metricas": {
-    "reach": 188,
+    "reach": 197,
     "shares": 0,
     "saved": 1,
     "follows": 0,
     "profile_visits": 0,
-    "views": 329,
+    "views": 344,
     "likes": 4,
     "comments": 0
+   }
+  },
+  {
+   "titulo": "Tienes 10 segundos ⏱️\n🍎 + 🍎 + 🍎 = 15\n🍌 vale tres veces más que 🍎\n🍇 + 🍎 = 🍌\n🍎 + 🍌 + 🍇 = **?**",
+   "formato": "emoji",
+   "estilo": "debate",
+   "nivel": "popular",
+   "hook": "contrarreloj",
+   "tema": "Frutas: plátano vale «tres veces más» que manzana",
+   "fondo": "lissajous",
+   "score": 1.8,
+   "metricas": {
+    "reach": 3,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 6,
+    "likes": 0,
+    "comments": 1
    }
   }
  ],
  "bottom": [
   {
-   "titulo": "¡La respuesta **NO** es 15! Mi papá tiene 30 años más que yo y dentro de 5 años tendrá el triple de mi edad. ¿Cuántos añ",
-   "formato": "palabras",
+   "titulo": "Sin calculadora: 4 puertas, 1 auto y 3 cabras. Eliges una. El presentador, que **sabe** dónde está, siempre abre otra co",
+   "formato": "probabilidad",
+   "estilo": "exacto",
+   "nivel": "dificil",
+   "hook": "sin_calculadora",
+   "tema": "Monty Hall con 4 puertas: cambiar al azar a una de las 2 que quedan",
+   "fondo": "red",
+   "score": 0.8,
+   "metricas": {
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "follows": 0,
+    "profile_visits": 0,
+    "views": 1,
+    "likes": 0,
+    "comments": 0
+   }
+  },
+  {
+   "titulo": "¡La respuesta **NO** es 18! ¿Cuánto da?",
+   "formato": "operacion",
    "estilo": "exacto",
    "nivel": "facil",
    "hook": "no_es_x",
-   "tema": "Papá 30 años mayor; en 5 años tendrá el triple",
+   "tema": "√(9 + 16) + 3 × 2² − 5⁰",
    "fondo": "formulas",
    "score": 0.8,
    "metricas": {
@@ -83,13 +103,13 @@
    }
   },
   {
-   "titulo": "A ver si te sale a la primera:\n🍕 ÷ 🌮 = 3\n🍕 + 🌮 = 16\n🍩 × 🌮 = 🍕 + 🌮 + 4\n🍕 ÷ 🌮 + 🍩² = ?",
-   "formato": "emoji",
-   "estilo": "exacto",
-   "nivel": "facil",
-   "hook": "debate",
-   "tema": "Pizza, taco y dona con divisiones y un cuadrado",
-   "fondo": "geometria",
+   "titulo": "¡**NO** son iguales! ¿Cuál es mayor?",
+   "formato": "cual_mayor",
+   "estilo": "debate",
+   "nivel": "medio",
+   "hook": "no_es_x",
+   "tema": "(−2)^11 contra (−3)^7: ¿mayor como valor o como tamaño?",
+   "fondo": "rejilla",
    "score": 0.8,
    "metricas": {
     "reach": 1,
@@ -98,26 +118,6 @@
     "follows": 0,
     "profile_visits": 0,
     "views": 1,
-    "likes": 0,
-    "comments": 0
-   }
-  },
-  {
-   "titulo": "¡La respuesta **NO** es 10! ¿Cuánto da?",
-   "formato": "operacion",
-   "estilo": "exacto",
-   "nivel": "facil",
-   "hook": "no_es_x",
-   "tema": "(√2 + √8)²",
-   "fondo": "lissajous",
-   "score": 0.8,
-   "metricas": {
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "follows": 0,
-    "profile_visits": 0,
-    "views": 6,
     "likes": 0,
     "comments": 0
    }
