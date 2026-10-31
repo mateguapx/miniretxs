@@ -2753,5 +2753,23 @@
   "ig_id": "18088764767305777",
   "fb_id": "1395069237021603_122107222209519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-1017-t6",
+  "ts": "2026-10-31T10:18:15+00:00",
+  "tipo": 6,
+  "nivel": "dificil",
+  "formato": "error_oculto",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "dividir entre cero escondido",
+  "fondo": "rejilla",
+  "numero": 99,
+  "modo": "cola",
+  "tema": "Prueba falsa de 2 = 1 dividiendo entre a − b",
+  "titulo": "¿Tú qué contestas? Aquí “demostré” que 2 = 1. ¿En qué **paso** está el error?",
+  "ig_id": "18150836644574357",
+  "fb_id": "1395069237021603_122107250607519581",
+  "threads_id": null
  }
 ]
