@@ -2735,5 +2735,23 @@
   "ig_id": "17975350722165541",
   "fb_id": "1395069237021603_122107141827519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-0812-t5",
+  "ts": "2026-10-31T08:12:46+00:00",
+  "tipo": 5,
+  "nivel": "popular",
+  "formato": "palabras",
+  "estilo": "exacto",
+  "hook": "debate",
+  "tema_clave": "edades sencillas",
+  "fondo": "geometria",
+  "numero": 98,
+  "modo": "cola",
+  "tema": "Ana 6 años, Bea la mitad; hoy Ana tiene 70",
+  "titulo": "¿Tú qué contestas? Cuando Ana tenía 6 años, su hermana Bea tenía la mitad. Hoy Ana tiene 70. ¿Cuántos años tiene **Bea**",
+  "ig_id": "18088764767305777",
+  "fb_id": "1395069237021603_122107222209519581",
+  "threads_id": null
  }
 ]
