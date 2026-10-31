@@ -2848,5 +2848,23 @@
   "ig_id": "18150836644574357",
   "fb_id": "1395069237021603_122107250607519581",
   "threads_id": null
+ },
+ {
+  "id": "20261031-1800-t1",
+  "ts": "2026-10-31T18:00:57+00:00",
+  "tipo": 1,
+  "nivel": "facil",
+  "formato": "operacion",
+  "estilo": "exacto",
+  "hook": "contrarreloj",
+  "tema_clave": "jerarquía con potencias y raíces",
+  "fondo": "formulas",
+  "numero": 100,
+  "modo": "cola",
+  "tema": "−2⁴ + 3 × √16",
+  "titulo": "Tienes 10 segundos ⏱️ ¿Cuánto da?",
+  "ig_id": "18066641048788558",
+  "fb_id": "1395069237021603_122107386411519581",
+  "threads_id": null
  }
 ]
