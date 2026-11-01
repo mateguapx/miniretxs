@@ -2902,5 +2902,23 @@
   "ig_id": null,
   "fb_id": "1395069237021603_122107461999519581",
   "threads_id": null
+ },
+ {
+  "id": "20261101-0134-t4",
+  "ts": "2026-11-01T01:35:16+00:00",
+  "tipo": 4,
+  "nivel": "medio",
+  "formato": "conteo",
+  "estilo": "exacto",
+  "hook": "historia",
+  "tema_clave": "formar números con dígitos",
+  "fondo": "lissajous",
+  "numero": 103,
+  "modo": "cola",
+  "tema": "Candado de 3 dígitos distintos en orden creciente: C(10,3)",
+  "titulo": "Se te olvidó la clave de tu candado de 3 dígitos (del 0 al 9). Solo recuerdas que los tres son distintos y van de **meno",
+  "ig_id": null,
+  "fb_id": "1395069237021603_122107492833519581",
+  "threads_id": null
  }
 ]
