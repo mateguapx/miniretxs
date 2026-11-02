@@ -1,12 +1,12 @@
 name: post
 on:
-  schedule:
-    - cron: "0 14 * * *"   # 08:00 México -> tipo 1 (fácil)
-    - cron: "0 17 * * *"   # 11:00 México -> tipo 2 (medio)
-    - cron: "0 20 * * *"   # 14:00 México -> tipo 3 (fácil)
-    - cron: "0 23 * * *"   # 17:00 México -> tipo 4 (medio)
-    - cron: "0 2 * * *"    # 20:00 México -> tipo 5 (fácil)
-    - cron: "0 4 * * *"    # 22:00 México -> tipo 6 (difícil)
+#  schedule:
+#    - cron: "0 14 * * *"   # 08:00 México -> tipo 1 (fácil)
+#    - cron: "0 17 * * *"   # 11:00 México -> tipo 2 (medio)
+#    - cron: "0 20 * * *"   # 14:00 México -> tipo 3 (fácil)
+#    - cron: "0 23 * * *"   # 17:00 México -> tipo 4 (medio)
+#    - cron: "0 2 * * *"    # 20:00 México -> tipo 5 (fácil)
+#    - cron: "0 4 * * *"    # 22:00 México -> tipo 6 (difícil)
   workflow_dispatch:
     inputs:
       type: { description: "Tipo de post 1-6", required: true, default: "1" }

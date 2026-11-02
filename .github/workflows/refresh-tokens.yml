@@ -3,7 +3,7 @@ name: refresh-tokens
 # de Facebook siga vigente (si venció, la corrida queda en rojo y GitHub avisa por correo).
 # Requiere el secret GH_PAT: token de GitHub (fine-grained) con permiso "Secrets: Read and write" sobre este repo.
 on:
-  schedule: [{ cron: "0 12 1,15 * *" }]   # días 1 y 15 de cada mes
+#  schedule: [{ cron: "0 12 1,15 * *" }]   # días 1 y 15 de cada mes
   workflow_dispatch:
 permissions: { contents: read }
 jobs:

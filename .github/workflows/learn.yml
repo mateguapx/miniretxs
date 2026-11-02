@@ -1,7 +1,7 @@
 name: learn
 # Mide los posts de Instagram y ajusta qué publicar (bot/learn.py). Corre 1 vez al día antes del primer post.
 on:
-  schedule: [{ cron: "40 13 * * *" }]   # 07:40 México
+#  schedule: [{ cron: "40 13 * * *" }]   # 07:40 México
   workflow_dispatch:
 concurrency: bot
 permissions: { contents: write }
