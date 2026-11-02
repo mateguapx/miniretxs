@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "caballeros que dicen la verdad y bribones que mienten",
+ "forma_threads": "confesion",
+ "tema": "Caballeros y bribones: «Beto es bribón» y «somos del mismo tipo»",
+ "caption": "Caballeros, bribones y solo dos frases. ¿Quién es el caballero? Deja tu respuesta 👇 #logica #acertijos #miniretxs #retomatematico",
+ "threads": "Me hice bolas con esta más tiempo del que quisiera. Los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Beto es bribón». Beto dice: «Ana y yo somos del mismo tipo». ¿Quién es el caballero?",
+ "slides": [
+  {
+   "text": "Solo de cabeza: los caballeros siempre dicen la verdad y los bribones siempre mienten. Ana dice: «Beto es bribón». Beto dice: «Ana y yo somos del mismo tipo». ¿Quién es el **caballero**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

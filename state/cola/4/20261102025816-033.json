@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "probabilidad",
+ "estilo": "debate",
+ "hook": "contrarreloj",
+ "tema_clave": "cartas",
+ "forma_threads": "minima",
+ "tema": "Dos corazones: sacas una carta, la miras y sacas otra (¿se regresa?)",
+ "caption": "Una baraja y un par de corazones ♥️ ¿Qué probabilidad te sale? Deja tu respuesta 👇 #probabilidad #cartas #miniretxs #retomatematico",
+ "threads": "Baraja de 52: sacas una carta, la miras, sacas otra.\n\n¿Dos corazones?",
+ "slides": [
+  {
+   "text": "Antes de que barajen otra vez: de una baraja de 52 cartas sacas una, la miras y luego sacas otra. ¿Qué probabilidad hay de que las dos sean **corazones**?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "sucesiones cuadráticas (diferencias de segundo orden)",
+ "forma_threads": "opinion",
+ "tema": "1, 4, 10, 19, 31 (diferencias 3, 6, 9, 12)",
+ "caption": "Una sucesión que crece cada vez más rápido. ¿Qué número va? Deja tu respuesta 👇 #sucesiones #algebra #miniretxs #retomatematico",
+ "threads": "Bonita sucesión, de las que se ven raras al principio:\n\n1, 4, 10, 19, 31, ?\n\n¿Cuál sigue?",
+ "slides": [
+  {
+   "text": "Solo de cabeza: ¿cuál es el **siguiente**?",
+   "display": "1,\\ 4,\\ 10,\\ 19,\\ 31,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

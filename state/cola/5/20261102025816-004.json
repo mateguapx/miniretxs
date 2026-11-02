@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "patron",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "sucesión que suma los dos anteriores",
+ "forma_threads": "confesion",
+ "tema": "10, 20, 30, 50, 80 (suma de los dos anteriores)",
+ "caption": "Una sucesión con su regla bien escondida. ¿Cuál va? Escribe tu número 👇 #sucesiones #numeros #miniretxs #retomatematico",
+ "threads": "Me tardé más de la cuenta en ver esta:\n\n10, 20, 30, 50, 80, ?\n\n¿Qué número sigue?",
+ "slides": [
+  {
+   "text": "Antes de que se enfríe tu café ☕ ¿Qué número **sigue**?",
+   "display": "10,\\ 20,\\ 30,\\ 50,\\ 80,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

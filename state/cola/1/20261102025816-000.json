@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "patron",
+ "estilo": "debate",
+ "hook": "pregunta_directa",
+ "tema_clave": "sucesiones recursivas",
+ "forma_threads": "opinion",
+ "tema": "0, 1, 1, 2, 4: ¿suma de los tres anteriores (7) o de todos los anteriores (8)?",
+ "caption": "Cinco números y una regla escondida. ¿Cuál pones tú? Deja tu respuesta 👇 #sucesiones #matematicas #miniretxs #retomatematico",
+ "threads": "Esta sucesión se ve de primaria, pero hay que verla con calma:\n\n0, 1, 1, 2, 4, ?\n\n¿Qué número sigue?",
+ "slides": [
+  {
+   "text": "¿Qué número **sigue**? Cada término sale de los anteriores 🤔",
+   "display": "0,\\ 1,\\ 1,\\ 2,\\ 4,\\ ?",
+   "layout": "reto"
+  }
+ ]
+}

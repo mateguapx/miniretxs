@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "apretones de manos",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Cena de 6 parejas: cada quien saluda a todos menos a su pareja",
+ "caption": "Una cena, muchas manos 🤝 ¿Cuántos apretones hay? Deja tu respuesta 👇 #combinatoria #conteo #miniretxs #retomatematico",
+ "threads": "¿Eres de saludar a todos al llegar a una fiesta? En una cena hay 6 parejas y cada persona le da la mano a todos menos a su pareja. ¿Cuántos apretones de mano hay?",
+ "slides": [
+  {
+   "text": "¿Cuántos **apretones** de mano hay en una cena de 6 parejas si cada persona saluda a todos menos a su pareja?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

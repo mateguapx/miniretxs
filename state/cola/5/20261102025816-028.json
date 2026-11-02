@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "pregunta_directa",
+ "tema_clave": "repartos que engañan",
+ "forma_threads": "contexto",
+ "tema": "Cuerda de 10 m en pedazos de 1 m: cortes",
+ "caption": "Una cuerda, unas tijeras y una pregunta ✂️ ¿Cuántos cortes? Deja tu respuesta 👇 #logica #matematicas #miniretxs #retomatematico",
+ "threads": "En la ferretería piden una cuerda de 10 metros cortada en pedazos de 1 metro, sin doblarla. ¿Cuántos cortes hacen falta?",
+ "slides": [
+  {
+   "text": "¿Cuántos **cortes** necesitas para partir una cuerda de 10 metros en pedazos de 1 metro, sin doblarla?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

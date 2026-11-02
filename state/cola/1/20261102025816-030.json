@@ -1,0 +1,19 @@
+{
+ "tipo": 1,
+ "nivel": "facil",
+ "formato": "cual_mayor",
+ "estilo": "exacto",
+ "hook": "parece_facil",
+ "tema_clave": "comparar logaritmos",
+ "forma_threads": "pregunta_abierta",
+ "tema": "log₂ 10 contra log₃ 30",
+ "caption": "Base chica contra número grande. ¿Quién gana? Deja tu respuesta 👇 #logaritmos #algebra #miniretxs #retomatematico",
+ "threads": "¿Qué tanto te acuerdas de logaritmos? A ver: ¿cuál es mayor, log₂ 10 o log₃ 30?",
+ "slides": [
+  {
+   "text": "Parece fácil… ¿cuál es **mayor**?",
+   "display": "\\log_{2} 10 \\quad\\text{o}\\quad \\log_{3} 30",
+   "layout": "reto"
+  }
+ ]
+}

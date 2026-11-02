@@ -1,0 +1,19 @@
+{
+ "tipo": 4,
+ "nivel": "medio",
+ "formato": "conteo",
+ "estilo": "debate",
+ "hook": "pregunta_directa",
+ "tema_clave": "caminos en una cuadrícula",
+ "forma_threads": "directo",
+ "tema": "Caminos en cuadrícula de 3×3: ¿cuadritos (20) o puntos (6)?",
+ "caption": "Derecha, arriba y nada más ➡️ ¿Cuántos caminos cuentas? Deja tu respuesta 👇 #combinatoria #conteo #miniretxs #retomatematico",
+ "threads": "¿Cuántos caminos distintos hay de una esquina a la opuesta en una cuadrícula de 3×3, si solo avanzas a la derecha o hacia arriba?",
+ "slides": [
+  {
+   "text": "¿Cuántos caminos **distintos** hay de una esquina a la opuesta en una cuadrícula de 3×3 si solo avanzas a la derecha o hacia arriba?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

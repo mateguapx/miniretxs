@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "cruzar el río con restricciones",
+ "forma_threads": "opinion",
+ "tema": "Granjero con gato, ratón y queso: cruces mínimos",
+ "caption": "El clásico del río con su propio elenco 🚣 ¿Cuántos cruces? Deja tu respuesta 👇 #logica #acertijos #miniretxs #retomatematico",
+ "threads": "Acertijo viejo, pero sigue haciendo pensar: un granjero cruza un río con un gato, un ratón y un queso. En la lancha solo caben él y una cosa. Si los deja solos, el gato se come al ratón y el ratón se come el queso. ¿Cuántos cruces hace como mínimo, contando cada ida o vuelta?",
+ "slides": [
+  {
+   "text": "Contra reloj ⏱️ Un granjero cruza un río con un gato, un ratón y un queso. En la lancha solo caben él y una cosa. Solos, el gato se come al ratón y el ratón se come el queso. ¿Cuántos **cruces** hace como mínimo? (Cada ida o vuelta cuenta)",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

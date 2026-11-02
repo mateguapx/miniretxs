@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "conteo",
+ "estilo": "debate",
+ "hook": "no_es_x",
+ "tema_clave": "repartir objetos",
+ "forma_threads": "contexto",
+ "tema": "5 boletos de cine entre 3 personas: ¿iguales (21) o distintos (243)?",
+ "caption": "Cinco boletos, tres personas y un reparto 🎟️ ¿Cuántas formas hay? Deja tu respuesta 👇 #combinatoria #conteo #miniretxs #retomatematico",
+ "threads": "En la taquilla del cine sobran 5 boletos y hay que repartirlos entre Ana, Beto y Caro; a alguien le pueden tocar cero. ¿De cuántas formas se puede hacer el reparto?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 15! ¿De cuántas formas puedes repartir 5 boletos de cine entre Ana, Beto y Caro? (A alguien le pueden tocar 0)",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

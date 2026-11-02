@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "pregunta_directa",
+ "tema_clave": "sistema con trampa de cantidades (racimos, mitades)",
+ "forma_threads": "directo",
+ "tema": "Plátano y manzana juntos sin regla: 🍌🍎 − 🍐",
+ "caption": "Tres pistas con frutas y una última línea. ¿Qué te sale? Deja tu respuesta 👇 #frutas #matematicas #miniretxs #retomatematico",
+ "threads": "🍎 + 🍎 = 4\n🍌 − 🍎 = 1\n🍐 = 🍌 + 🍎\n🍌🍎 − 🍐 = ?",
+ "slides": [
+  {
+   "text": "¿Cuánto **da** la última?\n🍎 + 🍎 = 4\n🍌 − 🍎 = 1\n🍐 = 🍌 + 🍎\n🍌🍎 − 🍐 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

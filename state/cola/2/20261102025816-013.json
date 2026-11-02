@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "palabras",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "edades con sistema de ecuaciones",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Ana y Beto suman 46; hace 5 años Ana tenía el doble",
+ "caption": "Edades, un sistema y cero calculadora 🎉 ¿Cuántos años tiene Ana? Deja tu respuesta 👇 #algebra #edades #miniretxs #retomatematico",
+ "threads": "¿Qué tan rápido planteas un sistema? Ana y Beto suman 46 años. Hace 5 años, Ana tenía el doble de la edad de Beto. ¿Cuántos años tiene Ana hoy?",
+ "slides": [
+  {
+   "text": "En la fiesta de Ana y Beto supe que entre los dos suman 46 años y que hace 5 años Ana tenía el **doble** de la edad de Beto. ¿Cuántos años tiene Ana?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

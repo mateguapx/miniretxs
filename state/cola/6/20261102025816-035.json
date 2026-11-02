@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "logica",
+ "estilo": "exacto",
+ "hook": "debate",
+ "tema_clave": "monedas y balanzas",
+ "forma_threads": "lista",
+ "tema": "Balanza con monedas de oro, plata y cobre (sistema)",
+ "caption": "Oro, plata, cobre y una balanza ⚖️ ¿Cuántas te salen? Deja tu respuesta 👇 #logica #algebra #miniretxs #retomatematico",
+ "threads": "3 de oro + 1 de plata = 14 de cobre\n3 de oro + 2 de cobre = 1 de plata\n¿Cuántas de cobre pesan lo mismo que una de plata?",
+ "slides": [
+  {
+   "text": "¿Tú qué contestas? En una balanza, 3 monedas de oro y 1 de plata pesan lo mismo que 14 de cobre, y 3 de oro y 2 de cobre pesan lo mismo que 1 de plata. ¿Cuántas de cobre equilibran **una** de plata?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

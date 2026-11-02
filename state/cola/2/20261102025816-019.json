@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "contrarreloj",
+ "tema_clave": "sistema con frutas y productos",
+ "forma_threads": "directo",
+ "tema": "Durazno² = 25 sin decir el signo, melón y pera",
+ "caption": "Tres ecuaciones y una pregunta al final 🍑 ¿Qué te dio? Deja tu respuesta 👇 #algebra #frutas #miniretxs #retomatematico",
+ "threads": "🍑 × 🍑 = 25\n🍑 + 🍈 = 8\n🍈 − 🍐 = 1\n🍑 × 🍈 + 🍐 = ?",
+ "slides": [
+  {
+   "text": "Antes de que cambie el semáforo 🚦\n🍑 × 🍑 = 25\n🍑 + 🍈 = 8\n🍈 − 🍐 = 1\n🍑 × 🍈 + 🍐 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

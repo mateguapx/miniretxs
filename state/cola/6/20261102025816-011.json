@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "dividir entre cero escondido",
+ "forma_threads": "pregunta_abierta",
+ "tema": "Prueba falsa de 4 = 3 dividiendo entre a + b − c (que vale 0)",
+ "caption": "Cuatro renglones y un resultado imposible. ¿Dónde está la trampa? Deja tu respuesta 👇 #algebra #demostracion #miniretxs #retomatematico",
+ "threads": "¿Cuánta álgebra te queda de la prepa? Esta “prueba” dice que 4 = 3:\n(1) a + b = c\n(2) 4a + 4b − 4c = 3a + 3b − 3c\n(3) 4(a + b − c) = 3(a + b − c)\n(4) 4 = 3\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "Rápido, en lo que hierve el agua: ¿en qué **paso** está el error?",
+   "display": "\\begin{aligned}\\text{(1)}&\\ \\ a+b=c\\\\ \\text{(2)}&\\ \\ 4a+4b-4c=3a+3b-3c\\\\ \\text{(3)}&\\ \\ 4(a+b-c)=3(a+b-c)\\\\ \\text{(4)}&\\ \\ 4=3\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

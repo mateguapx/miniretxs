@@ -1,0 +1,19 @@
+{
+ "tipo": 6,
+ "nivel": "dificil",
+ "formato": "error_oculto",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "una desigualdad multiplicada por un negativo",
+ "forma_threads": "opinion",
+ "tema": "Prueba falsa de 5 < 0 dividiendo −2 < 3 entre (−2)(3)",
+ "caption": "Una prueba muy seria de algo imposible. ¿Dónde falla? Deja tu respuesta 👇 #desigualdades #algebra #miniretxs #retomatematico",
+ "threads": "Todo se ve en orden en esta “prueba” de que 5 < 0, y aun así algo falla:\n(1) −2 < 3\n(2) −2 ÷ ((−2)·3) < 3 ÷ ((−2)·3)\n(3) 1/3 < −1/2\n(4) 2 < −3\n(5) 5 < 0\n¿En qué paso está el error?",
+ "slides": [
+  {
+   "text": "Lo encontré en la biblioteca. ¿En qué **paso** está el error?",
+   "display": "\\begin{aligned}\\text{(1)}&\\ \\ -2<3\\\\ \\text{(2)}&\\ \\ \\dfrac{-2}{(-2)(3)}<\\dfrac{3}{(-2)(3)}\\\\ \\text{(3)}&\\ \\ \\dfrac{1}{3}<-\\dfrac{1}{2}\\\\ \\text{(4)}&\\ \\ 2<-3\\\\ \\text{(5)}&\\ \\ 5<0\\end{aligned}",
+   "layout": "reto"
+  }
+ ]
+}

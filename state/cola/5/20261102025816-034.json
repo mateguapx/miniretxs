@@ -1,0 +1,19 @@
+{
+ "tipo": 5,
+ "nivel": "popular",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "sin_calculadora",
+ "tema_clave": "operaciones con ceros y unos",
+ "forma_threads": "confesion",
+ "tema": "1⁰ − 0¹ + 1 × 0 + 1",
+ "caption": "Puros ceros y unos… ¿qué podría salir mal? Deja tu respuesta 👇 #potencias #jerarquiadeoperaciones #miniretxs #retomatematico",
+ "threads": "Pensé que esta era regalada y me equivoqué:\n\n1⁰ − 0¹ + 1 × 0 + 1\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "Sin calculadora y sin miedo: ¿cuánto da?",
+   "display": "1^{0} - 0^{1} + 1 \\times 0 + 1",
+   "layout": "reto"
+  }
+ ]
+}

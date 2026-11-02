@@ -1,0 +1,19 @@
+{
+ "tipo": 2,
+ "nivel": "medio",
+ "formato": "emoji",
+ "estilo": "debate",
+ "hook": "parece_facil",
+ "tema_clave": "sistema con frutas y productos",
+ "forma_threads": "directo",
+ "tema": "Manzana × plátano = 12 y suma 7: ¿quién es 3 y quién 4?",
+ "caption": "Tres ecuaciones con frutas y una pregunta. ¿Qué te dio? Deja tu respuesta 👇 #algebra #frutas #miniretxs #retomatematico",
+ "threads": "🍎 × 🍌 = 12\n🍎 + 🍌 = 7\n🍇 = 🍎 + 🍌 + 1\n🍎² − 🍌 + 🍇 = ?",
+ "slides": [
+  {
+   "text": "Parece fácil… pero no te apresures:\n🍎 × 🍌 = 12\n🍎 + 🍌 = 7\n🍇 = 🍎 + 🍌 + 1\n🍎² − 🍌 + 🍇 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

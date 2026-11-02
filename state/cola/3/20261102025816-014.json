@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "historia",
+ "tema_clave": "jerarquía con potencias y raíces",
+ "forma_threads": "confesion",
+ "tema": "3² + √81 × 2 ÷ 3²",
+ "caption": "Potencias, raíz y jerarquía en una sola línea. ¿Qué te dio? Deja tu respuesta 👇 #jerarquiadeoperaciones #potencias #miniretxs #retomatematico",
+ "threads": "Me equivoqué la primera vez con esta, no voy a mentir:\n\n3² + √81 × 2 ÷ 3²\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "Me la mandaron en el chat del trabajo. ¿Cuánto da?",
+   "display": "3^{2} + \\sqrt{81} \\times 2 \\div 3^{2}",
+   "layout": "reto"
+  }
+ ]
+}

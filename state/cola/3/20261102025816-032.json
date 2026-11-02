@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "emoji",
+ "estilo": "exacto",
+ "hook": "contrarreloj",
+ "tema_clave": "sistema con animales y potencias",
+ "forma_threads": "contexto",
+ "tema": "Perro³ = 27, gato, conejo y jerarquía al final",
+ "caption": "Perros, gatos y conejos con potencias 🐾 ¿Qué te sale? Deja tu respuesta 👇 #algebra #potencias #miniretxs #retomatematico",
+ "threads": "En una veterinaria cada animal tiene un número secreto:\n🐶 × 🐶 × 🐶 = 27\n🐱 = 🐶² − 1\n🐱 ÷ 🐰 = 2\n¿Cuánto da 🐰² − 🐱 × 🐶?",
+ "slides": [
+  {
+   "text": "Antes de que termine el comercial:\n🐶 × 🐶 × 🐶 = 27\n🐱 = 🐶² − 1\n🐱 ÷ 🐰 = 2\n🐰² − 🐱 × 🐶 = ?",
+   "display": "",
+   "layout": "reto"
+  }
+ ]
+}

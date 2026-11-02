@@ -1,0 +1,19 @@
+{
+ "tipo": 3,
+ "nivel": "facil",
+ "formato": "operacion",
+ "estilo": "exacto",
+ "hook": "no_es_x",
+ "tema_clave": "fracciones algebraicas",
+ "forma_threads": "confesion",
+ "tema": "(x² − 25)/(x − 5) − (x² − 9)/(x + 3)",
+ "caption": "Fracciones con x y un resultado que sorprende. ¿Cuánto da? Deja tu respuesta 👇 #algebra #factorizacion #miniretxs #retomatematico",
+ "threads": "Tengo que reconocer que me equivoqué de signo en esta:\n\n(x² − 25)/(x − 5) − (x² − 9)/(x + 3)\n\n¿Cuánto da?",
+ "slides": [
+  {
+   "text": "¡La respuesta **NO** es 2! ¿Cuánto da?",
+   "display": "\\dfrac{x^{2}-25}{x-5} - \\dfrac{x^{2}-9}{x+3}",
+   "layout": "reto"
+  }
+ ]
+}
